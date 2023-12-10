@@ -2,36 +2,82 @@
   color: #FFFFFF;
 }
 
-.ff-p{
+
+
+.header {
+  background-image: url(https://azoozexpress.com/wp-content/uploads/2023/07/azooz-home-page-banner-1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.td{
+  text-decoration: none;
+}
+
+/* ------------font family---------*/
+.ff-p {
   font-family: "Poppins", Sans-serif;
 }
-.ff-m{
+
+.ff-m {
   font-family: "Montserrat", Sans-serif;
 }
-.ff-g{
-  font-family: ;
-}
-.container {
-  max-width: 1100px !important;
+
+.ff-g {
+  font-family: "Gemsbuck 01 ITALIC",
+    Sans-serif;
 }
 
+/* ------------font family---------*/
+
+
+
+.container {
+  max-width: 1200px !important;
+}
+
+
+/* ------border-radius---------- */
+.br-s{
+  border-radius: .6rem 0 0 1.8rem;
+}
 .br {
   border-radius: 0 0 0 1.5rem;
-  margin: 3px;
-
+  margin: 0;
+  justify-content: center;
 }
-.cp-1{
+
+/* #cps-{
+  bottom: 37px !important;
+  right: 100px !important;
+} */
+
+.cp-1 {
   padding: .6rem;
 }
 
-.cfs-18 {
-  font-family: "Poppins", Sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 25px;
-  letter-spacing: -0.7px;
-  word-spacing: 4px;
+.carousel-indicators{
+  left: 5px;
+  top: auto;
+  right: 0;
+  bottom: -31px;
 }
+
+
+/* ------carousel------ */
+.carousel-indicators li{
+  background: whitesmoke;
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+
+}
+.carousel-indicators .active{
+  background: black;
+}
+
+
+
 
 .elementor-screen-only {
 
@@ -47,32 +93,13 @@
 
 }
 
-.delivered-section .contact-heading-title {
-  font-size: 30px;
-  color: #d91f28;
+.f-st{
+  display: flex !important;
+  justify-content: flex-start !important;
+  list-style-type: none;
 }
 
 
-.delivered-section p {}
-
-.contact-heading-title {
-  font-family: "Montserrat", Sans-serif;
-  font-size: 35px;
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: 29px;
-}
-
-@media (max-width: 867px) {
-  .contact-heading-title {
-    font-size: 17px;
-  }
-
-  .delivered-section .contact-heading-title {
-    font-size: 17px;
-    line-height: 1.6em;
-  }
-}
 
 .dropdown .dropdown-menu {
   color: #ffffff;
@@ -95,7 +122,10 @@
 a .text-decoration {
   text-decoration: none !important;
 }
-
+.btn:hover {
+  background-color: #030006 !important;
+  color: #920505 !important; 
+}
 .btn {
   font-family: "Montserrat", Sans-serif !important;
   font-size: 13px !important;
@@ -104,4 +134,59 @@ a .text-decoration {
   background-color: #D91F28 !important;
   border: 0 !important;
   padding: 15px 25px !important;
+}
+.an-fade-in-right {
+  opacity: 0;
+  transform: translateX(3rem);
+  animation: fadeInLeft 1s ease 2s forwards;
+}
+
+.an-fade-right {
+  opacity: 0;
+  transform: translateX(-5rem);
+  animation: fadeRight 1s ease 2s forwards;
+}
+
+.an-fade-out {
+  opacity: 0;
+  transform: scale(0);
+  animation: fadeout 1s ease 2s forwards;
+}
+.an-fade-in-left {
+  opacity: 0;
+  transform: translateX(5rem);
+  animation: fadeInLeft 1s ease 2s forwards;
+}
+.an-fade-up{
+  opacity: 0;
+  transform: translateY(3rem);
+  animation: fadeInUp 1s ease 2s forwards ;
+}
+
+@keyframes fadeInUp {
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeout {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }

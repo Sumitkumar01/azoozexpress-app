@@ -28,7 +28,7 @@ function HeaderTopSection() {
                 </div>
               </div>
               <div className="py-3">
-                <div className="fw-bold text-black">
+                <div className="fw-bold text-black an-fade-in-left" style={{textAlign:"justify"}}>
                   Our delivery management business is built on speed, security,
                   reliability and accountability, the four great pillars of our
                   success journey. We are serving a large permanent customer
@@ -37,7 +37,7 @@ function HeaderTopSection() {
               </div>
               <section>
                 <div className="row">
-                  <div className="col-5 justify-content-center d-flex align-items-center">
+                  <div className="col-5 an-fade-right justify-content-center d-flex align-items-center">
                     <Link href="https://wa.me/+96896586404">
                       <img
                         decoding="async"
@@ -65,17 +65,15 @@ function HeaderTopSection() {
               </section>
               <section>
                 <div className="row">
-                  <div className="col-5 text-center">
-                    <div className="">
-                      <img
-                        decoding="async"
-                        width="87"
-                        height="87"
-                        src="https://azoozexpress.com/wp-content/uploads/2023/07/Group-215-1-1.png"
-                        className="img-fluid"
-                        alt=""
-                      />
-                    </div>
+                  <div className="col-5 justify-content-center d-flex align-items-center an-fade-right">
+                    <img
+                      decoding="async"
+                      width="87"
+                      height="87"
+                      src="https://azoozexpress.com/wp-content/uploads/2023/07/Group-215-1-1.png"
+                      className="img-fluid"
+                      alt=""
+                    />
                   </div>
                   <div className="col-7 d-flex align-items-center">
                     <h5 className="fs-3 fw-bolder ff-m">No weight limit</h5>
@@ -98,7 +96,7 @@ function HeaderTopSection() {
           </div>
           <div
             className="col-lg-6  position-absolute my-auto d-none d-sm-none d-md-none d-lg-block"
-            style={{ bottom: "42px", right: "100px" }}
+            style={{ bottom: "1.2rem", right: "3.7rem" }}
           >
             <img
               fetchpriority="high"

@@ -31,7 +31,7 @@ function NavBar() {
   return (
     <Navbar expand="lg" className="">
       <Container>
-        <Navbar.Brand to="#" className="pe-5 py-0">
+        <Navbar.Brand to="#" className="pe-5 py-0 mx-md-5">
           <img
             width="148"
             height="65"
@@ -42,7 +42,7 @@ function NavBar() {
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
-          className="bg-warning"
+          className="bg-warning ms-5"
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-3 ps-3">

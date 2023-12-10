@@ -6,13 +6,13 @@ function OurProcessSection() {
       <section className="pt-5">
         <div>
           <div className="text-center">
-            <h5 className="fw-bolder fs-3 ff-m" style={{ color: "#273679" }}>
+            <h5 className="fw-bolder fs-3 ff-m an-fade-out" style={{ color: "#273679" }}>
               OUR PROCESS
             </h5>
           </div>
           <div>
             <div className="container text-center">
-              <h2 className="fs-1 lh-base text-danger fw-bolder ff-m">
+              <h2 className="fs-1 lh-base text-danger fw-bolder ff-m an-fade-up">
                 WHAT DO WE DO?
               </h2>
             </div>
