@@ -2,6 +2,8 @@ import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import HomePage from "./pages/HomePage";
+import AboutUsPage from "./pages/AboutUsPage";
+import ContactPage from "./pages/ContactPage";
 
 const router = createBrowserRouter([
   {
@@ -10,11 +12,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/azooz-about-page/",
-    element: <HomePage />,
+    element: <AboutUsPage />,
   },
   {
     path: "/azooz-contact-page/",
-    element: <HomePage />,
+    element: <ContactPage />,
   },
   {
     path: "/freight-forwading/",
