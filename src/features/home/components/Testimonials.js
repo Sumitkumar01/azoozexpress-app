@@ -408,11 +408,11 @@ function Testimonials() {
             <div className="row">
               <div
                 id="carouselExampleSlidesOnly"
-                class="carousel slide"
+                className="carousel slide"
                 data-bs-ride="carousel"
               >
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
                     <div className="row">
                       <div className="col-6">
                         <div className="sing-box">
@@ -566,7 +566,7 @@ function Testimonials() {
                       </div>
                     </div>
                   </div>
-                  <div class="carousel-item">
+                  <div className="carousel-item">
                     <div className="row">
                       <div className="col-6">
                         <div className="sing-box">
@@ -724,7 +724,7 @@ function Testimonials() {
                       </div>
                     </div>
                   </div>
-                  <div class="carousel-item">
+                  <div className="carousel-item">
                     <div className="row">
                       <div className="col-6">
                         <div className="sing-box">

@@ -23,20 +23,18 @@ const servicesNavigation = [
   },
 ];
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
+
 
 function NavBar() {
   return (
-    <Navbar expand="lg" className="">
+    <Navbar expand="lg">
       <Container>
         <Navbar.Brand to="#" className="pe-5 py-0 mx-md-5">
           <img
             width="148"
             height="65"
             src="https://azoozexpress.com/wp-content/uploads/2023/07/Englishlogopngblackpng-1-1.png"
-            class="img-fluid"
+            className="img-fluid"
             alt=""
           />
         </Navbar.Brand>
@@ -45,7 +43,7 @@ function NavBar() {
           className="bg-warning ms-5"
         />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mx-3 ps-3">
+          <Nav className="mx-lg-3 mx-md-3 ps-lg-3 ps-md-3">
             {navigation.map((item) => (
               <Nav.Link
                 as={Link}

@@ -88,7 +88,7 @@ function Footer() {
                                 <ul className="navbar-nav">
                                   <li className="nav-item text-white text-md-start text-xs-center text-lg-start fw-normal">
                                     <Link
-                                      to="https://azoozexpress.com/"
+                                      to="/"
                                       aria-current="page"
                                       className="nav-link nav-pad nav-text active"
                                     >
@@ -97,7 +97,7 @@ function Footer() {
                                   </li>
                                   <li className="nav-item text-white text-md-start text-xs-center text-lg-start fw-normal">
                                     <Link
-                                      to="https://azoozexpress.com/azooz-about-page/"
+                                      to="/azooz-about-page/"
                                       className="nav-link nav-text nav-pad"
                                     >
                                       About

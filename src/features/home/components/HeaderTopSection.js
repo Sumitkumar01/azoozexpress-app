@@ -28,7 +28,7 @@ function HeaderTopSection() {
                 </div>
               </div>
               <div className="py-3">
-                <div className="fw-bold text-black an-fade-in-left" style={{textAlign:"justify"}}>
+                <div className="fw-bold  an-fade-in-left" style={{textAlign:"justify"}}>
                   Our delivery management business is built on speed, security,
                   reliability and accountability, the four great pillars of our
                   success journey. We are serving a large permanent customer

@@ -159,7 +159,7 @@ function Service() {
           </div>
         </section>
       </div>
-      <div className="container d-none d-sm-none d-md-block d-lg-none px-1">
+      {/* <div className="container d-none d-sm-none d-md- d-lg-none px-1">
         <div
           id="service-slider"
           className="carousel slide px-5 py-3 carousel-dark"
@@ -322,26 +322,26 @@ function Service() {
             </div>
           </div>
           <button
-            class="carousel-control-prev"
+            className="carousel-control-prev"
             type="button"
             data-bs-target="#service-slider"
             data-bs-slide="prev"
           >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
           </button>
           <button
-            class="carousel-control-next"
+            className="carousel-control-next"
             type="button"
             data-bs-target="#service-slider"
             data-bs-slide="next"
           >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
           </button>
         </div>
-      </div>
-      <div className="container  d-sm-block d-md-none d-lg-none p-0">
+      </div> */}
+      <div className="container  d-sm-block d-md-block d-lg-none p-0">
         <div className="row ">
           <div
             id="service-slider"
@@ -352,7 +352,7 @@ function Service() {
               <li
                 data-bs-target="#service-slider"
                 data-bs-slide-to="0"
-                class="active"
+                className="active"
                 aria-current="true"
                 aria-label="Slide 1"
               ></li>
@@ -372,10 +372,10 @@ function Service() {
                 aria-label="Slide 4"
               ></li>
             </ul>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row">
-                  <div class="col-6 p-0 col-sm-3">
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <div className="row">
+                  <div className="col-md-6 p-0 col-sm-3">
                     <div className="single-box p-5">
                       <img
                         loading="lazy"
@@ -394,7 +394,7 @@ function Service() {
                       />
                     </div>
                   </div>
-                  <div class="col-6 p-0 col-sm-3">
+                  <div className="col-md-6 p-0 col-sm-3">
                     <div className="single-box p-5">
                       <img
                         loading="lazy"
@@ -415,9 +415,9 @@ function Service() {
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-6 p-0 col-sm-3">
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-6 p-0 col-sm-3">
                     <div className="single-box p-5">
                       <img
                         loading="lazy"
@@ -436,7 +436,7 @@ function Service() {
                       />
                     </div>
                   </div>
-                  <div class="col-6 p-0 col-sm-3">
+                  <div className="col-md-6 p-0 col-sm-3">
                     <div className="single-box p-5">
                       <img
                         loading="lazy"
@@ -457,9 +457,9 @@ function Service() {
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-6 p-0 col-sm-3">
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-6 p-0 col-sm-3">
                     <div className="single-box p-5">
                       <img
                         loading="lazy"
@@ -478,7 +478,7 @@ function Service() {
                       />
                     </div>
                   </div>
-                  <div class="col-6 p-0 col-sm-3">
+                  <div className="col-md-6 p-0 col-sm-3">
                     <div className="single-box p-5">
                       <img
                         loading="lazy"
@@ -499,9 +499,9 @@ function Service() {
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-6 p-0 col-sm-3">
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-6 p-0 col-sm-3">
                     <div className="single-box p-5">
                       <img
                         loading="lazy"
@@ -520,7 +520,7 @@ function Service() {
                       />
                     </div>
                   </div>
-                  <div class="col-6 p-0 col-sm-3">
+                  <div className="col-md-6 p-0 col-sm-3">
                     <div className="single-box p-5">
                       <img
                         loading="lazy"
@@ -543,28 +543,28 @@ function Service() {
               </div>
             </div>
             <button
-              class="carousel-control-prev"
+              className="carousel-control-prev"
               type="button"
               data-bs-target="#service-slider"
               data-bs-slide="prev"
             >
               <span
-                class="carousel-control-prev-icon"
+                className="carousel-control-prev-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Previous</span>
+              <span className="visually-hidden">Previous</span>
             </button>
             <button
-              class="carousel-control-next"
+              className="carousel-control-next"
               type="button"
               data-bs-target="#service-slider"
               data-bs-slide="next"
             >
               <span
-                class="carousel-control-next-icon"
+                className="carousel-control-next-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Next</span>
+              <span className="visually-hidden">Next</span>
             </button>
           </div>
         </div>
