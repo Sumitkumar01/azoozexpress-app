@@ -8,7 +8,8 @@ function ContactHeader() {
         'https://azoozexpress.com/wp-content/uploads/2023/07/Rectangle-30-1536x614-1.png'
       )`,
     backgroundRepeat: "no-repeat",
-   height:"45rem",
+    backgroundPosition: "center",
+   height:"38rem",
   };
   const headerCName = "";
   const headerText = "contact us";
