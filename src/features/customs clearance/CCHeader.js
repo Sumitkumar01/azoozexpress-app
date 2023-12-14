@@ -4,7 +4,7 @@ import Column2Layout from "../common/Column2Layout";
 import H2tag from "../common/H2tag";
 import H2_i_Tag from "../common/H2_i_Tag";
 
-function FForwadingHeader() {
+function CCHeader() {
   // ********headerclass********* //
   const headerBdCName = "bg-dark";
   const hdContentCName = "container mt-5";
@@ -16,18 +16,16 @@ function FForwadingHeader() {
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     height: "38rem",
-    backgroundColor: "rgba(255, 255, 255, 0.5)",
   };
   const hdContentcStyle = {};
 
   // *******content class********************//
-  const rClass = "";
   const col1Class = "col-lg-6 col-md-6 col-12 d-flex align-items-center";
   const col2Class = "col-lg-6 col-md-6 col-12";
 
   //   **********content child-1************//
-  const headertext1 = "forwarding";
-  const spanText1 = "Freight ";
+  const headertext1 = "clearance";
+  const spanText1 = "Customs ";
 
   //   *****class*****///
 
@@ -35,10 +33,10 @@ function FForwadingHeader() {
   const spanClassName = "text-warning";
 
   //   **********content child-2************//
-  const headerText2 = "Ready to get started?";
+  const headerText2 = "Struggling at customs?";
   const headerText2ClassName = "text-capitalize text-center m-0 p-0";
   
-  
+
 
   // *********** col1Content ******************//
   const col1Content = (
@@ -112,7 +110,6 @@ function FForwadingHeader() {
       <NavBar />
       <div className={hdContentCName} style={hdContentcStyle}>
         <Column2Layout
-          rClass={rClass}
           col1Class={col1Class}
           col2Class={col2Class}
           col1Content={col1Content}
@@ -123,4 +120,4 @@ function FForwadingHeader() {
   );
 }
 
-export default FForwadingHeader;
+export default CCHeader;
