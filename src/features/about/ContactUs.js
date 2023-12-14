@@ -10,7 +10,7 @@ function ContactUs() {
   const altText = "";
 
   const headerCName =
-    "text-danger  text-uppercase fs-2 fw-bold ff-m text-lg-start text-center text-md-start";
+    "text-danger  text-uppercase fs-2 fw-bold ff-m text-lg-start text-center text-md-start an-fade-up";
   // ***********content-left-container-**************** //
   const pcHolderText = "Enter your email";
   const inpStyle = {};

@@ -159,413 +159,167 @@ function Service() {
           </div>
         </section>
       </div>
-      {/* <div className="container d-none d-sm-none d-md- d-lg-none px-1">
+      {/* desktop slider */}
+      <div className="container my-4 d-none d-sm-none d-lg-none d-md-block">
+        <div className="row">
+          <div
+            id="lgScrSlider"
+            className="carousel slide"
+            data-bs-ride="carousel"
+            data-bs-interval={2000}
+          >
+            <div className="carousel-inner">
+              <div key="item1" className="carousel-item active">
+                <div className="row justify-content-evenly">
+                  <div className="col-3">
+                    <div className="single-box">
+                      <img
+                        src="https://azoozexpress.com/wp-content/uploads/2023/07/01-300x300.png"
+                        className="img-fluid 84"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div className="col-3">
+                    <div className="single-box">
+                      <img
+                        src="https://azoozexpress.com/wp-content/uploads/2023/07/02-300x300.png"
+                        className="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="carousel-item">
+                <div className="row justify-content-evenly">
+                  <div className="col-3">
+                    <div className="single-box">
+                      <img
+                        src="https://azoozexpress.com/wp-content/uploads/2023/07/03-300x300.png"
+                        className="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div className="col-3">
+                    <div className="single-box">
+                      <img
+                        src="https://azoozexpress.com/wp-content/uploads/2023/07/04-300x300.png"
+                        className="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="row justify-content-evenly">
+                  <div className="col-3">
+                    <div className="single-box">
+                      <img
+                        src="https://azoozexpress.com/wp-content/uploads/2023/07/05-300x300.png"
+                        className="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div className="col-3">
+                    <div className="single-box">
+                      <img
+                        src="https://azoozexpress.com/wp-content/uploads/2023/07/06-300x300.png"
+                        className="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="row justify-content-evenly">
+                  <div className="col-3">
+                    <div className="single-box">
+                      <img
+                        src="https://azoozexpress.com/wp-content/uploads/2023/07/07-300x300.png"
+                        className="img-fluid "
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div className="col-3">
+                    <div className="single-box">
+                      <img
+                        src="https://azoozexpress.com/wp-content/uploads/2023/07/03-300x300.png"
+                        className="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* mobile slider */}
+      <div className="container my-5 pe-2 d-sm-block d-lg-none d-md-none">
         <div
-          id="service-slider"
-          className="carousel slide px-5 py-3 carousel-dark"
+          id="smScrSlider"
+          className="carousel slide ms-5"
           data-bs-ride="carousel"
-          data-bs-interval="3000"
+          data-bs-interval={2000}
         >
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                loading="lazy"
-                decoding="async"
-                width="414"
-                height="414"
-                src="https://azoozexpress.com/wp-content/uploads/2023/07/07.png"
-                className="d-block w-100"
+                src="https://azoozexpress.com/wp-content/uploads/2023/07/01-300x300.png"
+                className="img-fluid 84"
                 alt=""
-                srcset="
-          https://azoozexpress.com/wp-content/uploads/2023/07/07.png         414w,
-          https://azoozexpress.com/wp-content/uploads/2023/07/07-300x300.png 300w,
-          https://azoozexpress.com/wp-content/uploads/2023/07/07-150x150.png 150w
-        "
-                sizes="(max-width: 414px) 100vw, 414px"
               />
             </div>
-            <div className="carousel-item">
+            <div className="carousel-item ">
               <img
-                loading="lazy"
-                decoding="async"
-                width="411"
-                height="411"
-                src="https://azoozexpress.com/wp-content/uploads/2023/07/01.png"
-                className="d-block w-100 wp-image"
+                src="https://azoozexpress.com/wp-content/uploads/2023/07/02-300x300.png"
+                className="img-fluid"
                 alt=""
-                srcset="
-          https://azoozexpress.com/wp-content/uploads/2023/07/01.png         411w,
-          https://azoozexpress.com/wp-content/uploads/2023/07/01-300x300.png 300w,
-          https://azoozexpress.com/wp-content/uploads/2023/07/01-150x150.png 150w
-        "
-                sizes="(max-width: 411px) 100vw, 411px"
               />
             </div>
-            <div className="carousel-item">
+            <div className="carousel-item ">
               <img
-                loading="lazy"
-                decoding="async"
-                width="411"
-                height="411"
-                src="https://azoozexpress.com/wp-content/uploads/2023/07/02.png"
-                className="d-block w-100 2990"
+                src="https://azoozexpress.com/wp-content/uploads/2023/07/03-300x300.png"
+                className="img-fluid"
                 alt=""
-                srcset="
-          https://azoozexpress.com/wp-content/uploads/2023/07/02.png         411w,
-          https://azoozexpress.com/wp-content/uploads/2023/07/02-300x300.png 300w,
-          https://azoozexpress.com/wp-content/uploads/2023/07/02-150x150.png 150w
-        "
-                sizes="(max-width: 411px) 100vw, 411px"
               />
             </div>
-            <div className="carousel-item">
+            <div className="carousel-item ">
               <img
-                loading="lazy"
-                decoding="async"
-                width="411"
-                height="411"
-                src="https://azoozexpress.com/wp-content/uploads/2023/07/03.png"
-                className="d-block w-100 2989"
+                src="https://azoozexpress.com/wp-content/uploads/2023/07/04-300x300.png"
+                className="img-fluid"
                 alt=""
-                srcset="
-          https://azoozexpress.com/wp-content/uploads/2023/07/03.png         411w,
-          https://azoozexpress.com/wp-content/uploads/2023/07/03-300x300.png 300w,
-          https://azoozexpress.com/wp-content/uploads/2023/07/03-150x150.png 150w
-        "
-                sizes="(max-width: 411px) 100vw, 411px"
               />
             </div>
-            <div className="carousel-item">
+            <div className="carousel-item ">
               <img
-                loading="lazy"
-                decoding="async"
-                width="411"
-                height="411"
-                src="https://azoozexpress.com/wp-content/uploads/2023/07/04.png"
-                className="d-block w-100 2988"
+                src="https://azoozexpress.com/wp-content/uploads/2023/07/05-300x300.png"
+                className="img-fluid"
                 alt=""
-                srcset="
-          https://azoozexpress.com/wp-content/uploads/2023/07/04.png         411w,
-          https://azoozexpress.com/wp-content/uploads/2023/07/04-300x300.png 300w,
-          https://azoozexpress.com/wp-content/uploads/2023/07/04-150x150.png 150w
-        "
-                sizes="(max-width: 411px) 100vw, 411px"
               />
             </div>
-            <div className="carousel-item">
+            <div className="carousel-item ">
               <img
-                loading="lazy"
-                decoding="async"
-                width="411"
-                height="411"
-                src="https://azoozexpress.com/wp-content/uploads/2023/07/05.png"
-                className="w-100 d-block"
+                src="https://azoozexpress.com/wp-content/uploads/2023/07/06-300x300.png"
+                className="img-fluid"
                 alt=""
-                srcset="
-          https://azoozexpress.com/wp-content/uploads/2023/07/05.png         411w,
-          https://azoozexpress.com/wp-content/uploads/2023/07/05-300x300.png 300w,
-          https://azoozexpress.com/wp-content/uploads/2023/07/05-150x150.png 150w
-        "
-                sizes="(max-width: 411px) 100vw, 411px"
               />
             </div>
-            <div className="carousel-item">
+            <div className="carousel-item ">
               <img
-                loading="lazy"
-                decoding="async"
-                width="411"
-                height="411"
-                src="https://azoozexpress.com/wp-content/uploads/2023/07/06.png"
-                alt=""
-                srcset="
-          https://azoozexpress.com/wp-content/uploads/2023/07/06.png         411w,
-          https://azoozexpress.com/wp-content/uploads/2023/07/06-300x300.png 300w,
-          https://azoozexpress.com/wp-content/uploads/2023/07/06-150x150.png 150w
-        "
-                sizes="(max-width: 411px) 100vw, 411px"
-                className="w-100 d-block"
-              />
-            </div>
-            <div className="carousel-item">
-              <img
-                loading="lazy"
-                decoding="async"
-                width="414"
-                height="414"
-                src="https://azoozexpress.com/wp-content/uploads/2023/07/07.png"
-                srcset="
-          https://azoozexpress.com/wp-content/uploads/2023/07/07.png         414w,
-          https://azoozexpress.com/wp-content/uploads/2023/07/07-300x300.png 300w,
-          https://azoozexpress.com/wp-content/uploads/2023/07/07-150x150.png 150w
-        "
-                sizes="(max-width: 414px) 100vw, 414px"
-                className="w-100 d-block"
+                src="https://azoozexpress.com/wp-content/uploads/2023/07/07-300x300.png"
+                className="img-fluid "
                 alt=""
               />
             </div>
-            <div className="carousel-item">
-              <img
-                loading="lazy"
-                decoding="async"
-                width="411"
-                height="411"
-                src="https://azoozexpress.com/wp-content/uploads/2023/07/01.png"
-                className="w-100 d-block"
-                alt=""
-                srcset="
-          https://azoozexpress.com/wp-content/uploads/2023/07/01.png         411w,
-          https://azoozexpress.com/wp-content/uploads/2023/07/01-300x300.png 300w,
-          https://azoozexpress.com/wp-content/uploads/2023/07/01-150x150.png 150w
-        "
-                sizes="(max-width: 411px) 100vw, 411px"
-              />
-            </div>
-          </div>
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#service-slider"
-            data-bs-slide="prev"
-          >
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#service-slider"
-            data-bs-slide="next"
-          >
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div> */}
-      <div className="container  d-sm-block d-md-block d-lg-none p-0">
-        <div className="row ">
-          <div
-            id="service-slider"
-            className="carousel slide p-1"
-            data-bs-ride="carousel"
-          >
-            <ul className="carousel-indicators">
-              <li
-                data-bs-target="#service-slider"
-                data-bs-slide-to="0"
-                className="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></li>
-              <li
-                data-bs-target="#service-slider"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></li>
-              <li
-                data-bs-target="#service-slider"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></li>
-              <li
-                data-bs-target="#service-slider"
-                data-bs-slide-to="3"
-                aria-label="Slide 4"
-              ></li>
-            </ul>
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <div className="row">
-                  <div className="col-md-6 p-0 col-sm-3">
-                    <div className="single-box p-5">
-                      <img
-                        loading="lazy"
-                        decoding="async"
-                        width="127"
-                        height="127"
-                        src="https://azoozexpress.com/wp-content/uploads/2023/07/07.png"
-                        className="d-block w-100"
-                        alt=""
-                        srcset="
-                https://azoozexpress.com/wp-content/uploads/2023/07/07.png         414w,
-                https://azoozexpress.com/wp-content/uploads/2023/07/07-300x300.png 300w,
-                https://azoozexpress.com/wp-content/uploads/2023/07/07-150x150.png 150w
-              "
-                        sizes="(max-width: 414px) 100vw, 414px"
-                      />
-                    </div>
-                  </div>
-                  <div className="col-md-6 p-0 col-sm-3">
-                    <div className="single-box p-5">
-                      <img
-                        loading="lazy"
-                        decoding="async"
-                        width="127"
-                        height="127"
-                        src="https://azoozexpress.com/wp-content/uploads/2023/07/01.png"
-                        className="d-block w-100 wp-image"
-                        alt=""
-                        srcset="
-                https://azoozexpress.com/wp-content/uploads/2023/07/01.png         411w,
-                https://azoozexpress.com/wp-content/uploads/2023/07/01-300x300.png 300w,
-                https://azoozexpress.com/wp-content/uploads/2023/07/01-150x150.png 150w
-              "
-                        sizes="(max-width: 411px) 100vw, 411px"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <div className="row">
-                  <div className="col-md-6 p-0 col-sm-3">
-                    <div className="single-box p-5">
-                      <img
-                        loading="lazy"
-                        decoding="async"
-                        width="127"
-                        height="127"
-                        src="https://azoozexpress.com/wp-content/uploads/2023/07/02.png"
-                        className="d-block w-100 2990"
-                        alt=""
-                        srcset="
-                https://azoozexpress.com/wp-content/uploads/2023/07/02.png         411w,
-                https://azoozexpress.com/wp-content/uploads/2023/07/02-300x300.png 300w,
-                https://azoozexpress.com/wp-content/uploads/2023/07/02-150x150.png 150w
-              "
-                        sizes="(max-width: 411px) 100vw, 411px"
-                      />
-                    </div>
-                  </div>
-                  <div className="col-md-6 p-0 col-sm-3">
-                    <div className="single-box p-5">
-                      <img
-                        loading="lazy"
-                        decoding="async"
-                        width="127"
-                        height="127"
-                        src="https://azoozexpress.com/wp-content/uploads/2023/07/03.png"
-                        className="d-block w-100 2989"
-                        alt=""
-                        srcset="
-                https://azoozexpress.com/wp-content/uploads/2023/07/03.png         411w,
-                https://azoozexpress.com/wp-content/uploads/2023/07/03-300x300.png 300w,
-                https://azoozexpress.com/wp-content/uploads/2023/07/03-150x150.png 150w
-              "
-                        sizes="(max-width: 411px) 100vw, 411px"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <div className="row">
-                  <div className="col-md-6 p-0 col-sm-3">
-                    <div className="single-box p-5">
-                      <img
-                        loading="lazy"
-                        decoding="async"
-                        width="127"
-                        height="127"
-                        src="https://azoozexpress.com/wp-content/uploads/2023/07/04.png"
-                        className="d-block w-100 2988"
-                        alt=""
-                        srcset="
-                https://azoozexpress.com/wp-content/uploads/2023/07/04.png         411w,
-                https://azoozexpress.com/wp-content/uploads/2023/07/04-300x300.png 300w,
-                https://azoozexpress.com/wp-content/uploads/2023/07/04-150x150.png 150w
-              "
-                        sizes="(max-width: 411px) 100vw, 411px"
-                      />
-                    </div>
-                  </div>
-                  <div className="col-md-6 p-0 col-sm-3">
-                    <div className="single-box p-5">
-                      <img
-                        loading="lazy"
-                        decoding="async"
-                        width="127"
-                        height="127"
-                        src="https://azoozexpress.com/wp-content/uploads/2023/07/05.png"
-                        className="w-100 d-block"
-                        alt=""
-                        srcset="
-                https://azoozexpress.com/wp-content/uploads/2023/07/05.png         411w,
-                https://azoozexpress.com/wp-content/uploads/2023/07/05-300x300.png 300w,
-                https://azoozexpress.com/wp-content/uploads/2023/07/05-150x150.png 150w
-              "
-                        sizes="(max-width: 411px) 100vw, 411px"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <div className="row">
-                  <div className="col-md-6 p-0 col-sm-3">
-                    <div className="single-box p-5">
-                      <img
-                        loading="lazy"
-                        decoding="async"
-                        width="127"
-                        height="127"
-                        src="https://azoozexpress.com/wp-content/uploads/2023/07/06.png"
-                        alt=""
-                        srcset="
-                https://azoozexpress.com/wp-content/uploads/2023/07/06.png         411w,
-                https://azoozexpress.com/wp-content/uploads/2023/07/06-300x300.png 300w,
-                https://azoozexpress.com/wp-content/uploads/2023/07/06-150x150.png 150w
-              "
-                        sizes="(max-width: 411px) 100vw, 411px"
-                        className="w-100 d-block"
-                      />
-                    </div>
-                  </div>
-                  <div className="col-md-6 p-0 col-sm-3">
-                    <div className="single-box p-5">
-                      <img
-                        loading="lazy"
-                        decoding="async"
-                        width="127"
-                        height="127"
-                        src="https://azoozexpress.com/wp-content/uploads/2023/07/07.png"
-                        srcset="
-                https://azoozexpress.com/wp-content/uploads/2023/07/07.png         414w,
-                https://azoozexpress.com/wp-content/uploads/2023/07/07-300x300.png 300w,
-                https://azoozexpress.com/wp-content/uploads/2023/07/07-150x150.png 150w
-              "
-                        sizes="(max-width: 414px) 100vw, 414px"
-                        className="w-100 d-block"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <button
-              className="carousel-control-prev"
-              type="button"
-              data-bs-target="#service-slider"
-              data-bs-slide="prev"
-            >
-              <span
-                className="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span className="visually-hidden">Previous</span>
-            </button>
-            <button
-              className="carousel-control-next"
-              type="button"
-              data-bs-target="#service-slider"
-              data-bs-slide="next"
-            >
-              <span
-                className="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span className="visually-hidden">Next</span>
-            </button>
           </div>
         </div>
       </div>

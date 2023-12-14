@@ -44,62 +44,8 @@ function AboutUsCard() {
     margin: "auto",
   };
 
-  const carouselId = "aboutUsCard";
-  const carouselCName = "";
   
-  const indctClasname = "";
-  const indicatorsBtn = (
-    <>
-      <li
-        data-bs-target="#aboutUsCard"
-        data-bs-slide-to="0"
-        className="active"
-        aria-current="true"
-        aria-label="Slide 1"
-      ></li>
-      <li
-        data-bs-target="#aboutUsCard"
-        data-bs-slide-to="1"
-        aria-label="Slide 2"
-      ></li>
-    </>
-  );
-  const csbtname1 = "";
 
-   const carouselItem = () => {
-     return (
-       <>
-         <div className="carousel-item">
-           <Card
-             cardTitle={cardTitleText_1}
-             cardText={cardText_1}
-             imgUrl={imgUrl_1}
-             altText={altText_1}
-             cardClassName={cardCName}
-             cardBodyClassName={cardBodyCName}
-             cardTitleClassName={cardTitleCName}
-             cardTextClassName={cardTextCName}
-             cardImgClassName={cardImgDivCName}
-             customStyle={cStyle}
-           />
-         </div>
-         <div className="carousel-item">
-           <Card
-             cardTitle={cardTitleText_2}
-             cardText={cardText_2}
-             imgUrl={imgUrl_2}
-             altText={altText_2}
-             cardClassName={cardCName}
-             cardBodyClassName={cardBodyCName}
-             cardTitleClassName={cardTitleCName}
-             cardTextClassName={cardTextCName}
-             cardImgClassName={cardImgDivCName}
-             customStyle={cStyle}
-           />
-         </div>
-       </>
-     );
-   };
 
   return (
     <>
@@ -138,44 +84,47 @@ function AboutUsCard() {
 
       {/* slider for mobile device */}
       <div className="container  d-sm-block d-md-none d-lg-none">
-        
+        <div className="container my-4 pe-2 d-sm-block d-lg-none d-md-none">
+          <div
+            id="lgScrSlider"
+            className="carousel slide ms-4"
+            data-bs-ride="carousel"
+          >
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <Card
+                  cardTitle={cardTitleText_1}
+                  cardText={cardText_1}
+                  imgUrl={imgUrl_1}
+                  altText={altText_1}
+                  cardClassName={cardCName}
+                  cardBodyClassName={cardBodyCName}
+                  cardTitleClassName={cardTitleCName}
+                  cardTextClassName={cardTextCName}
+                  cardImgClassName={cardImgDivCName}
+                  customStyle={cStyle}
+                />
+              </div>
+              <div className="carousel-item ">
+                <Card
+                  cardTitle={cardTitleText_2}
+                  cardText={cardText_2}
+                  imgUrl={imgUrl_2}
+                  altText={altText_2}
+                  cardClassName={cardCName}
+                  cardBodyClassName={cardBodyCName}
+                  cardTitleClassName={cardTitleCName}
+                  cardTextClassName={cardTextCName}
+                  cardImgClassName={cardImgDivCName}
+                  customStyle={cStyle}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
 }
 
-// const carouselItem = () => {
-//     return (
-//       <>
-//         <div className="carousel-item">
-//           <Card
-//             cardTitle={cardTitleText_1}
-//             cardText={cardText_1}
-//             imgUrl={imgUrl_1}
-//             altText={altText_1}
-//             cardClassName={cardCName}
-//             cardBodyClassName={cardBodyCName}
-//             cardTitleClassName={cardTitleCName}
-//             cardTextClassName={cardTextCName}
-//             cardImgClassName={cardImgDivCName}
-//             customStyle={cStyle}
-//           />
-//         </div>
-//         <div className="carousel-item">
-//           <Card
-//             cardTitle={cardTitleText_2}
-//             cardText={cardText_2}
-//             imgUrl={imgUrl_2}
-//             altText={altText_2}
-//             cardClassName={cardCName}
-//             cardBodyClassName={cardBodyCName}
-//             cardTitleClassName={cardTitleCName}
-//             cardTextClassName={cardTextCName}
-//             cardImgClassName={cardImgDivCName}
-//             customStyle={cStyle}
-//           />
-//         </div>
-//       </>
-//     );
-//   };
 export default AboutUsCard;

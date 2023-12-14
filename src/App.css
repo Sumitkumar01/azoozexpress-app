@@ -216,7 +216,7 @@ a .text-decoration {
 .an-fade-in-left {
   opacity: 0;
   transform: translateX(5rem);
-  animation: fadeInLeft 1s ease 2s forwards;
+  animation: fadeInLeft 2s ease 2s forwards;
 }
 
 .an-fade-up {

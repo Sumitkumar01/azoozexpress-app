@@ -20,13 +20,13 @@ function OurProcessSection() {
         </div>
       </section>
       <section>
-        <div className="container text-center my-2 d-sm-none d-md-block d-lg-block d-none">
+        <div className="container text-center  my-3 d-sm-none d-md-block d-lg-block d-none">
           <img
             loading="lazy"
             decoding="async"
             width="800"
             height="70"
-            // src="https://azoozexpress.com/wp-content/uploads/2023/07/wdwd-1-1024x89.png"
+            src="https://azoozexpress.com/wp-content/uploads/2023/07/wdwd-1-1024x89.png"
             className="img-fluid"
             alt=""
             srcset="
@@ -41,7 +41,7 @@ function OurProcessSection() {
         </div>
       </section>
       <section>
-        <div className="container">
+        <div className="container my-5">
           <>
             <div className="row">
               <div className="col-lg-4 p-2">

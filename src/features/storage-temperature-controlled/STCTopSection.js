@@ -45,7 +45,7 @@ function STCTopSection() {
   const inRow = "row m-0 p-2";
   const inCol1 = "col-12 m-0 p-0 d-flex h-25";
 
-  const imgDivCN = "d-flex";
+  const imgDivCN = "mt-md-5 mt-lg-0";
   const imgUrl =
     "	https://azoozexpress.com/wp-content/uploads/2023/11/Group-759.png";
 
@@ -126,7 +126,7 @@ function STCTopSection() {
               <ImgTag
                 img_url={imgUrl}
                 alt_text={"Avatar img"}
-                
+                style={{marginInline: "-11%"}}
               />
             </div>
           </div>

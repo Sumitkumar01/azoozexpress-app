@@ -14,8 +14,9 @@ function AboutUsWork() {
   const altText = "";
 
   const headerCName =
-    "text-danger  text-uppercase fs-2 fw-bold ff-m text-lg-start text-center text-md-start";
-  const pCName = "text-dark fs-6 ff-p text-lg-start text-center text-md-start";
+    "text-danger  text-uppercase fs-2 fw-bold ff-m text-lg-start text-center text-md-start an-fade-up";
+  const pCName =
+    "text-dark fs-6 ff-p text-lg-start text-center text-md-start an-fade-in-left";
 
   
 

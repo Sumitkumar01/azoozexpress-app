@@ -29,7 +29,7 @@ function Testimonials() {
             <div
               className="carousel slide px-2 py-3"
               data-bs-ride="carousel"
-              data-bs-interval={3000}
+              data-bs-interval={2000}
             >
               <div className="carousel-inner">
                 <div className="carousel-item active">

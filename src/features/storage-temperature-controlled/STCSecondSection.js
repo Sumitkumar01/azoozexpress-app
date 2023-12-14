@@ -58,7 +58,7 @@ function STCSecondSection() {
         <div className={otRow}>
           <div className={col1}>
             <div className="">
-              <ImgTag img_url={imgUrl} alt_text={"Avatar img"} />
+              <ImgTag img_url={imgUrl} alt_text={"Avatar img"} style={{height:"25.5rem"}}/>
             </div>
           </div>
           <div className={col2} style={cStyle}>
