@@ -25,6 +25,15 @@ function LastContainer() {
     borderRadius: "0 0 0 1rem !important",
   };
 
+  
+
+  const inpStyle = {
+    '&::placeholder': {
+      color: 'white',
+    },
+  
+};
+
   return (
     <div>
       <div className="container p-2 my-5">
@@ -41,9 +50,10 @@ function LastContainer() {
         <InputTagWButton
           containerDCName={containerDCName}
           inpCName={inpCName}
-          btnDivCName={btnDivCName}
-          pcHolderText={pcHolderText}
           inpType={inpType}
+          inpStyle={inpStyle}
+          pcHolderText={pcHolderText}
+          btnDivCName={btnDivCName}
           btCName={btCName}
           btText={btText}
           btType={btType}
