@@ -8,7 +8,7 @@ function Solution() {
       {/* heading */}
       <section>
         <div className="container text-center">
-          <h2 className="fw-bolder fs-5 ff-m">
+          <h2 className="fw-bolder fs-1 ff-m">
             ONE <span className="text-danger">STOP SOLUTION</span>
           </h2>
         </div>
@@ -17,9 +17,9 @@ function Solution() {
       <div className="container">
         <section>
           <div className="row">
-            <section className="col-lg-4 p-2">
+            <section className="col-lg-4 col-md-4 col-sm-12  p-2">
               <div className="row bg-warning br  m-0">
-                <div className="col-4 d-flex m-0  p-1   aling-item-center justify-content-center justify-content-center ">
+                <div className="col-4 d-flex m-0  p-1   aling-items-center justify-content-center justify-content-center ">
                   <img
                     loading="lazy"
                     decoding="async"
@@ -31,16 +31,16 @@ function Solution() {
                   />
                 </div>
 
-                <div className="col-8 d-flex m-0  p-2  m-0 aling-item-center justify-content-center">
-                  <h2 className="fs-5 ff-p fw-medium">
+                <div className="col-8 d-flex m-0  p-2  m-0 aling-items-center justify-content-center">
+                  <h2 className="fs-6 ff-p fw-medium">
                     Documents and Parcel Delivery
                   </h2>
                 </div>
               </div>
             </section>
-            <section className="col-lg-4  p-2">
-              <div className="row aling-item-center bg-warning br  m-0">
-                <div className="col-4 d-flex m-0  p-1   aling-item-center justify-content-center justify-content-center ">
+            <section className="col-lg-4 col-md-4 col-sm-12  p-2">
+              <div className="row aling-items-center bg-warning br  m-0">
+                <div className="col-4 d-flex m-0  p-1   aling-items-center justify-content-center ">
                   <img
                     loading="lazy"
                     decoding="async"
@@ -51,16 +51,16 @@ function Solution() {
                     alt=""
                   />
                 </div>
-                <div className="col-8 d-flex m-0  p-2  m-0 aling-item-center justify-content-center">
-                  <h2 className="fs-5 ff-p fw-medium">
+                <div className="col-8 d-flex m-0  p-2  m-0 aling-items-center justify-content-center">
+                  <h2 className="fs-6 ff-p fw-medium">
                     Confidential Documents Deliver
                   </h2>
                 </div>
               </div>
             </section>
-            <section className="col-lg-4  p-2">
-              <div className="row aling-item-center  bg-warning br  m-0">
-                <div className="col-4 d-flex m-0  p-1   aling-item-center justify-content-center justify-content-center ">
+            <section className="col-lg-4 col-md-4 col-sm-12  p-2">
+              <div className="row aling-items-center  bg-warning br  m-0">
+                <div className="col-4 d-flex m-0  p-1   aling-items-center justify-content-center ">
                   <img
                     loading="lazy"
                     decoding="async"
@@ -71,8 +71,8 @@ function Solution() {
                     alt=""
                   />
                 </div>
-                <div className="col-8 d-flex m-0  p-2  m-0 aling-item-center justify-content-center">
-                  <h2 className="fs-5 ff-p fw-medium">
+                <div className="col-8 d-flex m-0  p-2  m-0 aling-items-center justify-content-center">
+                  <h2 className="fs-6 ff-p fw-medium">
                     Corporate Mail Bags Services
                   </h2>
                 </div>
@@ -82,9 +82,9 @@ function Solution() {
         </section>
         <section>
           <div className="row">
-            <section className="col-lg-4  p-2">
-              <div className="row aling-item-center bg-warning br  m-0">
-                <div className="col-4 d-flex m-0  p-1   aling-item-center justify-content-center">
+            <section className="col-lg-4 col-md-4 col-sm-12  p-2">
+              <div className="row aling-items-center bg-warning br  m-0">
+                <div className="col-4 d-flex m-0  p-1   aling-items-center justify-content-center">
                   <img
                     loading="lazy"
                     decoding="async"
@@ -96,16 +96,16 @@ function Solution() {
                   />
                 </div>
 
-                <div className="col-8 d-flex m-0  p-2  m-0 aling-item-center">
-                  <h2 className="fs-5 ff-p fw-medium">
+                <div className="col-8 d-flex m-0  p-2  m-0 aling-items-center justify-content-center">
+                  <h2 className="fs-6 ff-p fw-medium">
                     Corporate Mail Room Management
                   </h2>
                 </div>
               </div>
             </section>
-            <section className="col-lg-4  p-2">
-              <div className="row aling-item-center bg-warning br  m-0">
-                <div className="col-4 d-flex m-0  p-1   aling-item-center justify-content-center">
+            <section className="col-lg-4 col-md-4 col-sm-12  p-2">
+              <div className="row aling-items-center bg-warning br  m-0">
+                <div className="col-4 d-flex m-0  p-1   aling-items-center justify-content-center">
                   <img
                     loading="lazy"
                     decoding="async"
@@ -116,14 +116,14 @@ function Solution() {
                     alt=""
                   />
                 </div>
-                <div className="col-8 d-flex m-0  p-2  m-0 aling-item-center">
-                  <h2 className="fs-5 ff-p fw-medium">Cash on Delivery(COD)</h2>
+                <div className="col-8 d-flex m-0  p-2  m-0 aling-items-center justify-content-center">
+                  <h2 className="fs-6 ff-p fw-medium">Cash on Delivery(COD)</h2>
                 </div>
               </div>
             </section>
-            <section className="col-lg-4  p-2">
-              <div className="row aling-item-center bg-warning br  m-0">
-                <div className="col-4 d-flex m-0  p-1   aling-item-center justify-content-center">
+            <section className="col-lg-4 col-md-4 col-sm-12  p-2">
+              <div className="row aling-items-center bg-warning br  m-0">
+                <div className="col-4 d-flex m-0  p-1   aling-items-center justify-content-center">
                   <img
                     loading="lazy"
                     decoding="async"
@@ -134,8 +134,8 @@ function Solution() {
                     alt=""
                   />
                 </div>
-                <div className="col-8 d-flex m-0  p-2  m-0 aling-item-center">
-                  <h2 className="fs-5 ff-p fw-medium">
+                <div className="col-8 d-flex m-0  p-2  m-0 aling-items-center justify-content-center">
+                  <h2 className="fs-6 ff-p fw-medium">
                     Same-Day Courier Service
                   </h2>
                 </div>
@@ -145,9 +145,9 @@ function Solution() {
         </section>
         <section>
           <div className="row ">
-            <section className="col-lg-4  p-2">
-              <div className="row aling-item-center  bg-warning br  m-0">
-                <div className="col-4 d-flex m-0  p-1   aling-item-center justify-content-center">
+            <section className="col-lg-4 col-md-4 col-sm-12  p-2">
+              <div className="row aling-items-center  bg-warning br  m-0">
+                <div className="col-4 d-flex m-0  p-1   aling-items-center justify-content-center">
                   <img
                     loading="lazy"
                     decoding="async"
@@ -159,14 +159,14 @@ function Solution() {
                   />
                 </div>
 
-                <div className="col-8 d-flex m-0  p-2  m-0 aling-item-center">
-                  <h2 className="fs-5 ff-p fw-medium">Courier on Call</h2>
+                <div className="col-8 d-flex m-0  p-2  m-0 aling-items-center justify-content-center">
+                  <h2 className="fs-6 ff-p fw-medium">Courier on Call</h2>
                 </div>
               </div>
             </section>
-            <section className="col-lg-4  p-2">
-              <div className="row aling-item-center  bg-warning br  m-0">
-                <div className="col-4 d-flex m-0  p-1   aling-item-center justify-content-center">
+            <section className="col-lg-4 col-md-4 col-sm-12  p-2">
+              <div className="row aling-items-center  bg-warning br  m-0">
+                <div className="col-4 d-flex m-0  p-1   aling-items-center justify-content-center">
                   <img
                     loading="lazy"
                     decoding="async"
@@ -177,14 +177,14 @@ function Solution() {
                     alt=""
                   />
                 </div>
-                <div className="col-8 d-flex m-0  p-2  m-0 aling-item-center">
-                  <h2 className="fs-5 ff-p fw-medium">Drop and Ship</h2>
+                <div className="col-8 d-flex m-0  p-2  m-0 aling-items-center justify-content-center">
+                  <h2 className="fs-6 ff-p fw-medium">Drop and Ship</h2>
                 </div>
               </div>
             </section>
-            <section className="col-lg-4  p-2">
-              <div className="row aling-item-center  bg-warning br  m-0">
-                <div className="col-4 d-flex m-0  p-1   aling-item-center justify-content-center">
+            <section className="col-lg-4 col-md-4 col-sm-12  p-2">
+              <div className="row aling-items-center  bg-warning br  m-0">
+                <div className="col-4 d-flex m-0  p-1   aling-items-center justify-content-center">
                   <img
                     loading="lazy"
                     decoding="async"
@@ -195,8 +195,8 @@ function Solution() {
                     alt=""
                   />
                 </div>
-                <div className="col-8 d-flex m-0  p-2  m-0 aling-item-center">
-                  <h2 className="fs-5 ff-p fw-medium">Fulfilment service</h2>
+                <div className="col-8 d-flex m-0  p-2  m-0 aling-items-center justify-content-center">
+                  <h2 className="fs-6 ff-p fw-medium">Fulfilment service</h2>
                 </div>
               </div>
             </section>

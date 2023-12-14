@@ -2,16 +2,16 @@ import React from "react";
 
 function Delivered() {
   return (
-    <div className="mt-sm-4">
+    <div className="">
       <div className="bg-warning ">
-        <section className="container delivered-section  pb-4">
-          <div className="row gy-4">
+        <section className="container delivered-section pb-lg-2  pb-4">
+          <div className="row">
             <div className="col-lg-7 col-md-6 pe-0 ps-lg-5 d-flex align-items-center">
-              <div className="row ">
+              <div className="row m-0">
                 <div className="col-12 ps-1">
-                  <div className="mt-5 mt-sm-0 pt-sm-3 pt-5">
+                  <div className="mt-lg-2 mt-sm-0 pt-sm-3 pt-5">
                     <h2 className="ff-m fs-3 an-fade-up text-danger fw-bolder text-uppercase text-center  text-md-start  text-lg-star">
-                      WE vaLUE your packages AS MUCH AS you do
+                      WE value your packages AS MUCH AS you do
                     </h2>
                   </div>
                 </div>

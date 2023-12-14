@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
 #basic-nav-dropdown {
   color: #FFFFFF;
 }
@@ -33,6 +36,9 @@
 /* ------------font family---------*/
 .ff-p {
   font-family: "Poppins", Sans-serif;
+}
+.ff-r{
+  font-family: "Roboto",Sans-serif;
 }
 
 .ff-m {
@@ -94,6 +100,12 @@
   background: black;
 }
 
+@media (max-width:500px) {
+  .testimonials {
+    border-radius: 0 !important;
+  }
+}
+  
 
 
 
@@ -117,6 +129,10 @@
   list-style-type: none;
 }
 
+.flexAling {
+  display: flex !important;
+  align-items: center !important;
+}
 
 
 .dropdown .dropdown-menu {

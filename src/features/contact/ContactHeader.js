@@ -9,7 +9,7 @@ function ContactHeader() {
       )`,
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
-   height:"38rem",
+    height: "38rem",
   };
   const headerCName = "";
   const headerText = "contact us";
@@ -19,7 +19,7 @@ function ContactHeader() {
     <>
       <div style={cSyleHeader} className={headerCName}>
         <Navbar />
-        <div className="container p-2" style={{marginTop:"25%"}}>
+        <div className="container p-2" style={{ marginTop: "25%" }}>
           <H2tag header_text={headerText} className={textCName} />
         </div>
       </div>

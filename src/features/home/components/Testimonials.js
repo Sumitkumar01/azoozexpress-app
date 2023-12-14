@@ -281,7 +281,7 @@ function Testimonials() {
                         </li>
                       </ul>
                       <p className="card-text fs-6 ff-p ">
-                        Choosing Azooz Express as my courier service in Oman was
+                        Choosingle Azooz Express as my courier service in Oman was
                         a great decision. Their international shipments always
                         arrive on time and in perfect condition, making them a
                         reliable partner for my business.
@@ -415,7 +415,7 @@ function Testimonials() {
                   <div className="carousel-item active">
                     <div className="row">
                       <div className="col-6">
-                        <div className="sing-box">
+                        <div className="single-box">
                           <div className="card">
                             <div className="card-body">
                               <ul className="f-st">
@@ -488,7 +488,7 @@ function Testimonials() {
                         </div>
                       </div>
                       <div className="col-6">
-                        <div className="sing-box">
+                        <div className="single-box">
                           <div className="card">
                             <div className="card-body">
                               <ul className="f-st">
@@ -569,7 +569,7 @@ function Testimonials() {
                   <div className="carousel-item">
                     <div className="row">
                       <div className="col-6">
-                        <div className="sing-box">
+                        <div className="single-box">
                           <div className="card">
                             <div className="card-body">
                               <ul className="f-st">
@@ -646,7 +646,7 @@ function Testimonials() {
                         </div>
                       </div>
                       <div className="col-6">
-                        <div className="sing-box">
+                        <div className="single-box">
                           <div className="card">
                             <div className="card-body">
                               <ul className="f-st">
@@ -677,7 +677,7 @@ function Testimonials() {
                                 </li>
                               </ul>
                               <p className="card-text fs-6 ff-p ">
-                                Choosing Azooz Express as my courier service in
+                                Choosingle Azooz Express as my courier service in
                                 Oman was a great decision. Their international
                                 shipments always arrive on time and in perfect
                                 condition, making them a reliable partner for my
@@ -727,7 +727,7 @@ function Testimonials() {
                   <div className="carousel-item">
                     <div className="row">
                       <div className="col-6">
-                        <div className="sing-box">
+                        <div className="single-box">
                           <div className="card">
                             <div className="card-body">
                               <ul className="f-st">
@@ -804,7 +804,7 @@ function Testimonials() {
                         </div>
                       </div>
                       <div className="col-6">
-                        <div className="sing-box">
+                        <div className="single-box">
                           <div className="card">
                             <div className="card-body">
                               <ul className="f-st">
@@ -886,7 +886,7 @@ function Testimonials() {
               </div>
             </div>
           </div>
-          {/* Tag screen sliderr end*/}
+          {/* Tab screen slider end*/}
         </div>
       </section>
     </div>

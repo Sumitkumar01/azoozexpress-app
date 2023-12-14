@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "../common/Card.js";
-import SingleCardSlider from "../common/SingleCardSlider.js";
 
 function AboutUsCard() {
   // ------ card-1--------- //
@@ -139,14 +138,7 @@ function AboutUsCard() {
 
       {/* slider for mobile device */}
       <div className="container  d-sm-block d-md-none d-lg-none">
-        <SingleCardSlider
-          carouselId={carouselId}
-          carouselCName={carouselCName}
-          carouselItem={carouselItem}
-          indctClasname={indctClasname}
-          indicatorsBtn={indicatorsBtn}
-          csbtname1={csbtname1}
-        />
+        
       </div>
     </>
   );

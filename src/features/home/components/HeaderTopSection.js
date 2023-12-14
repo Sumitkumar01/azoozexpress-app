@@ -15,7 +15,7 @@ function HeaderTopSection() {
       </Container>
       <section className="container ps-lg-5">
         <div className="row position-relative">
-          <div className="col-lg-6 ps-4 me-5 pe-0">
+          <div className="col-lg-6 ps-lg-4 p-0 me-5 pe-0">
             <div className="container bg-warning py-4 px-3 br-s">
               <h2 className="fs-2 fw-bolder ff-m text-black">About Us</h2>
 
