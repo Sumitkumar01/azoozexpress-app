@@ -17,6 +17,10 @@
   animation: animateBg 1s ease 1s forwards;
 }
 
+#form-btn {
+  border-radius: .7rem .7rem .7rem 3rem !important;
+  width: 100%;
+}
 @keyframes animateBg {
 
   0%{

@@ -1,5 +1,5 @@
 import React from "react";
-import Img_tag from "./Img_tag";
+import ImgTag from "./ImgTag";
 
 function Card({
   cardTitle,
@@ -22,7 +22,7 @@ function Card({
     <>
       <div className={cardCName}>
         <div className={cardImgDivCName} style={customStyle}>
-          <Img_tag img_url={imgUrl} alt_text={altText} />
+          <ImgTag img_url={imgUrl} alt_text={altText} />
         </div>
         <div className={cardBodyCName}>
           <h5 className={cardTitleCName}>{cardTitle}</h5>

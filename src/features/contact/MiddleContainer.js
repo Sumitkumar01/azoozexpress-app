@@ -1,6 +1,6 @@
 import React from "react";
 import H2tag from "../common/H2tag";
-import Img_tag from "../common/Img_tag";
+import ImgTag from "../common/ImgTag";
 import Column2Layout from "../common/Column2Layout";
 
 function MiddleContainer() {
@@ -83,7 +83,7 @@ function MiddleContainer() {
   const col2Content = (
     <>
       
-        <Img_tag img_url={imgUrl} alt_text={altText} />
+        <ImgTag img_url={imgUrl} alt_text={altText} />
       
     </>
   );

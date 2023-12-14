@@ -1,6 +1,6 @@
 import React from "react";
 import H2tag from "../common/H2tag";
-import Img_tag from "../common/Img_tag";
+import ImgTag from "../common/ImgTag";
 import InputTagWButton from "../common/InputTagWButton";
 
 function ContactUs() {
@@ -52,7 +52,7 @@ function ContactUs() {
           </div>
           <div className="col-lg-4 col-md-5 col-sm-12 p-2 d-flex justify-content-center aling-item-center">
             <div className="d-flex justify-content-center aling-item-center">
-              <Img_tag img_url={imgUrl} alt_text={altText} />
+              <ImgTag img_url={imgUrl} alt_text={altText} />
             </div>
           </div>
         </div>

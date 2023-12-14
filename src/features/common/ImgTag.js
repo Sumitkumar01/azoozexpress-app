@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Img_tag({ img_url, alt_text ,style}) {
+function ImgTag({ img_url, alt_text ,style}) {
   return (
     <>
       <img src={img_url} className="img-fluid" alt={alt_text} style={style}/>
@@ -8,4 +8,4 @@ function Img_tag({ img_url, alt_text ,style}) {
   );
 }
 
-export default Img_tag
+export default ImgTag
