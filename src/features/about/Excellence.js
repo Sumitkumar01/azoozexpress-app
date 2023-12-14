@@ -34,7 +34,7 @@ function Excellence() {
   const imgUrl_4 =
     "https://azoozexpress.com/wp-content/uploads/2023/07/Vector-9.png";
 
-  const contentCName = "fs-6 fw-light ff-p text-dark lh-lg";
+  const contentCName = "fs-6 fw-light ff-p text-dark lh-lg m-sm-0";
   const ImgDivCName_l = "d-flex justify-content-center align-items-center  p-2";
   const ImgDivCName = " d-flex justify-content-center align-items-center ";
   return (
@@ -53,7 +53,7 @@ function Excellence() {
       {/* bottom container */}
       <div className="container my-0">
         <div className="row">
-          <div className=" col-lg-6 col-md-4 p-2 d-none d-sm-none d-md-block d-lg-block">
+          <div className=" col-lg-6 col-md-4 p-2 d-none d-sm-none d-md-block d-lg-block mt-md-5 mt-lg-0">
             <div className={ImgDivCName_l}>
               <Img_tag img_url={imgUrlLContainer} alt_text={altText} />
             </div>
@@ -62,7 +62,7 @@ function Excellence() {
             <div className="row m-0 p-0">
               <div className="col-12 p-0 m-0">
                 <div className="row m-0 p-0">
-                  <div className="col-4 p-2 m-0">
+                  <div className="col-4 p-2 m-0  d-flex justify-content-center align-items-center ">
                     <div className={ImgDivCName}>
                       <Img_tag img_url={imgUrl_1} alt_text={altText} />
                     </div>
@@ -75,7 +75,7 @@ function Excellence() {
 
               <div className="col-12 p-0 m-0">
                 <div className="row m-0 p-0">
-                  <div className="col-4 p-2 m-0">
+                  <div className="col-4 p-2 m-0  d-flex justify-content-center align-items-center ">
                     <div className={ImgDivCName}>
                       <Img_tag img_url={imgUrl_2} alt_text={altText} />
                     </div>
@@ -88,7 +88,7 @@ function Excellence() {
 
               <div className="col-12 p-0 m-0">
                 <div className="row m-0 p-0">
-                  <div className="col-4 p-2 m-0">
+                  <div className="col-4 p-2 m-0  d-flex justify-content-center align-items-center ">
                     <div className={ImgDivCName}>
                       <Img_tag img_url={imgUrl_3} alt_text={altText} />
                     </div>
@@ -101,7 +101,7 @@ function Excellence() {
 
               <div className="col-12 p-0  m-0">
                 <div className="row  m-0 p-0">
-                  <div className="col-4 p-2 m-0">
+                  <div className="col-4 p-2 m-0  d-flex justify-content-center align-items-center ">
                     <div className={ImgDivCName}>
                       <Img_tag img_url={imgUrl_4} alt_text={altText} />
                     </div>
