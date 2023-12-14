@@ -253,14 +253,14 @@ function Footer() {
                       <div className="col-lg-5 col-md-6 col-sm-12 aling-item-center">
                         <p className="text-center">
                           <Link
-                            to="http://65.1.2.151/privacy-policy/"
+                            to="/privacy-policy"
                             className="link-light link-offset-2 p-1"
                           >
                             Privacy Policy
                           </Link>
                           |
                           <Link
-                            to="http://65.1.2.151/terms-of-service/"
+                            to="/terms-of-Service"
                             className="link-light link-offset-2 p-1"
                           >
                             Terms of Service
