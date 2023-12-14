@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "../navbar/Navbar";
-import H2_i_Tag from "../common/H2_i_Tag";
+import H2ITag from "../common/H2ITag";
 
 function AboutUsHeader() {
   const header_title = " was naver this easy before";
@@ -16,7 +16,7 @@ function AboutUsHeader() {
       <div className="container p-5 pt-5 d-flex justify-content-lg-start  justify-content-md-end align-items-md-end justify-content-sm-end align-items-sm-end ">
         <br></br>
         <br></br>
-        <H2_i_Tag
+        <H2ITag
           header_text={header_title}
           span_text={span_text}
           className={className}

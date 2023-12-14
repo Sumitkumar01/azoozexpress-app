@@ -1,6 +1,6 @@
 import React from "react";
 
-function H2_i_Tag({
+function H2ITag({
   header_text,
   className,
   spanClassName,
@@ -19,4 +19,4 @@ function H2_i_Tag({
   );
 }
 
-export default H2_i_Tag;
+export default H2ITag;

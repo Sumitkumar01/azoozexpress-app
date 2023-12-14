@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../navbar/Navbar";
 import Column2Layout from "../common/Column2Layout";
 import H2tag from "../common/H2tag";
-import H2_i_Tag from "../common/H2_i_Tag";
+import H2ITag from "../common/H2ITag";
 
 function CCHeader() {
   // ********headerclass********* //
@@ -41,7 +41,7 @@ function CCHeader() {
 
   // *********** col1Content ******************//
   const col1Content = (
-    <H2_i_Tag
+    <H2ITag
       header_text={headertext1}
       className={headerTCName1}
       span_text={spanText1}
