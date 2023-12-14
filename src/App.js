@@ -9,7 +9,7 @@ import CustomsClearancePage from "./pages/CustomsClearancePage";
 import FulfilmentPackagingPage from "./pages/FulfilmentPackagingPage";
 import StorageTemperatureControlledPage from "./pages/StorageTemperatureControlledPage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
-import TermsOfServicePage from "./pages/PrivacyPolicyPage";
+import TermsOfServicePage from "./pages/TermsOfServicePage";
 
 const router = createBrowserRouter([
   {
@@ -45,7 +45,7 @@ const router = createBrowserRouter([
     element: <PrivacyPolicyPage />,
   },
   {
-    path: "/terms-of-Service ",
+    path: "/terms-of-Service",
     element: <TermsOfServicePage />,
   },
 ]);
