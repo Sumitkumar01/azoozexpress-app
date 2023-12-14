@@ -6,7 +6,7 @@ import H2_i_Tag from "../common/H2_i_Tag";
 
 function FForwadingHeader() {
   // ********headerclass********* //
-  const headerBdCName = "bg-dark";
+  const headerBdCName = "bg-black";
   const hdContentCName = "container mt-5";
   // ********header Coustom Style************//
   const hcStyle = {
@@ -16,7 +16,7 @@ function FForwadingHeader() {
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     height: "38rem",
-    backgroundColor: "rgba(255, 255, 255, 0.5)",
+    opacity: "0.7",
   };
   const hdContentcStyle = {};
 
@@ -37,8 +37,6 @@ function FForwadingHeader() {
   //   **********content child-2************//
   const headerText2 = "Ready to get started?";
   const headerText2ClassName = "text-capitalize text-center m-0 p-0";
-  
-  
 
   // *********** col1Content ******************//
   const col1Content = (
@@ -97,7 +95,7 @@ function FForwadingHeader() {
               type="text"
             />
           </div>
-          <div className="col text-start " >
+          <div className="col text-start ">
             <button className="btn btn-danger px-5 fs-5 ff-p" id="form-btn">
               Get A Quote
             </button>

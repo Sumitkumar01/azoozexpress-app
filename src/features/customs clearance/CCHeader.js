@@ -16,6 +16,7 @@ function CCHeader() {
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     height: "38rem",
+    opacity: "0.7",
   };
   const hdContentcStyle = {};
 

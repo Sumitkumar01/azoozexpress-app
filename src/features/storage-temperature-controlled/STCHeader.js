@@ -6,7 +6,7 @@ import H2_i_Tag from "../common/H2_i_Tag";
 
 function STCHeader() {
   // ********headerclass********* //
-  const headerBdCName = "bg-dark";
+  const headerBdCName = "bg-black";
   const hdContentCName = "container mt-5";
   // ********header Coustom Style************//
   const hcStyle = {
@@ -16,7 +16,7 @@ function STCHeader() {
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     height: "38rem",
-
+    opacity: "0.8",
   };
   const hdContentcStyle = {};
 
@@ -29,7 +29,6 @@ function STCHeader() {
   const spanText1 = "Storage- ";
 
   //   *****class*****///
-  
 
   const headerTCName1 = "text-uppercase ff-m fs-2 fw-bold text-light";
   const spanClassName = "text-warning";
@@ -37,18 +36,15 @@ function STCHeader() {
   //   **********content child-2************//
   const headerText2 = "Request A Free Consultation?";
   const headerText2ClassName = "text-capitalize text-center m-0 p-0";
- 
 
   // *********** col1Content ******************//
   const col1Content = (
-    
-      <H2_i_Tag
-        header_text={headertext1}
-        className={headerTCName1}
-        span_text={spanText1}
-        spanClassName={spanClassName}
-      />
-    
+    <H2_i_Tag
+      header_text={headertext1}
+      className={headerTCName1}
+      span_text={spanText1}
+      spanClassName={spanClassName}
+    />
   );
 
   // *********** col1Content ******************//
@@ -98,7 +94,7 @@ function STCHeader() {
               type="text"
             />
           </div>
-          <div className="col text-start " >
+          <div className="col text-start ">
             <button className="btn btn-danger px-5 fs-5 ff-p" id="form-btn">
               Get A Quote
             </button>

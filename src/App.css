@@ -5,6 +5,24 @@
   color: #FFFFFF;
 }
 
+.background-img-services {
+  min-height: 38rem;
+  position: relative;
+}
+
+.background-img-services::before {
+  content: '';
+  background-image: url("https: //azoozexpress.com/wp-content/uploads/2023/11/movers-putting-boxes-boving-cart-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.35;
+}
 
 
 .header {
@@ -21,13 +39,15 @@
   border-radius: .7rem .7rem .7rem 3rem !important;
   width: 100%;
 }
+
 @keyframes animateBg {
 
-  0%{
+  0% {
     opacity: 0;
-    transform: translate3d(0,-100%,0);
+    transform: translate3d(0, -100%, 0);
   }
-  100%{
+
+  100% {
     opacity: 1;
     transform: none;
   }
@@ -41,8 +61,9 @@
 .ff-p {
   font-family: "Poppins", Sans-serif;
 }
-.ff-r{
-  font-family: "Roboto",Sans-serif;
+
+.ff-r {
+  font-family: "Roboto", Sans-serif;
 }
 
 .ff-m {
@@ -109,7 +130,7 @@
     border-radius: 0 !important;
   }
 }
-  
+
 
 
 
@@ -181,8 +202,13 @@ a .text-decoration {
   background-color: #030006 !important;
   color: #920505 !important;
 }
-.imgDivH img{
+
+.imgDivH img {
   height: 3.12rem;
+}
+
+.locition-section .col-3 img {
+  height: 1.5rem;
 }
 
 .btn {
@@ -194,6 +220,7 @@ a .text-decoration {
   border: 0 !important;
   padding: .8rem 1.2rem !important;
 }
+
 
 .an-fade-in-right {
   opacity: 0;
