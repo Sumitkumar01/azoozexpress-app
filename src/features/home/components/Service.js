@@ -266,7 +266,7 @@ function Service() {
       <div className="container my-5 pe-2 d-sm-block d-lg-none d-md-none">
         <div
           id="smScrSlider"
-          className="carousel slide ms-5"
+          className="carousel slide ms-4"
           data-bs-ride="carousel"
           data-bs-interval={2000}
         >
