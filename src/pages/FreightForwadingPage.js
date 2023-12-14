@@ -16,6 +16,7 @@ function FreightForwadingPage() {
     <FFThridSection/>
     <FFTestimonials/>
     <Footer/>
+    
     <WhatsApp/>
 
     
