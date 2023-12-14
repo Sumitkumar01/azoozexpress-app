@@ -4,33 +4,33 @@ import ImgTag from "../common/ImgTag";
 import Ptag from "../common/Ptag";
 import { IoMdCheckmarkCircle } from "react-icons/io";
 
-function FFTopSection() {
-  const headertext = "Instant freight forearding solutions with ";
+function CCTopSection() {
+  const headertext = "Smooth customs clearance with ";
   const hTextclass =
     "text-uppercase  fs-1 text-black fw-bolder ff-m text-center";
   const spanClassName = "text-danger";
   const spanText = "azooz express";
 
-  const headertextcol1 = "same-day courier service";
-  const headertext2col1 = "security you can rely on";
-  const headertext3col1 = "no weight limits, no worries";
-  const headertext4col1 = "global reach, local expertise";
-  const headertext5col1 = "cod(cash-on-delivery)";
+  const headertextcol1 = "Everywhere you need";
+  const headertext2col1 = "Trusted and rule-abiding";
+  const headertext3col1 = "fast and no-fuss clearances";
+  const headertext4col1 = "We handle tricky stuff too";
+  const headertext5col1 = "Save money with cuty know-how";
 
   const pText_1 =
-    "Need it there today? Quick and reliable, we deliver anywhere in Muscat, Oman, on the same day.";
+    "Azzoz Express covers customs clearance all over professional courier Oman – by air, sea, or road. No matter where you are, we’ve got you sorted.";
   const pText_2 =
-    "Confidentiality and care are our expertise. We guarantee the integrity of your shipments every step of the way.";
+    "We’re one of Oman’s top customs clearance teams. Our experienced folks ensure your shipments follow the rules and get through customs smoothly.";
   const pText_3 =
-    "No weight limits to slow us down! From light to heavy shipments, we deliver everything through our courier services in Oman.";
+    "Our Oman Shipping offices work 24/7 at borders, seaports, and airports. That means your shipments clear shop and ship Oman customs fast without unnecessary delays or extra fees.";
   const pText_4 =
-    "Connecting more than 300 ports globally while serving a large permanent customer base in Oman.";
+    "Got a tricky shipment? Azzoz Express knows how to deal with challenging delivery customs. We’ll speed up the customs clearance even for the toughest shipments in courier service.";
   const pText_5 =
-    "Pay at your doorstep once the package is successfully received.";
+    "We know the ins and outs of duty exemptions and temporary clearance in freight courier services. Azooz Express helps you save money by navigating customs rules like a pro in delivery services in Oman.";
 
   const col1HCn = "text-uppercase text-black fs-5 ff-m fw-semibold lh-base m-0";
   const pCName = "text-black fs-6 ff-m fw-normal m-0";
-  const iconDiv = "d-flex mx-2 my-1";
+  const iconDiv = "d-flex m-2";
   const icon = <IoMdCheckmarkCircle className="text-danger fs-5" />;
 
   const cStyle = {
@@ -49,13 +49,25 @@ function FFTopSection() {
 
   return (
     <>
-      <div className="container my-5 p-2">
+      <div className="container my-5 p-5">
         <H2tag
           header_text={headertext}
           className={hTextclass}
           span_text_2={spanText}
           spanClassName={spanClassName}
         />
+        <p className={pCName}>
+          <span className="text-danger">Are yoy tired </span>of dealing with
+          customs headaches for your shipments? Welcome to Azooz Express, your
+          trusted partner for professional cargo services in Oman and beyond. We
+          specialize in air, ocean, and road freight courier services, making
+          cross-border delivery with ease.
+        </p>
+        <h2 className={hTextclass}>
+          Why <spnn className="text-danger">choose Azooz</spnn> Express for
+          customs clearance in courier{" "}
+          <span className="text-danger">service?</span>
+        </h2>
       </div>
       <div className="container mb-5">
         <div className={otRow}>
@@ -96,7 +108,6 @@ function FFTopSection() {
                   <Ptag ptext={pText_5} pCName={pCName} />
                 </div>
               </div>
-              
             </div>
           </div>
           <div className={col2}>
@@ -114,4 +125,4 @@ function FFTopSection() {
   );
 }
 
-export default FFTopSection;
+export default CCTopSection;

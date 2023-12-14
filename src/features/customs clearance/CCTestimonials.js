@@ -1,10 +1,12 @@
 import React from "react";
 import H2tag from "../common/H2tag";
-import Img_tag from "../common/Img_tag";
+import ImgTag from "../common/ImgTag";
 
 function CCTestimonials() {
-  const textAria = "Testimonials";
-  const textCN = "ff-m fs-2 fw-bold text-center text-warning text-capitalize";
+  const textAria = "Case studies";
+  const textCN = "ff-m fs-2 fw-bold text-center text-danger text-uppercase";
+  const textAria2 = "Our successful projects";
+  const textCN2 = "ff-m fs-2 fw-bold text-center text-warning text-uppercase";
   const imgUrl1 =
     "https://azoozexpress.com/wp-content/uploads/2023/11/Group-721.png";
   const imgUrl2 =
@@ -15,11 +17,14 @@ function CCTestimonials() {
   return (
     <div className="container p-lg-5 p-md-4" style={{ padding: "0" }}>
       <div
-        className="container my-lg-5 testimonials my-md-4 my-sm-0 bg-black p-lg-2 pt-sm-4"
+        className="container my-lg-5 testimonials my-md-4 my-sm-0 bg-black p-lg-2 pt-4"
         style={{ borderRadius: "1rem 1rem 1rem 3rem" }}
       >
-        <div className="container my-lg-5 pt-4">
+        <div className="container my-lg-5 ">
           <H2tag header_text={textAria} className={textCN} />
+        </div>
+        <div className="container  ">
+          <H2tag header_text={textAria2} className={textCN2} />
         </div>
         <div className="container">
           {/* desktop slider */}
@@ -35,12 +40,12 @@ function CCTestimonials() {
                     <div className="row justify-content-evenly">
                       <div className="col-6">
                         <div className="single-box">
-                          <Img_tag img_url={imgUrl1} alt_text={""} />
+                          <ImgTag img_url={imgUrl1} alt_text={""} />
                         </div>
                       </div>
                       <div className="col-6">
                         <div className="single-box">
-                          <Img_tag img_url={imgUrl2} alt_text={""} />
+                          <ImgTag img_url={imgUrl2} alt_text={""} />
                         </div>
                       </div>
                     </div>
@@ -50,12 +55,12 @@ function CCTestimonials() {
                     <div className="row justify-content-evenly">
                       <div className="col-6">
                         <div className="single-box">
-                          <Img_tag img_url={imgUrl1} alt_text={""} />
+                          <ImgTag img_url={imgUrl1} alt_text={""} />
                         </div>
                       </div>
                       <div className="col-6">
                         <div className="single-box">
-                          <Img_tag img_url={imgUrl2} alt_text={""} />
+                          <ImgTag img_url={imgUrl2} alt_text={""} />
                         </div>
                       </div>
                     </div>
@@ -73,10 +78,10 @@ function CCTestimonials() {
             >
               <div className="carousel-inner">
                 <div className="carousel-item active">
-                  <Img_tag img_url={imgUrl1} alt_text={""} />
+                  <ImgTag img_url={imgUrl1} alt_text={""} />
                 </div>
                 <div className="carousel-item ">
-                  <Img_tag img_url={imgUrl2} alt_text={""} />
+                  <ImgTag img_url={imgUrl2} alt_text={""} />
                 </div>
               </div>
             </div>

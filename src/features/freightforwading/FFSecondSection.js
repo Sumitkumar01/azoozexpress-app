@@ -1,6 +1,6 @@
 import React from "react";
 import H2tag from "../common/H2tag";
-import Img_tag from "../common/Img_tag";
+import ImgTag from "../common/ImgTag";
 
 function FFSecondSection() {
   const headerText = "What do we deliver?";
@@ -38,17 +38,17 @@ function FFSecondSection() {
                   <div className="row justify-content-evenly">
                     <div className="col-3">
                       <div className="single-box">
-                        <Img_tag img_url={imgUrl1} alt_text={""} />
+                        <ImgTag img_url={imgUrl1} alt_text={""} />
                       </div>
                     </div>
                     <div className="col-3">
                       <div className="single-box">
-                        <Img_tag img_url={imgUrl2} alt_text={""} />
+                        <ImgTag img_url={imgUrl2} alt_text={""} />
                       </div>
                     </div>
                     <div className="col-3">
                       <div className="single-box">
-                        <Img_tag img_url={imgUrl3} alt_text={""} />
+                        <ImgTag img_url={imgUrl3} alt_text={""} />
                       </div>
                     </div>
                   </div>
@@ -58,17 +58,17 @@ function FFSecondSection() {
                   <div className="row justify-content-evenly">
                     <div className="col-3">
                       <div className="single-box">
-                        <Img_tag img_url={imgUrl4} alt_text={""} />
+                        <ImgTag img_url={imgUrl4} alt_text={""} />
                       </div>
                     </div>
                     <div className="col-3">
                       <div className="single-box">
-                        <Img_tag img_url={imgUrl5} alt_text={""} />
+                        <ImgTag img_url={imgUrl5} alt_text={""} />
                       </div>
                     </div>
                     <div className="col-3">
                       <div className="single-box">
-                        <Img_tag img_url={imgUrl6} alt_text={""} />
+                        <ImgTag img_url={imgUrl6} alt_text={""} />
                       </div>
                     </div>
                   </div>
@@ -86,13 +86,13 @@ function FFSecondSection() {
           >
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <Img_tag img_url={imgUrl1} alt_text={""} />
+                <ImgTag img_url={imgUrl1} alt_text={""} />
               </div>
               <div className="carousel-item ">
-                <Img_tag img_url={imgUrl2} alt_text={""} />
+                <ImgTag img_url={imgUrl2} alt_text={""} />
               </div>
               <div className="carousel-item ">
-                <Img_tag img_url={imgUrl3} alt_text={""} />
+                <ImgTag img_url={imgUrl3} alt_text={""} />
               </div>
             </div>
           </div>

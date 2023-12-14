@@ -1,6 +1,6 @@
 import React from "react";
 import Column2Layout from "../common/Column2Layout";
-import Img_tag from "../common/Img_tag";
+import ImgTag from "../common/ImgTag";
 import H2tag from "../common/H2tag";
 import Ptag from "../common/Ptag"
 
@@ -39,7 +39,7 @@ function CCForthSection() {
   const col2Content = (
     <>
       <div className="" style={{width:"300px"}}>
-        <Img_tag img_url={imgUrl} alt_text={""} />
+        <ImgTag img_url={imgUrl} alt_text={""} />
       </div>
     </>
   );

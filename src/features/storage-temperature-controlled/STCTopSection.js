@@ -40,7 +40,7 @@ function STCTopSection() {
   };
 
   const otRow = "row ps-lg-5 p-sm-1 position-relative";
-  const col1 = `col-lg-8 col-md-7 col-sm-12 bg-warning  px-sm-3 h-25`;
+  const col1 = `col-lg-8 col-md-8 col-sm-12 bg-warning  px-sm-3 h-25`;
   const col2 = "col-lg-4 col-md-4 d-none d-lg-block d-md-block";
   const inRow = "row m-0 p-2";
   const inCol1 = "col-12 m-0 p-0 d-flex h-25";

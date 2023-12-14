@@ -4,9 +4,10 @@ import ImgTag from "../common/ImgTag";
 
 function STCTestimonials() {
   const textAria = "Testimonials";
-  const textCN = "ff-m fs-2 fw-bold text-center text-danger text-uppercase";
+  const textCN =
+    "ff-m fs-2 fw-bold text-center text-warning text-uppercase";
   const textAria2 = "Hear it from our customes!";
-  const textCN2 = "ff-m fs-2 fw-bold text-center text-warning text-uppercase";
+  const textCN2 = "ff-m fs-2 fw-bold text-center text-danger text-uppercase";
   const imgUrl1 =
     "https://azoozexpress.com/wp-content/uploads/2023/11/Frame-720.png";
   const imgUrl2 =
@@ -21,7 +22,7 @@ function STCTestimonials() {
         className="container my-lg-5 testimonials my-md-4 my-sm-0 bg-black p-lg-2 pt-4"
         style={{ borderRadius: "1rem 1rem 1rem 3rem" }}
       >
-        <div className="container my-lg-5 ">
+        <div className="container my-lg-4 ">
           <H2tag header_text={textAria} className={textCN} />
         </div>
         <div className="container  ">

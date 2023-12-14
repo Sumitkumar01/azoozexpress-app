@@ -4,30 +4,30 @@ import ImgTag from "../common/ImgTag";
 import Ptag from "../common/Ptag";
 import { IoMdCheckmarkCircle } from "react-icons/io";
 
-function STCSecondSection() {
-
-  const sptext = "Innovations"
-  const headertext = " that deliver competitive advantage to you";
-
+function CCSecondSection() {
+  const headertext = "Our customs clearance services cover";
   const hTextclass =
-    "text-uppercase  fs-1 text-black fw-bolder ff-m text-center";
-  const headertextcol1 = "all-in-one value package";
-  const headertext2col1 = "Temperature range";
-  const headertext3col1 = "door to door pickup and deliver";
-  const headertext4col1 = "enhanced network connectivity";
+    "text-uppercase  fs-1 text-danger fw-bolder ff-m text-center";
+  const pTextTop =
+    "At Azzoz Express, our customs clearance services keep things simple and stress-free. Here’s what we cover for you :";
+  const pTCName = "text-black text-center  m-0 fs-6 ff-m fw-normal";
+  const headertextcol1 = "Preparing and submitting documents";
+  const headertext2col1 = "arranging custom inspection if required";
+  const headertext3col1 = "assessment";
+  const headertext4col1 = "payment of duty";
 
   const pText_1 =
-    "Cost, security, validation, and efficient transport solutions. We deliver 2. the complete package of value.";
+    "No need to stress about forms and submissions. Just provide us with the necessary documents, and we handle the rest.";
   const pText_2 =
-    "Maintaining customized temperature distributions for your package.";
+    "If a customs inspection is needed, don’t worry. We’ll manage the arrangements, making the process smooth and hassle-free.";
   const pText_3 =
-    "Improved physical flows and integrated temperature-controlled management with Azooz Express.";
+    "Our team assesses your shipments according to customs regulations. We ensure everything is for a seamless clearance.";
   const pText_4 =
-    "Service to the largest number of locations across Muscat reduces the possibility of replenishing cooling materials during transit.";
+    "No hidden duty charges – just clear and transparent transactions. Azooz Express handles processing and paying the required duties on your behalf.";
 
   const col1HCn = "text-uppercase text-black fs-5 ff-m fw-semibold lh-base m-0";
   const pCName = "text-black fs-6 ff-m fw-normal m-0";
-  const iconDiv = "d-flex my-1 mx-2";
+  const iconDiv = "d-flex m-2";
   const icon = <IoMdCheckmarkCircle className="text-danger fs-5" />;
 
   const cStyle = {
@@ -36,28 +36,24 @@ function STCSecondSection() {
 
   const otRow = "row ps-lg-5 p-sm-1";
   const col1 =
-    "col-lg-4 col-md-5  pt-md-5 pt-lg-0 d-none d-sm-none d-lg-block d-md-block flexAling";
-  const col2 = `col-lg-7 col-md-7 col-sm-12 bg-warning p-4 px-lg-4 py-lg-3 ms-lg-3 px-sm-3 h-25`;
+    "col-lg-4 col-md-4  pt-md-5 pt-lg-0 d-none d-sm-none d-lg-block d-md-block flexAling";
+  const col2 = `col-lg-7 col-md-7 col-sm-12 bg-warning p-4 px-lg-4  ms-lg-3 px-sm-3 h-25`;
   const inRow = "row";
   const inCol1 = "col-12 m-0 p-0 d-flex h-25";
 
   const imgUrl =
-    "https://azoozexpress.com/wp-content/uploads/2023/11/pp9-2.png";
+    "https://azoozexpress.com/wp-content/uploads/2023/11/pp1-7.png";
 
   return (
     <>
       <div className="container my-5 p-2">
-        <H2tag
-          header_text={headertext}
-          className={hTextclass}
-          span_text_1={sptext}
-          spanClassName={"text-danger"}
-        />
+        <H2tag header_text={headertext} className={hTextclass} />
+        <Ptag ptext={pTextTop} pCName={pTCName} />
       </div>
       <div className="container mb-5">
         <div className={otRow}>
           <div className={col1}>
-            <div className="">
+            <div className="mt-lg-4  mt-md-5">
               <ImgTag img_url={imgUrl} alt_text={"Avatar img"} />
             </div>
           </div>
@@ -75,11 +71,6 @@ function STCSecondSection() {
                 <div>
                   <H2tag header_text={headertext2col1} className={col1HCn} />
                   <Ptag ptext={pText_2} pCName={pCName} />
-                  <ul>
-                    <li>Frozen: – 20°C</li>
-                    <li>Chilled: 2 – 8°C</li>
-                    <li>Ambient: 15 – 25°C</li>
-                  </ul>
                 </div>
               </div>
               <div className={inCol1}>
@@ -104,4 +95,4 @@ function STCSecondSection() {
   );
 }
 
-export default STCSecondSection;
+export default CCSecondSection;

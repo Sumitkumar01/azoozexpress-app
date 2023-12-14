@@ -2,9 +2,9 @@ import React from "react";
 import H2tag from "../common/H2tag";
 import ImgTag from "../common/ImgTag";
 
-function FFTestimonials() {
+function FFPTestimonials() {
   const textAria = "Testimonials";
-  const textCN = "ff-m fs-2 fw-bold text-center text-warning text-capitalize";
+  const textCN = "ff-m fs-2 fw-bold text-center text-warning text-uppercase";
   const imgUrl1 =
     "https://azoozexpress.com/wp-content/uploads/2023/11/Frame-720.png";
   const imgUrl2 =
@@ -15,10 +15,10 @@ function FFTestimonials() {
   return (
     <div className="container p-lg-5 p-md-4" style={{ padding: "0" }}>
       <div
-        className="container my-lg-5 testimonials my-md-4 my-sm-0 bg-black p-lg-2 pt-sm-4"
+        className="container my-lg-5 testimonials my-md-4 my-sm-0 bg-black p-lg-2 pt-4"
         style={{ borderRadius: "1rem 1rem 1rem 3rem" }}
       >
-        <div className="container my-lg-3 pt-2">
+        <div className="container my-lg-5 ">
           <H2tag header_text={textAria} className={textCN} />
         </div>
         <div className="container">
@@ -87,4 +87,4 @@ function FFTestimonials() {
   );
 }
 
-export default FFTestimonials;
+export default FFPTestimonials;

@@ -3,14 +3,14 @@ import Footer from '../features/footer/Footer';
 
 function TermsOfServicePage() {
 
-  const entrytitle ="fs-1 fw-bold"
+  const entrytitle ="fs-1 ff-r fw-bold"
   const pageHeader ="p-3"
-  const BlockHeading="fs-2 bold"
-  const wpBlockHeading="fs-3 bold"
+  const BlockHeading="fs-2 ff-r bold"
+  const wpBlockHeading="fs-3 ff-r bold"
   const pCName="ff-p fs-6"
   return (
     <div>
-      <div className="container p-5">
+      <div className="container m-t">
         <header className={pageHeader}>
           <h1 className={entrytitle}>Terms of Service</h1>
         </header>

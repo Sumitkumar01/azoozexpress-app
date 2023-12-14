@@ -2,9 +2,8 @@ import React from "react";
 import Column2Layout from "../common/Column2Layout";
 import ImgTag from "../common/ImgTag";
 import H2tag from "../common/H2tag";
-import Ptag from "../common/Ptag"
 
-function FFThridSection() {
+function FFPThredSection() {
   const otRCName = "";
   const col1Class = "col-lg-8 col-md-6  d-flex align-items-center ";
   const col2Class = "col-lg-3 col-md-6 d-flex align-items-center justify-content-center";
@@ -12,11 +11,9 @@ function FFThridSection() {
   const inRowCN ="row  p-2 ms-lg-3";
   const inColCName ="col-12 m-0 p-0 text-center text-lg-start text-md-start";
   const headerTextCName ="text-danger fs-2 fw-bolder ff-m text-uppercase p-0 ";
-  const pCName = "fs-6 text-black ff-p";
 
-  const headerText = "get your freight moving today";
-  const ptext =
-    "Ready for a freight forwarding experience that goes beyond expectations? Contact Azooz Express for professional cargo services in Muscat.";
+  const headerText = "get started with azooz express!";
+  
 
   const imgUrl =
     "https://azoozexpress.com/wp-content/uploads/2023/11/pp2-2-1.png";
@@ -26,9 +23,6 @@ function FFThridSection() {
       <div className={inRowCN}>
         <div className={inColCName}>
           <H2tag header_text={headerText} className={headerTextCName}/>
-        </div>
-        <div className={inColCName}>
-          <Ptag ptext={ptext} pCName={pCName}/>
         </div>
         <div className={inColCName}>
           <button className="btn btn-danger px-5">Contact Us</button>
@@ -45,7 +39,7 @@ function FFThridSection() {
   );
   return (
     <div className="bg-warning">
-      <div className="container py-3">
+      <div className="container ">
         <Column2Layout
           rClass={otRCName}
           col1Class={col1Class}
@@ -58,4 +52,4 @@ function FFThridSection() {
   );
 }
 
-export default FFThridSection;
+export default FFPThredSection;
