@@ -21,7 +21,7 @@ function ContactUs() {
 
   // *************className-left-container-**************** //
   const containerDCName = "d-flex flex-column flex-lg-row flex-md-row bg-black rounded-4 p-2";
-  const inpCName = "text-danger bg-black form-control pe-lg-2 me-lg-2 border-0";
+  const inpCName = "text-white bg-black form-control pe-lg-2 me-lg-2 border-0";
   const btnDivCName = "d-flex justify-content-center aling-item-center mt-2 mt-lg-0 mt-md-0";
   const btCName = "btn btn-danger px-5 mx-3 my-lg-0 my-md-0 my-sm-2";
 
@@ -35,19 +35,21 @@ function ContactUs() {
               <div className="col-12 mb-1 p-0 ">
                 <H2tag header_text={heading} className={headerCName} />
               </div>
-              <div className="col-12 mt-1 p-0 mt-sm-1 mt-lg-0 m">
-                <InputTagWButton
-                  containerDCName={containerDCName}
-                  inpCName={inpCName}
-                  inpType={inpType}
-                  pcHolderText={pcHolderText}
-                  inpStyle={inpStyle}
-                  btnDivCName={btnDivCName}
-                  btCName={btCName}
-                  btText={btText}
-                  btType={btType}
-                />
-              </div>
+              <from>
+                <div className="col-12 mt-1 p-0 mt-sm-1 mt-lg-0 contact">
+                  <InputTagWButton
+                    containerDCName={containerDCName}
+                    inpCName={inpCName}
+                    inpType={inpType}
+                    pcHolderText={pcHolderText}
+                    inpStyle={inpStyle}
+                    btnDivCName={btnDivCName}
+                    btCName={btCName}
+                    btText={btText}
+                    btType={btType}
+                  />
+                </div>
+              </from>
             </div>
           </div>
           <div className="col-lg-4 col-md-5 col-sm-12 p-2 d-flex justify-content-center aling-item-center">

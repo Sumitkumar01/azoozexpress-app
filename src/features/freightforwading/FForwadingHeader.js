@@ -6,23 +6,16 @@ import H2ITag from "../common/H2ITag";
 
 function FForwadingHeader() {
   // ********headerclass********* //
-  const headerBdCName = "bg-black";
+  const headerBdCName = "img";
   const hdContentCName = "container mt-5";
   // ********header Coustom Style************//
-  const hcStyle = {
-    backgroundImage: `url(
-        'https://azoozexpress.com/wp-content/uploads/2023/11/movers-putting-boxes-boving-cart-1.png'
-      )`,
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-    height: "38rem",
-    opacity: "0.7",
-  };
+  const hcStyle = {};
   const hdContentcStyle = {};
 
   // *******content class********************//
   const rClass = "";
-  const col1Class = "col-lg-6 col-md-6 col-12 d-flex align-items-center";
+  const col1Class =
+    "col-lg-6 col-md-6 col-12 d-flex align-items-center justify-content-around";
   const col2Class = "col-lg-6 col-md-6 col-12";
 
   //   **********content child-1************//
@@ -36,7 +29,7 @@ function FForwadingHeader() {
 
   //   **********content child-2************//
   const headerText2 = "Ready to get started?";
-  const headerText2ClassName = "text-capitalize text-center m-0 p-0";
+  const headerText2ClassName = "text-capitalize text-center ff-m fs-2 fw-bold text-black";
 
   // *********** col1Content ******************//
   const col1Content = (
@@ -51,16 +44,16 @@ function FForwadingHeader() {
   // *********** col1Content ******************//
   const col2Content = (
     <div
-      className="card bg-warning p-3 ms-lg-5 ms-md-3 ms-0"
+      className="card bg-warning p-4 ms-lg-5 ms-md-3"
       style={{
-        maxWidth: "25.5rem",
+        maxWidth: "20rem",
         minHeight: "20rem",
         borderRadius: "1rem 1rem 1rem 3rem",
       }}
     >
       <div className="card-items">
         <form>
-          <div className="row flex-column g-4">
+          <div className="row flex-column g-2 gx-2">
             <div className="col">
               <H2tag
                 header_text={headerText2}
@@ -112,15 +105,17 @@ function FForwadingHeader() {
 
   return (
     <div className={headerBdCName} style={hcStyle}>
-      <NavBar />
-      <div className={hdContentCName} style={hdContentcStyle}>
-        <Column2Layout
-          rClass={rClass}
-          col1Class={col1Class}
-          col2Class={col2Class}
-          col1Content={col1Content}
-          col2Content={col2Content}
-        />
+      <div className="img-overlayer">
+        <NavBar />
+        <div className={hdContentCName} style={hdContentcStyle}>
+          <Column2Layout
+            rClass={rClass}
+            col1Class={col1Class}
+            col2Class={col2Class}
+            col1Content={col1Content}
+            col2Content={col2Content}
+          />
+        </div>
       </div>
     </div>
   );

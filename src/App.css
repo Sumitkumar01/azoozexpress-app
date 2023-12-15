@@ -199,7 +199,7 @@ a .text-decoration {
 }
 
 .btn:hover {
-  background-color: #030006 !important;
+  background-color: #f0eaf7 !important;
   color: #920505 !important;
 }
 
@@ -278,4 +278,25 @@ a .text-decoration {
     opacity: 1;
     transform: scale(1);
   }
+}
+
+/* input colour */
+.contact input::placeholder {
+  color: #FFFFFF;
+}
+
+
+
+/* services pages */
+.img {
+  height: 41rem;
+  background-position: center;
+  background-size: cover;
+  background-image: url('https://azoozexpress.com/wp-content/uploads/2023/11/movers-putting-boxes-boving-cart-1.png');
+
+}
+
+.img-overlayer {
+  height: 41rem;
+  background-color: rgba(0, 0, 0, 0.6);
 }

@@ -13,7 +13,7 @@ function LastContainer() {
 
   const containerDCName =
     "d-flex flex-column flex-lg-row flex-md-row bg-black rounded-5 p-2 px-3 w-75";
-  const inpCName = "text-danger bg-black form-control pe-lg-2 me-lg-2 border-0";
+  const inpCName = "text-white bg-black form-control pe-lg-2 me-lg-2 border-0";
   const btnDivCName =
     "d-flex justify-content-center aling-item-center mt-2 mt-lg-0 mt-md-0";
   const pcHolderText = "Enter your email";
@@ -27,12 +27,7 @@ function LastContainer() {
 
   
 
-  const inpStyle = {
-    '&::placeholder': {
-      color: 'white',
-    },
-  
-};
+  const inpStyle = {};
 
   return (
     <div>
@@ -46,20 +41,22 @@ function LastContainer() {
           </div>
         </div>
       </div>
-      <div className="container d-flex justify-content-center my-5">
-        <InputTagWButton
-          containerDCName={containerDCName}
-          inpCName={inpCName}
-          inpType={inpType}
-          inpStyle={inpStyle}
-          pcHolderText={pcHolderText}
-          btnDivCName={btnDivCName}
-          btCName={btCName}
-          btText={btText}
-          btType={btType}
-          btCStyle={btStyle}
-        />
-      </div>
+      <from>
+        <div className="container d-flex justify-content-center my-5 contact">
+          <InputTagWButton
+            containerDCName={containerDCName}
+            inpCName={inpCName}
+            inpType={inpType}
+            inpStyle={inpStyle}
+            pcHolderText={pcHolderText}
+            btnDivCName={btnDivCName}
+            btCName={btCName}
+            btText={btText}
+            btType={btType}
+            btCStyle={btStyle}
+          />
+        </div>
+      </from>
     </div>
   );
 }

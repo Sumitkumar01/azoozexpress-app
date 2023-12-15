@@ -15,8 +15,8 @@ function InputTagWButton({
 }) {
   return (
     <>
-      <div className={containerDCName} style={containerDStyle}>
-        <form>
+     
+        <div className={containerDCName} style={containerDStyle}>
           <input
             className={inpCName}
             placeholder={pcHolderText}
@@ -29,8 +29,8 @@ function InputTagWButton({
               {btText}
             </button>
           </div>
-        </form>
-      </div>
+        </div>
+      
     </>
   );
 }

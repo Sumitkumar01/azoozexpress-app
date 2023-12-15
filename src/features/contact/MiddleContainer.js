@@ -35,31 +35,35 @@ function MiddleContainer() {
                         placeholder=" Your Full Name"
                         aria-label=" Your Full Name"
                         type="text"
+                        style={{ backgroundColor: "#EBEBEB" }}
                       />
                     </div>
                     <div className="col">
                       <div className="row">
-                        <div className="col-4">
+                        <div className="col-lg-4 col-md-4 col-sm-12 ">
                           <input
                             className="form-control"
                             placeholder="Email"
                             aria-label="Email"
                             type="email"
+                            style={{ backgroundColor: "#EBEBEB" }}
                           />
                         </div>
-                        <div className="col-4">
+                        <div className="col-lg-4 col-md-4 col-sm-12 my-3 m-lg-0 m-md-0">
                           <input
                             className="form-control"
                             placeholder="+968"
                             aria-label="+968"
                             type="tel"
+                            style={{ backgroundColor: "#EBEBEB" }}
                           />
                         </div>
-                        <div className="col-4">
+                        <div className="col-lg-4 col-md-4 col-sm-12 ">
                           <input
                             className="form-control"
                             placeholder="Phone number"
                             aria-label="Phone number"
+                            style={{ backgroundColor: "#EBEBEB" }}
                           />
                         </div>
                       </div>
@@ -70,6 +74,7 @@ function MiddleContainer() {
                         placeholder="Message"
                         aria-label="Message"
                         type="text"
+                        style={{ height: "7.5rem", backgroundColor: "#EBEBEB" }}
                       />
                     </div>
                     <div className="col text-end">
