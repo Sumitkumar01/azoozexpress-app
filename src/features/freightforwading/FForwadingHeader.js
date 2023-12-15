@@ -59,48 +59,53 @@ function FForwadingHeader() {
       }}
     >
       <div className="card-items">
-        <div className="row flex-column g-4">
-          <div className="col">
-            <H2tag header_text={headerText2} className={headerText2ClassName} />
+        <form>
+          <div className="row flex-column g-4">
+            <div className="col">
+              <H2tag
+                header_text={headerText2}
+                className={headerText2ClassName}
+              />
+            </div>
+            <div className="col">
+              <input
+                className="form-control"
+                placeholder="Full Name"
+                aria-label="Full Name"
+                type="text"
+              />
+            </div>
+            <div className="col">
+              <input
+                className="form-control"
+                placeholder="Phone Number"
+                aria-label="Phone Number"
+                type="number"
+              />
+            </div>
+            <div className="col">
+              <input
+                className="form-control"
+                placeholder="Email"
+                aria-label="Email"
+                type="email"
+              />
+            </div>
+            <div className="col">
+              <input
+                className="form-control"
+                placeholder="City"
+                aria-label="City"
+                type="text"
+              />
+            </div>
+            <div className="col text-start ">
+              <button className="btn btn-danger px-5 fs-5 ff-p" id="form-btn">
+                Get A Quote
+              </button>
+            </div>
           </div>
-          <div className="col">
-            <input
-              className="form-control"
-              placeholder="Full Name"
-              aria-label="Full Name"
-              type="text"
-            />
-          </div>
-          <div className="col">
-            <input
-              className="form-control"
-              placeholder="Phone Number"
-              aria-label="Phone Number"
-              type="number"
-            />
-          </div>
-          <div className="col">
-            <input
-              className="form-control"
-              placeholder="Email"
-              aria-label="Email"
-              type="email"
-            />
-          </div>
-          <div className="col">
-            <input
-              className="form-control"
-              placeholder="City"
-              aria-label="City"
-              type="text"
-            />
-          </div>
-          <div className="col text-start ">
-            <button className="btn btn-danger px-5 fs-5 ff-p" id="form-btn">
-              Get A Quote
-            </button>
-          </div>
-        </div>
+        </form>
       </div>
     </div>
   );

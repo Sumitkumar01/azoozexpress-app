@@ -16,18 +16,20 @@ function InputTagWButton({
   return (
     <>
       <div className={containerDCName} style={containerDStyle}>
-        <input
-          className={inpCName}
-          placeholder={pcHolderText}
-          type={inpType}
-          style={inpStyle}
-          aria-label={pcHolderText}
-        />
-        <div className={btnDivCName}>
-          <button className={btCName} type={btType} style={btCStyle}>
-            {btText}
-          </button>
-        </div>
+        <form>
+          <input
+            className={inpCName}
+            placeholder={pcHolderText}
+            type={inpType}
+            style={inpStyle}
+            aria-label={pcHolderText}
+          />
+          <div className={btnDivCName}>
+            <button className={btCName} type={btType} style={btCStyle}>
+              {btText}
+            </button>
+          </div>
+        </form>
       </div>
     </>
   );
