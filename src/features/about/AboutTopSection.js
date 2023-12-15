@@ -5,20 +5,17 @@ function AboutTopSection() {
   const header_text = "who";
   const span_text_2 = " we are";
   const spanClassName = "text-danger";
-  const className = "ff-m fw-bolder text-dark text-uppercase";
-  const customStyle_heading = {
-    fontSize: "3.313rem",
-    lineHeight: "3.3rem",
-  };
+  const className = "ff-m fw-bolder fs-1 text-dark text-uppercase";
+  const customStyle_heading = {};
   const Description_text =
     "Oman’s Finest And Fastest Growing Last Mile Delivery Company Based In Muscat, Our Delivery Management Business Is Built On Speed, Security, Reliability And Accountability, The Four Pillars Of Our Success Journey. Consistentlt Serving A Large Customer Community In Oman";
   const Description_span_text = "Azooz Express, ";
   const DescriptionSpanClassName = "text-danger";
-  const DescriptionClassName = "ff-p fs-4 fw-light text-dark text-start";
-  
+  const DescriptionClassName = "ff-p fs-5 fw-medium lh-base text-dark text-start";
+
   return (
     <>
-      <div className="container p-2">
+      <div className="container p-2 mt-4">
         <div className="container text-center p-2">
           <H2tag
             header_text={header_text}

@@ -32,7 +32,10 @@ function CCLoctions() {
         <div>
           <div className="row my-2">
             <div className={colCName}>
-              <div className="row m-0 bg-warning p-3">
+              <div
+                className="row m-0 bg-warning p-3"
+                style={{ borderRadius: ".5rem .5rem .5rem 2rem" }}
+              >
                 <div className="col-3  d-flex justify-content-center">
                   <ImgTag img_url={url} alt_text={"location_img"} />
                 </div>
@@ -42,7 +45,10 @@ function CCLoctions() {
               </div>
             </div>
             <div className={colCName}>
-              <div className="row m-0 bg-warning p-3">
+              <div
+                className="row m-0 bg-warning p-3"
+                style={{ borderRadius: ".5rem .5rem .5rem 2rem" }}
+              >
                 <div className="col-3  d-flex justify-content-center">
                   <ImgTag img_url={url} alt_text={"location_img"} />
                 </div>
@@ -52,7 +58,10 @@ function CCLoctions() {
               </div>
             </div>
             <div className={colCName}>
-              <div className="row m-0 bg-warning p-3">
+              <div
+                className="row m-0 bg-warning p-3"
+                style={{ borderRadius: ".5rem .5rem .5rem 2rem" }}
+              >
                 <div className="col-3  d-flex justify-content-center">
                   <ImgTag img_url={url} alt_text={"location_img"} />
                 </div>
@@ -64,7 +73,10 @@ function CCLoctions() {
           </div>
           <div className="row my-2">
             <div className={colCName}>
-              <div className="row m-0 bg-warning p-3 ">
+              <div
+                className="row m-0 bg-warning p-3 "
+                style={{ borderRadius: ".5rem .5rem .5rem 2rem" }}
+              >
                 <div className="col-3  d-flex justify-content-center">
                   <ImgTag img_url={url} alt_text={"location_img"} />
                 </div>
@@ -74,7 +86,10 @@ function CCLoctions() {
               </div>
             </div>
             <div className={colCName}>
-              <div className="row m-0 bg-warning p-3">
+              <div
+                className="row m-0 bg-warning p-3"
+                style={{ borderRadius: ".5rem .5rem .5rem 2rem" }}
+              >
                 <div className="col-3  d-flex justify-content-center">
                   <ImgTag img_url={url} alt_text={"location_img"} />
                 </div>
@@ -84,7 +99,10 @@ function CCLoctions() {
               </div>
             </div>
             <div className={colCName}>
-              <div className="row m-0 bg-warning p-3">
+              <div
+                className="row m-0 bg-warning p-3"
+                style={{ borderRadius: ".5rem .5rem .5rem 2rem" }}
+              >
                 <div className="col-3  d-flex justify-content-center">
                   <ImgTag img_url={url} alt_text={"location_img"} />
                 </div>

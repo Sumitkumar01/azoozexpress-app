@@ -29,7 +29,7 @@ function FFTopSection() {
     "Pay at your doorstep once the package is successfully received.";
 
   const col1HCn = "text-uppercase text-black fs-5 ff-m fw-semibold lh-base m-0";
-  const pCName = "text-black fs-6 ff-m fw-normal m-0";
+  const pCName = "text-black fs-6 ff-m fw-normal mb-2";
   const iconDiv = "d-flex mx-2 my-1";
   const icon = <IoMdCheckmarkCircle className="text-danger fs-5" />;
 
@@ -38,10 +38,10 @@ function FFTopSection() {
   };
 
   const otRow = "row ps-lg-5 p-sm-1 position-relative";
-  const col1 = `col-lg-6 col-sm-12 bg-warning p-4 px-lg-4  ms-lg-3 px-sm-3 h-25`;
+  const col1 = `col-lg-6 col-sm-12 bg-warning p-4 px-lg-5  ms-lg-3 px-sm-3 `;
   const col2 = "col-5 d-none d-lg-block d-md-none";
   const inRow = "row";
-  const inCol1 = "col-12 m-0 p-0 d-flex h-25";
+  const inCol1 = "col-12 m-0 p-0 d-flex ";
 
   const imgDivCN = "d-flex position-absolute";
   const imgUrl =
@@ -100,7 +100,7 @@ function FFTopSection() {
             </div>
           </div>
           <div className={col2}>
-            <div className={imgDivCN} style={{ top: "1%", right: "24.5%" }}>
+            <div className={imgDivCN} style={{ top: "5%", right: "25.5%" }}>
               <ImgTag
                 img_url={imgUrl}
                 alt_text={"Avatar img"}

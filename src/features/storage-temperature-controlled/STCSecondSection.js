@@ -26,7 +26,7 @@ function STCSecondSection() {
     "Service to the largest number of locations across Muscat reduces the possibility of replenishing cooling materials during transit.";
 
   const col1HCn = "text-uppercase text-black fs-5 ff-m fw-semibold lh-base m-0";
-  const pCName = "text-black fs-6 ff-m fw-normal m-0";
+  const pCName = "text-black fs-6 ff-m fw-normal mb-3 px-lg-3 lh-base";
   const iconDiv = "d-flex my-1 mx-2";
   const icon = <IoMdCheckmarkCircle className="text-danger fs-5" />;
 

@@ -7,7 +7,7 @@ import { IoMdCheckmarkCircle } from "react-icons/io";
 function CCTopSection() {
   const headertext = "Smooth customs clearance with ";
   const hTextclass =
-    "text-uppercase  fs-1 text-black fw-bolder ff-m text-center";
+    "text-uppercase  fs-1 text-black fw-bolder ff-m text-center mt-2";
   const spanClassName = "text-danger";
   const spanText = "azooz express";
 
@@ -28,8 +28,11 @@ function CCTopSection() {
   const pText_5 =
     "We know the ins and outs of duty exemptions and temporary clearance in freight courier services. Azooz Express helps you save money by navigating customs rules like a pro in delivery services in Oman.";
 
-  const col1HCn = "text-uppercase text-black fs-5 ff-m fw-semibold lh-base m-0";
-  const pCName = "text-black fs-6 ff-m fw-normal m-0";
+  const col1HCn = "text-uppercase text-black fs-5 ff-m fw-semibold lh-base px-lg-4 p-0";
+  const pCName = "text-black fs-5 ff-m fw-mediumm mb-3 px-lg-4 p-0";
+  const pcCName = "text-black fs-6 ff-m fw-mediumm mb-2 px-lg-4 p-0";
+
+
   const iconDiv = "d-flex m-2";
   const icon = <IoMdCheckmarkCircle className="text-danger fs-5" />;
 
@@ -49,7 +52,7 @@ function CCTopSection() {
 
   return (
     <>
-      <div className="container my-5 p-5">
+      <div className="container my-5 p-2">
         <H2tag
           header_text={headertext}
           className={hTextclass}
@@ -77,41 +80,41 @@ function CCTopSection() {
                 <div className={iconDiv}>{icon}</div>
                 <div>
                   <H2tag header_text={headertextcol1} className={col1HCn} />
-                  <Ptag ptext={pText_1} pCName={pCName} />
+                  <Ptag ptext={pText_1} pCName={pcCName} />
                 </div>
               </div>
               <div className={inCol1}>
                 <div className={iconDiv}>{icon}</div>
                 <div>
                   <H2tag header_text={headertext2col1} className={col1HCn} />
-                  <Ptag ptext={pText_2} pCName={pCName} />
+                  <Ptag ptext={pText_2} pCName={pcCName} />
                 </div>
               </div>
               <div className={inCol1}>
                 <div className={iconDiv}>{icon}</div>
                 <div>
                   <H2tag header_text={headertext3col1} className={col1HCn} />
-                  <Ptag ptext={pText_3} pCName={pCName} />
+                  <Ptag ptext={pText_3} pCName={pcCName} />
                 </div>
               </div>
               <div className={inCol1}>
                 <div className={iconDiv}>{icon}</div>
                 <div>
                   <H2tag header_text={headertext4col1} className={col1HCn} />
-                  <Ptag ptext={pText_4} pCName={pCName} />
+                  <Ptag ptext={pText_4} pCName={pcCName} />
                 </div>
               </div>
               <div className={inCol1}>
                 <div className={iconDiv}>{icon}</div>
                 <div>
                   <H2tag header_text={headertext5col1} className={col1HCn} />
-                  <Ptag ptext={pText_5} pCName={pCName} />
+                  <Ptag ptext={pText_5} pCName={pcCName} />
                 </div>
               </div>
             </div>
           </div>
           <div className={col2}>
-            <div className={imgDivCN} style={{ top: "1%", right: "24.5%" }}>
+            <div className={imgDivCN} style={{ top: "20%", right: "24.5%" }}>
               <ImgTag
                 img_url={imgUrl}
                 alt_text={"Avatar img"}

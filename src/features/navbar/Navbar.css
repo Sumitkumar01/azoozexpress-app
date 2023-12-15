@@ -20,11 +20,15 @@
     border-bottom: 5px solid #ecd014 !important;
 }
 
-.navbar-nav .nav-link .active {
-    border-bottom: 5px solid #ecd014 !important;
+.navbar-nav .nav-link.active {
+    border-bottom: 5px solid #ecd014;
 }
 
-.navbar-nav .nav-link:hover {
+.footer-nav .nav-link:hover {
     color: #3517df;
-    background-color: #3a373827;
+    background-color: #ea266727;
 }
+
+/* .dropdown-menu .show .dropdown-item:hover  {
+    background-color: #E01C2C;
+} */

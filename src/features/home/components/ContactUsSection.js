@@ -10,7 +10,7 @@ function ContactUsSection() {
             <div className="container fluid  pe-3 ms-0 me-auto">
               <div className="row flex-column my-auto">
                 <div className="col my-4 ps-0 pe-lg-5">
-                  <h2 className="ff-m fs-3 fw-semibold text-uppercase text-center an-fade-up  text-md-start  text-lg-star">
+                  <h2 className="ff-m fs-2 fw-semibold text-uppercase text-center an-fade-up  text-md-start  text-lg-star">
                     ready to get moving? get your free quote
                   </h2>
                 </div>

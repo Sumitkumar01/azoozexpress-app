@@ -14,7 +14,7 @@ function AboutUsValue() {
   const headerCName =
     "fw-bold fs-1 text-danger p-0 text-center text-lg-start text-md-start";
   const descriptionCname =
-    "ff-p fs-5 fw-midum text-dark text-center text-lg-start text-md-start";
+    "ff-p fs-5 fw-midum text-dark text-center text-lg-start lh-base text-wrap text-md-start";
   ///----------end------------///
 
   const cStyle = {

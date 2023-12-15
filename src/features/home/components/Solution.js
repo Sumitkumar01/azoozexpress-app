@@ -12,12 +12,12 @@ function Solution() {
         </div>
       </section>
       {/* items */}
-      <div className="container">
+      <div className="container solution">
         <section>
           <div className="row">
             <section className="col-lg-4 col-md-4 col-sm-12  p-2">
               <div className="row bg-warning br  m-0">
-                <div className="col-4 d-flex m-0  p-1   aling-items-center justify-content-center  ">
+                <div className="col-2 d-flex m-0  p-1   aling-items-center justify-content-center  ">
                   <img
                     src="https://azoozexpress.com/wp-content/uploads/2023/07/Group-4.png"
                     className="img-fluid"
@@ -25,7 +25,7 @@ function Solution() {
                   />
                 </div>
 
-                <div className="col-8 d-flex m-0  p-2  m-0 aling-items-center ">
+                <div className="col-9 d-flex m-0  p-3  m-0 aling-items-center ">
                   <h2 className="fs-6 ff-p fw-medium">
                     Documents and Parcel Delivery
                   </h2>
@@ -34,7 +34,7 @@ function Solution() {
             </section>
             <section className="col-lg-4 col-md-4 col-sm-12  p-2">
               <div className="row aling-items-center bg-warning br  m-0">
-                <div className="col-4 d-flex m-0  p-1   aling-items-center  ">
+                <div className="col-2 d-flex m-0  p-1   aling-items-center  ">
                   <img
                     loading="lazy"
                     decoding="async"
@@ -45,14 +45,14 @@ function Solution() {
                     alt=""
                   />
                 </div>
-                <div className="col-8 d-flex m-0  p-2  m-0 aling-items-center ">
+                <div className="col-9 d-flex m-0  p-3  m-0 aling-items-center ">
                   <h2 className="fs-6 ff-p">Confidential Documents Deliver</h2>
                 </div>
               </div>
             </section>
             <section className="col-lg-4 col-md-4 col-sm-12  p-2">
               <div className="row aling-items-center  bg-warning br  m-0">
-                <div className="col-4 d-flex m-0  p-1   aling-items-center  ">
+                <div className="col-2 d-flex m-0  p-1   aling-items-center  ">
                   <img
                     loading="lazy"
                     decoding="async"
@@ -63,7 +63,7 @@ function Solution() {
                     alt=""
                   />
                 </div>
-                <div className="col-8 d-flex m-0  p-2  m-0 aling-items-center ">
+                <div className="col-9 d-flex m-0  p-3  m-0 aling-items-center ">
                   <h2 className="fs-6 ff-p ">Corporate Mail Bags Services</h2>
                 </div>
               </div>
@@ -74,7 +74,7 @@ function Solution() {
           <div className="row">
             <section className="col-lg-4 col-md-4 col-sm-12  p-2">
               <div className="row aling-items-center bg-warning br  m-0">
-                <div className="col-4 d-flex m-0  p-1   aling-items-center justify-content-center">
+                <div className="col-2 d-flex m-0  p-1   aling-items-center justify-content-center">
                   <img
                     loading="lazy"
                     decoding="async"
@@ -86,7 +86,7 @@ function Solution() {
                   />
                 </div>
 
-                <div className="col-8 d-flex m-0  p-2  m-0 aling-items-center ">
+                <div className="col-9 d-flex m-0  p-3  m-0 aling-items-center ">
                   <h2 className="fs-6 ff-p fw-medium">
                     Corporate Mail Room Management
                   </h2>
@@ -95,7 +95,7 @@ function Solution() {
             </section>
             <section className="col-lg-4 col-md-4 col-sm-12  p-2">
               <div className="row aling-items-center bg-warning br  m-0">
-                <div className="col-4 d-flex m-0  p-1   aling-items-center justify-content-center">
+                <div className="col-2 d-flex m-0  p-1   aling-items-center justify-content-center">
                   <img
                     loading="lazy"
                     decoding="async"
@@ -106,14 +106,14 @@ function Solution() {
                     alt=""
                   />
                 </div>
-                <div className="col-8 d-flex m-0  p-2  m-0 aling-items-center ">
+                <div className="col-9 d-flex m-0  p-3  m-0 aling-items-center ">
                   <h2 className="fs-6 ff-p fw-medium">Cash on Delivery(COD)</h2>
                 </div>
               </div>
             </section>
             <section className="col-lg-4 col-md-4 col-sm-12  p-2">
               <div className="row aling-items-center bg-warning br  m-0">
-                <div className="col-4 d-flex m-0  p-1   aling-items-center justify-content-center">
+                <div className="col-2 d-flex m-0  p-1   aling-items-center justify-content-center">
                   <img
                     loading="lazy"
                     decoding="async"
@@ -124,7 +124,7 @@ function Solution() {
                     alt=""
                   />
                 </div>
-                <div className="col-8 d-flex m-0  p-2  m-0 aling-items-center ">
+                <div className="col-9 d-flex m-0  p-3  m-0 aling-items-center ">
                   <h2 className="fs-6 ff-p fw-medium">
                     Same-Day Courier Service
                   </h2>
@@ -137,7 +137,7 @@ function Solution() {
           <div className="row ">
             <section className="col-lg-4 col-md-4 col-sm-12  p-2">
               <div className="row aling-items-center  bg-warning br  m-0">
-                <div className="col-4 d-flex m-0  p-1   aling-items-center justify-content-center">
+                <div className="col-2 d-flex m-0  p-1   aling-items-center justify-content-center">
                   <img
                     loading="lazy"
                     decoding="async"
@@ -149,14 +149,14 @@ function Solution() {
                   />
                 </div>
 
-                <div className="col-8 d-flex m-0  p-2  m-0 aling-items-center">
+                <div className="col-9 d-flex m-0  p-3  m-0 aling-items-center">
                   <h2 className="fs-6 ff-p fw-medium">Courier on Call</h2>
                 </div>
               </div>
             </section>
             <section className="col-lg-4 col-md-4 col-sm-12  p-2">
               <div className="row aling-items-center  bg-warning br  m-0">
-                <div className="col-4 d-flex m-0  p-1   aling-items-center justify-content-center">
+                <div className="col-2 d-flex m-0  p-1   aling-items-center justify-content-center">
                   <img
                     loading="lazy"
                     decoding="async"
@@ -167,14 +167,14 @@ function Solution() {
                     alt=""
                   />
                 </div>
-                <div className="col-8 d-flex m-0  p-2  m-0 aling-items-center ">
+                <div className="col-9 d-flex m-0  p-3  m-0 aling-items-center ">
                   <h2 className="fs-6 ff-p fw-medium">Drop and Ship</h2>
                 </div>
               </div>
             </section>
             <section className="col-lg-4 col-md-4 col-sm-12  p-2">
               <div className="row aling-items-center  bg-warning br  m-0">
-                <div className="col-4 d-flex m-0  p-1   aling-items-center justify-content-center">
+                <div className="col-2 d-flex m-0  p-1   aling-items-center justify-content-center">
                   <img
                     loading="lazy"
                     decoding="async"
@@ -185,7 +185,7 @@ function Solution() {
                     alt=""
                   />
                 </div>
-                <div className="col-8 d-flex m-0  p-2  m-0 aling-items-center ">
+                <div className="col-9 d-flex m-0  p-3  m-0 aling-items-center ">
                   <h2 className="fs-6 ff-p fw-medium">Fulfilment service</h2>
                 </div>
               </div>

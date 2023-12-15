@@ -20,7 +20,7 @@ function CCTestimonials() {
         className="container my-lg-5 testimonials my-md-4 my-sm-0 bg-black p-lg-2 pt-4"
         style={{ borderRadius: "1rem 1rem 1rem 3rem" }}
       >
-        <div className="container my-lg-5 ">
+        <div className="container my-lg-3 ">
           <H2tag header_text={textAria} className={textCN} />
         </div>
         <div className="container  ">

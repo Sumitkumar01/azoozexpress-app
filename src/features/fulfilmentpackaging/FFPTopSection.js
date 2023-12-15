@@ -17,8 +17,9 @@ function FFPTopSection() {
   const headertext5col1 = "Save money with cuty know-how";
 
  
-  const col1HCn = "text-uppercase text-black fs-5 ff-m fw-semibold lh-base m-0";
-  const pCName = "text-black fs-6 ff-m fw-normal m-0";
+  const col1HCn =
+    "text-uppercase text-black fs-5 ff-m fw-semibold lh-base px-lg-4 p-0";
+  const pCName = "text-black fs-5 px-lg-4 p-0 ff-m fw-normal m-0";
   const iconDiv = "d-flex my-1 mx-2";
   const icon = <IoMdCheckmarkCircle className="text-danger fs-5" />;
 

@@ -6,7 +6,10 @@ function OurProcessSection() {
       <section className="pt-5">
         <div>
           <div className="text-center">
-            <h5 className="fw-bolder fs-3 ff-m an-fade-out" style={{ color: "#273679" }}>
+            <h5
+              className="fw-bolder fs-3 ff-m an-fade-out"
+              style={{ color: "#273679" }}
+            >
               OUR PROCESS
             </h5>
           </div>
@@ -44,9 +47,9 @@ function OurProcessSection() {
         <div className="container my-5">
           <>
             <div className="row">
-              <div className="col-lg-4 p-2">
+              <div className="col-lg-4 p-2 ">
                 <div
-                  className="p-2 d-flex align-items-end justify-content-center"
+                  className="p-2 d-flex align-items-end justify-content-center box-shadow"
                   style={{
                     backgroundImage:
                       "url(https://azoozexpress.com/wp-content/uploads/2023/07/Group-131.png)",
@@ -63,7 +66,7 @@ function OurProcessSection() {
               </div>
               <div className="col-lg-4 p-2">
                 <div
-                  className="p-2 d-flex align-items-end justify-content-center bg-dark"
+                  className="p-2 d-flex align-items-end justify-content-center bg-dark box-shadow"
                   style={{
                     backgroundImage:
                       "url(https://azoozexpress.com/wp-content/uploads/2023/07/Group-132.png)",
@@ -80,7 +83,7 @@ function OurProcessSection() {
               </div>
               <div className="col-lg-4 p-2">
                 <div
-                  className="p-2 d-flex align-items-end justify-content-center"
+                  className="p-2 d-flex align-items-end justify-content-center box-shadow"
                   style={{
                     backgroundImage:
                       "url(https://azoozexpress.com/wp-content/uploads/2023/07/Group-133.png)",

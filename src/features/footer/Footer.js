@@ -75,98 +75,95 @@ function Footer() {
                       </div>
                       <div className="col-lg-2 col-md-3 d-sm-none d-md-block d-lg-block d-none">
                         <div>
-                          <div>
+                          
                             <div className="ft-title-block-1">
                               <h6 className="an-fade-in-left text-white text-md-start text-xs-center text-lg-start fw-semibold fs-4 ff-m">
                                 Company
                               </h6>
                             </div>
-                          </div>
+                          
+
                           <div>
-                            <div>
-                              <nav>
-                                <ul className="navbar-nav">
-                                  <li className="nav-item text-white text-md-start text-xs-center text-lg-start fw-normal">
-                                    <Link
-                                      to="/"
-                                      aria-current="page"
-                                      className="nav-link nav-pad nav-text active"
-                                    >
-                                      Home
-                                    </Link>
-                                  </li>
-                                  <li className="nav-item text-white text-md-start text-xs-center text-lg-start fw-normal">
-                                    <Link
-                                      to="/azooz-about-page/"
-                                      className="nav-link nav-text nav-pad"
-                                    >
-                                      About
-                                    </Link>
-                                  </li>
-                                  <li className="nav-item text-white text-md-start text-xs-center text-lg-start fw-normal">
-                                    <Link
-                                      to="https://azoozexpress.com/azooz-contact-page/"
-                                      className="nav-link nav-text nav-pad"
-                                    >
-                                      Contact
-                                    </Link>
-                                  </li>
-                                  <li className="nav-item text-white dropdown text-md-start text-xs-center text-lg-start fw-normal">
-                                    <Link
-                                      to="#"
-                                      className="nav-link nav-pad dropdown-toggle"
-                                    >
-                                      Services
-                                    </Link>
-                                    <ul className="dropdown-menu">
-                                      <li className="dropdown-item">
-                                        <Link
-                                          to="https://azoozexpress.com/freight-forwading/"
-                                          className="elementor-sub-item"
-                                        >
-                                          Freight Forwading
-                                        </Link>
-                                      </li>
-                                      <li className="dropdown-item">
-                                        <Link
-                                          to="https://azoozexpress.com/customs-clearance/"
-                                          className="elementor-sub-item"
-                                        >
-                                          Customs Clearance
-                                        </Link>
-                                      </li>
-                                      <li className="dropdown-item">
-                                        <Link
-                                          to="https://azoozexpress.com/fulfilment-and-packaging/"
-                                          className="elementor-sub-item"
-                                        >
-                                          Fulfilment and Packaging
-                                        </Link>
-                                      </li>
-                                      <li className="dropdown-item">
-                                        <Link
-                                          to="https://azoozexpress.com/storage-temperature-controlled/"
-                                          className="elementor-sub-item"
-                                        >
-                                          Storage (Temperature Controlled)
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                  </li>
-                                </ul>
-                              </nav>
-                            </div>
+                            <nav>
+                              <ul className="navbar-nav footer-nav">
+                                <li className="nav-item text-white text-md-start text-xs-center text-lg-start fw-normal">
+                                  <Link
+                                    to="/"
+                                    aria-current="page"
+                                    className="nav-link nav-pad nav-text"
+                                  >
+                                    Home
+                                  </Link>
+                                </li>
+                                <li className="nav-item text-white text-md-start text-xs-center text-lg-start fw-normal">
+                                  <Link
+                                    to="/azooz-about-page"
+                                    className="nav-link nav-text nav-pad"
+                                  >
+                                    About
+                                  </Link>
+                                </li>
+                                <li className="nav-item text-white text-md-start text-xs-center text-lg-start fw-normal">
+                                  <Link
+                                    to="/azooz-contact-page"
+                                    className="nav-link nav-text nav-pad"
+                                  >
+                                    Contact
+                                  </Link>
+                                </li>
+                                <li className="nav-item text-white dropdown text-md-start text-xs-center text-lg-start fw-normal">
+                                  <Link
+                                    to="#"
+                                    className="nav-link nav-pad dropdown-toggle"
+                                  >
+                                    Services
+                                  </Link>
+                                  <ul className="dropdown-menu">
+                                    <li className="dropdown-item">
+                                      <Link
+                                        to="/freight-forwading"
+                                        className="elementor-sub-item"
+                                      >
+                                        Freight Forwading
+                                      </Link>
+                                    </li>
+                                    <li className="dropdown-item">
+                                      <Link
+                                        to="/customs-clearance"
+                                        className="elementor-sub-item"
+                                      >
+                                        Customs Clearance
+                                      </Link>
+                                    </li>
+                                    <li className="dropdown-item">
+                                      <Link
+                                        to="/fulfilment-and-packaging"
+                                        className="elementor-sub-item"
+                                      >
+                                        Fulfilment and Packaging
+                                      </Link>
+                                    </li>
+                                    <li className="dropdown-item">
+                                      <Link
+                                        to="/storage-temperature-controlled"
+                                        className="elementor-sub-item"
+                                      >
+                                        Storage (Temperature Controlled)
+                                      </Link>
+                                    </li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </nav>
                           </div>
                         </div>
                       </div>
                       <div className="col-lg-4 col-md-3 col-sm-12 py-xs-5">
                         <div className="">
-                          <div>
-                            <div className="mb-3 pb-0">
-                              <h6 className="elementor-heading-title an-fade-in-left text-white text-center  text-md-start  text-lg-start fw-semibold mb-2 fs-4 ff-m">
-                                Reach Out to us
-                              </h6>
-                            </div>
+                          <div className="mb-3 pb-0">
+                            <h6 className="elementor-heading-title an-fade-in-left text-white text-center  text-md-start  text-lg-start fw-semibold mb-2 fs-4 ff-m">
+                              Reach Out to us
+                            </h6>
                           </div>
                           <div className="an-fade-up">
                             <ul className="list-group bg-black border-0 rounded-0 text-md-start text-center text-lg-start fs-normal">

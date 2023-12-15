@@ -5,7 +5,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import "./Navbar.css";
 
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const navigation = [
   { name: "Home", link: "/" },
@@ -46,8 +46,9 @@ function NavBar() {
           <Nav className="mx-lg-3 mx-md-3 ps-lg-3 ps-md-3">
             {navigation.map((item) => (
               <Nav.Link
-                as={Link}
+                as={NavLink}
                 to={item.link}
+                // activeClassName="active-link"
                 className="fs-5 text-light ff-m text-md-center  text-lg-start bg-sm-warning bg-md-warning"
               >
                 {item.name}
@@ -60,9 +61,10 @@ function NavBar() {
             >
               {servicesNavigation.map((item) => (
                 <NavDropdown.Item
-                  as={Link}
+                  as={NavLink}
                   to={item.link}
-                  className="text-danger bg-warning text-md-center  text-lg-start ff-p"
+                  // activeClassName="active-link"
+                  className="text-danger bg-warning text-md-center  text-lg-start ff-p p-2"
                 >
                   {item.name}
                 </NavDropdown.Item>

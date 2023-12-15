@@ -31,7 +31,9 @@ function STCTopSection() {
   const pText_6 =
     "Azooz Express offers complete end-to-end temperature-controlled logistics solutions to the largest number of origin destinations in the country.";
   const col1HCn = "text-uppercase text-black fs-5 ff-m fw-semibold lh-base m-0";
-  const pCName = "text-black fs-6 ff-m fw-normal m-0";
+  const pCName = "text-black fs-5 ff-m fw-normal mb-3 px-lg-3";
+  const pcCName = "text-black fs-6 ff-m fw-normal mb-2 lh-base";
+
   const iconDiv = "d-flex mx-2 my-1";
   const icon = <IoMdCheckmarkCircle className="text-danger fs-5" />;
 
@@ -40,7 +42,7 @@ function STCTopSection() {
   };
 
   const otRow = "row ps-lg-5 p-sm-1 position-relative";
-  const col1 = `col-lg-8 col-md-8 col-sm-12 bg-warning  px-sm-3 h-25`;
+  const col1 = `col-lg-8 col-md-8 col-sm-12 bg-warning py-2  px-3`;
   const col2 = "col-lg-4 col-md-4 d-none d-lg-block d-md-block";
   const inRow = "row m-0 p-2";
   const inCol1 = "col-12 m-0 p-0 d-flex h-25";
@@ -59,7 +61,7 @@ function STCTopSection() {
           spanClassName={spanClassName}
         />
         <div className="container">
-          <p className={pCName }>
+          <p className={pCName}>
             <span className="text-danger">Our Temperature Controlled </span>
             Logistics Solutions present a secure and validated supply chain for
             your needs, integrating Oman’s leading logistics network with an
@@ -81,52 +83,52 @@ function STCTopSection() {
                 <div className={iconDiv}>{icon}</div>
                 <div>
                   <H2tag header_text={headertextcol1} className={col1HCn} />
-                  <Ptag ptext={pText_1} pCName={pCName} />
+                  <Ptag ptext={pText_1} pCName={pcCName} />
                 </div>
               </div>
               <div className={inCol1}>
                 <div className={iconDiv}>{icon}</div>
                 <div>
                   <H2tag header_text={headertext2col1} className={col1HCn} />
-                  <Ptag ptext={pText_2} pCName={pCName} />
+                  <Ptag ptext={pText_2} pCName={pcCName} />
                 </div>
               </div>
               <div className={inCol1}>
                 <div className={iconDiv}>{icon}</div>
                 <div>
                   <H2tag header_text={headertext3col1} className={col1HCn} />
-                  <Ptag ptext={pText_3} pCName={pCName} />
+                  <Ptag ptext={pText_3} pCName={pcCName} />
                 </div>
               </div>
               <div className={inCol1}>
                 <div className={iconDiv}>{icon}</div>
                 <div>
                   <H2tag header_text={headertext4col1} className={col1HCn} />
-                  <Ptag ptext={pText_4} pCName={pCName} />
+                  <Ptag ptext={pText_4} pCName={pcCName} />
                 </div>
               </div>
               <div className={inCol1}>
                 <div className={iconDiv}>{icon}</div>
                 <div>
                   <H2tag header_text={headertext5col1} className={col1HCn} />
-                  <Ptag ptext={pText_5} pCName={pCName} />
+                  <Ptag ptext={pText_5} pCName={pcCName} />
                 </div>
               </div>
               <div className={inCol1}>
                 <div className={iconDiv}>{icon}</div>
                 <div>
                   <H2tag header_text={headertext6col1} className={col1HCn} />
-                  <Ptag ptext={pText_6} pCName={pCName} />
+                  <Ptag ptext={pText_6} pCName={pcCName} />
                 </div>
               </div>
             </div>
           </div>
           <div className={col2}>
-            <div className={imgDivCN} >
+            <div className={imgDivCN}>
               <ImgTag
                 img_url={imgUrl}
                 alt_text={"Avatar img"}
-                style={{marginInline: "-11%"}}
+                style={{ marginInline: "-11%" }}
               />
             </div>
           </div>

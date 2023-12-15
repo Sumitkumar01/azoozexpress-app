@@ -10,7 +10,7 @@ function CCSecondSection() {
     "text-uppercase  fs-1 text-danger fw-bolder ff-m text-center";
   const pTextTop =
     "At Azzoz Express, our customs clearance services keep things simple and stress-free. Here’s what we cover for you :";
-  const pTCName = "text-black text-center  m-0 fs-6 ff-m fw-normal";
+  const pTCName = "text-black text-center  mt-2 fs-6 ff-m fw-normal";
   const headertextcol1 = "Preparing and submitting documents";
   const headertext2col1 = "arranging custom inspection if required";
   const headertext3col1 = "assessment";
@@ -26,7 +26,7 @@ function CCSecondSection() {
     "No hidden duty charges – just clear and transparent transactions. Azooz Express handles processing and paying the required duties on your behalf.";
 
   const col1HCn = "text-uppercase text-black fs-5 ff-m fw-semibold lh-base m-0";
-  const pCName = "text-black fs-6 ff-m fw-normal m-0";
+  const pCName = "text-black fs-6 ff-m fw-normal mb-3 lh-base";
   const iconDiv = "d-flex m-2";
   const icon = <IoMdCheckmarkCircle className="text-danger fs-5" />;
 

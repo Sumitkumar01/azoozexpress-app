@@ -31,7 +31,7 @@ function AboutUsCard() {
   const cardCName = "pb-2 mb-5 me-4 bg-warning aling-items-center py-3 px-2";
   const cardBodyCName = "mb-5 mx-lg-5";
   const cardTitleCName = "ff-m fw-bolder fs-1 text-center p-0";
-  const cardTextCName = "ff-p fs-6 text-center p-0";
+  const cardTextCName = "ff-p fs-6 text-center  lh-base p-0";
   const cardImgDivCName =
     "d-flex aling-items-center justify-content-center m-auto";
 

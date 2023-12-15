@@ -44,8 +44,8 @@ function FFThridSection() {
     </>
   );
   return (
-    <div className="bg-warning">
-      <div className="container py-3">
+    <div className="bg-warning ">
+      <div className="container py-5">
         <Column2Layout
           rClass={otRCName}
           col1Class={col1Class}

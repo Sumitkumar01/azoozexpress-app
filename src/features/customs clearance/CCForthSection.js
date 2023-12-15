@@ -45,7 +45,7 @@ function CCForthSection() {
   );
   return (
     <div className="bg-warning">
-      <div className="container ">
+      <div className="container p-5">
         <Column2Layout
           rClass={otRCName}
           col1Class={col1Class}

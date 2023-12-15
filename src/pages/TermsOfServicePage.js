@@ -1,15 +1,21 @@
 import React from 'react'
+import Navbar from '../features/navbar/Navbar'
 import Footer from '../features/footer/Footer';
+import NavBar from '../features/navbar/Navbar';
 
 function TermsOfServicePage() {
 
   const entrytitle ="fs-1 ff-r fw-bold"
-  const pageHeader ="p-3"
+  const pageHeader ="py-3 "
   const BlockHeading="fs-3 ff-r bold"
   const wpBlockHeading="fs-4 ff-r bold"
   const pCName="ff-p fs-6"
   return (
     <div>
+      <div className='bg-dark'>
+        <NavBar />
+      </div>
+
       <div className="container m-t">
         <header className={pageHeader}>
           <h1 className={entrytitle}>Terms of Service</h1>

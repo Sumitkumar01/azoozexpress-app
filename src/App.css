@@ -23,7 +23,9 @@
   left: 0;
   opacity: 0.35;
 }
-
+ .box-shadow{
+  box-shadow: -12px 12px 22px 0px rgba(0, 0, 0, 0.75);
+ }
 
 .header {
   background-image: url(https://azoozexpress.com/wp-content/uploads/2023/07/azooz-home-page-banner-1.png);
@@ -169,6 +171,11 @@
 .navbar-toggler-icon {
   color: #ffffff !important;
   background-color: #fdc80a !important;
+}
+
+.solution img{
+  width:2.8rem;
+  height: 3.1rem;
 }
 
 .social-icon-text {
