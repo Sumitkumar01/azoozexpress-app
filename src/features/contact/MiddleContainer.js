@@ -2,6 +2,7 @@ import React from "react";
 import H2tag from "../common/H2tag";
 import ImgTag from "../common/ImgTag";
 import Column2Layout from "../common/Column2Layout";
+import myimg from './img/1-1.png'
 
 function MiddleContainer() {
   const otCol1Class = "col-lg-6 col-md-6 col-sm-12 p-4";
@@ -11,7 +12,7 @@ function MiddleContainer() {
   const header_text = "Get a free quote";
   const className = "text-Uppercase fs-1 p-o fw-bold ff-m";
 
-  const imgUrl = "http://65.1.2.151/wp-content/uploads/2023/07/1-1.png";
+  const imgUrl = myimg;
   const altText = "Avatar image";
   const col1Content = (
     <>
