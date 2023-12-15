@@ -33,7 +33,7 @@ function Testimonials() {
             >
               <div className="carousel-inner">
                 <div className="carousel-item active">
-                  <div className="card">
+                  <div className="card" style={{ height: "22.53rem" }}>
                     <div className="card-body">
                       <ul className="f-st">
                         <li className="list-group-item">
@@ -103,7 +103,7 @@ function Testimonials() {
                   </div>
                 </div>
                 <div className="carousel-item">
-                  <div className="card">
+                  <div className="card" style={{ height: "22.53rem" }}>
                     <div className="card-body">
                       <ul className="f-st">
                         <li className="list-group-item">
@@ -177,7 +177,7 @@ function Testimonials() {
                   </div>
                 </div>
                 <div className="carousel-item">
-                  <div className="card">
+                  <div className="card" style={{ height: "22.53rem" }}>
                     <div className="card-body">
                       <ul className="f-st">
                         <li className="list-group-item">
@@ -239,8 +239,8 @@ function Testimonials() {
                           <h5 className="card-title text-end ff-p fs-5">
                             Syeda Samaera
                           </h5>
-                          <span className="card-title text-end ff-p fs-6">
-                            E-Commerce Store Owner
+                          <span className="card-title text-center ff-p fs-6">
+                          E-Commerce Store Owner
                           </span>
                         </div>
                         <div className="ms-auto mt-auto">
@@ -251,7 +251,7 @@ function Testimonials() {
                   </div>
                 </div>
                 <div className="carousel-item">
-                  <div className="card">
+                  <div className="card" style={{ height: "22.53rem" }}>
                     <div className="card-body">
                       <ul className="f-st">
                         <li className="list-group-item">
@@ -281,10 +281,10 @@ function Testimonials() {
                         </li>
                       </ul>
                       <p className="card-text fs-6 ff-p ">
-                        Choosingle Azooz Express as my courier service in Oman was
-                        a great decision. Their international shipments always
-                        arrive on time and in perfect condition, making them a
-                        reliable partner for my business.
+                        Choosingle Azooz Express as my courier service in Oman
+                        was a great decision. Their international shipments
+                        always arrive on time and in perfect condition, making
+                        them a reliable partner for my business.
                       </p>
                       <div
                         className="card flex-row border-0"
@@ -325,7 +325,7 @@ function Testimonials() {
                   </div>
                 </div>
                 <div className="carousel-item">
-                  <div className="card">
+                  <div className="card" style={{ height: "22.53rem" }}>
                     <div className="card-body">
                       <ul className="f-st">
                         <li className="list-group-item">
@@ -677,11 +677,11 @@ function Testimonials() {
                                 </li>
                               </ul>
                               <p className="card-text fs-6 ff-p ">
-                                Choosingle Azooz Express as my courier service in
-                                Oman was a great decision. Their international
-                                shipments always arrive on time and in perfect
-                                condition, making them a reliable partner for my
-                                business.
+                                Choosingle Azooz Express as my courier service
+                                in Oman was a great decision. Their
+                                international shipments always arrive on time
+                                and in perfect condition, making them a reliable
+                                partner for my business.
                               </p>
                               <div
                                 className="card flex-row border-0"
