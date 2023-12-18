@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from '../features/navbar/Navbar'
 import Footer from '../features/footer/Footer';
-import NavBar from '../features/navbar/Navbar';
 
 function TermsOfServicePage() {
 
@@ -13,7 +12,7 @@ function TermsOfServicePage() {
   return (
     <div>
       <div className='bg-dark'>
-        <NavBar />
+        <Navbar />
       </div>
 
       <div className="container m-t">
