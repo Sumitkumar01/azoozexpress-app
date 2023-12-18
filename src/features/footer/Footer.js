@@ -20,7 +20,7 @@ function Footer() {
                     <div className="row">
                       <div className="col-lg-3 col-md-3 col-sm-12 ">
                         <Row className="flex-column">
-                          <div className="col d-flex justify-content-center mb-4 an-fade-up">
+                          <div className="col d-flex justify-content-center mb-4 animation-fade-up">
                             <div>
                               <img
                                 width="150"
@@ -76,7 +76,7 @@ function Footer() {
                         <div>
                           
                             <div className="ft-title-block-1">
-                              <h6 className="an-fade-in-left text-white text-md-start text-xs-center text-lg-start fw-semibold fs-4 ff-m">
+                              <h6 className="animation-fade-from-right text-white text-md-start text-xs-center text-lg-start fw-semibold fs-4 ff-m">
                                 Company
                               </h6>
                             </div>
@@ -160,11 +160,11 @@ function Footer() {
                       <div className="col-lg-4 col-md-3 col-sm-12 py-xs-5">
                         <div className="">
                           <div className="mb-3 pb-0">
-                            <h6 className="elementor-heading-title an-fade-in-left text-white text-center  text-md-start  text-lg-start fw-semibold mb-2 fs-4 ff-m">
+                            <h6 className="elementor-heading-title animation-fade-from-right text-white text-center  text-md-start  text-lg-start fw-semibold mb-2 fs-4 ff-m">
                               Reach Out to us
                             </h6>
                           </div>
-                          <div className="an-fade-up">
+                          <div className="animation-fade-up">
                             <ul className="list-group bg-black border-0 rounded-0 text-md-start text-center text-lg-start fs-normal">
                               <li className="list-group-item bg-black text-white border-0 elementor-icon-list-text p-0">
                                 <span className="list-icon">

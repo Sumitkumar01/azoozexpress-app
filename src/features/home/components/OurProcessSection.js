@@ -7,7 +7,7 @@ function OurProcessSection() {
         <div>
           <div className="text-center">
             <h5
-              className="fw-bolder fs-3 ff-m an-fade-out"
+              className="fw-bolder fs-3 ff-m animation-fade-out"
               style={{ color: "#273679" }}
             >
               OUR PROCESS
@@ -15,7 +15,7 @@ function OurProcessSection() {
           </div>
           <div>
             <div className="container text-center">
-              <h2 className="fs-1 lh-base text-danger fw-bolder ff-m an-fade-up">
+              <h2 className="fs-1 lh-base text-danger fw-bolder ff-m animation-fade-up">
                 WHAT DO WE DO?
               </h2>
             </div>

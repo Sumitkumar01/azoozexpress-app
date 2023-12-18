@@ -28,7 +28,7 @@ function HeaderTopSection() {
 
               <div className="py-3">
                 <div
-                  className="fw-bold  an-fade-in-left lh-base text dark"
+                  className="fw-bold  animation-fade-from-right lh-base text dark"
                   style={{ textAlign: "justify" }}
                 >
                   Our delivery management business is built on speed, security,
@@ -39,7 +39,7 @@ function HeaderTopSection() {
               </div>
               <section>
                 <div className="row p-0 m-0">
-                  <div className="col-2 p-0 an-fade-right justify-content-center d-flex align-items-center">
+                  <div className="col-2 p-0 animation-fade-from-left justify-content-center d-flex align-items-center">
                     <Link href="https://wa.me/+96896586404">
                       <img
                         decoding="async"
@@ -67,7 +67,7 @@ function HeaderTopSection() {
               </section>
               <section>
                 <div className="row m-0 p-0">
-                  <div className="col-2 p-0 m-0 justify-content-center d-flex align-items-center an-fade-right">
+                  <div className="col-2 p-0 m-0 justify-content-center d-flex align-items-center animation-fade-from-left">
                     <img
                       decoding="async"
                       width="87"

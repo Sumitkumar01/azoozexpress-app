@@ -10,14 +10,14 @@ function Delivered() {
               <div className="row m-0">
                 <div className="col-12 ps-1">
                   <div className="mt-lg-2 mt-sm-0 pt-sm-3 pt-5">
-                    <h2 className="ff-m fs-3 an-fade-up text-danger fw-bolder text-uppercase text-center  text-md-start  text-lg-star">
+                    <h2 className="ff-m fs-3 animation-fade-up text-danger fw-bolder text-uppercase text-center  text-md-start  text-lg-star">
                       WE value your packages AS MUCH AS you do
                     </h2>
                   </div>
                 </div>
                 <div className="col-12 ps-1">
                   <div className="m-lg-0 px-4 p-lg-0">
-                    <p className="text-md-start ff-p fs-6 an-fade-in-left  text-lg-star">
+                    <p className="text-md-start ff-p fs-6 animation-fade-from-right  text-lg-star">
                       Packages are sensitive and moving them is tiring, so we
                       take care of them for you.
                     </p>
