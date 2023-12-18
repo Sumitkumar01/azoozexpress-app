@@ -10,7 +10,6 @@ import FulfilmentPackagingPage from "./pages/FulfilmentPackagingPage";
 import StorageTemperatureControlledPage from "./pages/StorageTemperatureControlledPage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import TermsOfServicePage from "./pages/TermsOfServicePage";
-import WhatsApp from "./features/chat/WhatsApp";
 
 const router = createBrowserRouter([
   {
