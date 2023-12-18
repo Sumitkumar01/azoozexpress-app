@@ -29,6 +29,15 @@
     background-color: #ea266727;
 }
 
-/* .dropdown-menu .show .dropdown-item:hover  {
-    background-color: #E01C2C;
-} */
+
+
+.nav-dropdown-menu {
+    color: #E01C2C !important;
+    background-color: #fdc80a !important;
+}
+
+
+.nav-dropdown-menu:hover {
+    background-color: #E01C2C !important;
+    color: #fdc80a !important;
+}

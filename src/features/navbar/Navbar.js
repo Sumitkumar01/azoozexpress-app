@@ -64,7 +64,7 @@ function NavBar() {
                   as={NavLink}
                   to={item.link}
                   // activeClassName="active-link"
-                  className="text-danger bg-warning text-md-center  text-lg-start ff-p p-2"
+                  className="nav-dropdown-menu text-md-center  text-lg-start ff-p p-2"
                 >
                   {item.name}
                 </NavDropdown.Item>
