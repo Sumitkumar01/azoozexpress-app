@@ -1,5 +1,20 @@
 import React from "react";
 import Card from "../common/Card.js";
+import {
+  Autoplay,
+  Navigation,
+  Pagination,
+  // Scrollbar,
+  // A11y,
+} from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+
+// Import Swiper styles
+import "swiper/css";
 
 function AboutUsCard() {
   // ------ card-1--------- //
@@ -44,9 +59,6 @@ function AboutUsCard() {
     margin: "auto",
   };
 
-  
-
-
   return (
     <>
       <div className="container d-none d-sm-none d-md-block d-lg-block">
@@ -85,42 +97,62 @@ function AboutUsCard() {
       {/* slider for mobile device */}
       <div className="container  d-sm-block d-md-none d-lg-none">
         <div className="container my-4 pe-2 d-sm-block d-lg-none d-md-none">
-          <div
-            id="lgScrSlider"
-            className="carousel slide ms-4"
-            data-bs-ride="carousel"
+          <Swiper
+          loop={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            navigation={false}
+            modules={[Autoplay, Pagination, Navigation]}
+            spaceBetween={10}
+            slidesPerView={4}
+            onSwiper={(swiper) => console.log(swiper)}
+            onSlideChange={() => console.log("slide change")}
+            breakpoints={{
+              0: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+              },
+              480: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+              },
+            }}
+            className="ms-4"
           >
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <Card
-                  cardTitle={cardTitleText_1}
-                  cardText={cardText_1}
-                  imgUrl={imgUrl_1}
-                  altText={altText_1}
-                  cardClassName={cardCName}
-                  cardBodyClassName={cardBodyCName}
-                  cardTitleClassName={cardTitleCName}
-                  cardTextClassName={cardTextCName}
-                  cardImgClassName={cardImgDivCName}
-                  customStyle={cStyle}
-                />
-              </div>
-              <div className="carousel-item ">
-                <Card
-                  cardTitle={cardTitleText_2}
-                  cardText={cardText_2}
-                  imgUrl={imgUrl_2}
-                  altText={altText_2}
-                  cardClassName={cardCName}
-                  cardBodyClassName={cardBodyCName}
-                  cardTitleClassName={cardTitleCName}
-                  cardTextClassName={cardTextCName}
-                  cardImgClassName={cardImgDivCName}
-                  customStyle={cStyle}
-                />
-              </div>
-            </div>
-          </div>
+            <SwiperSlide>
+              <Card
+                cardTitle={cardTitleText_1}
+                cardText={cardText_1}
+                imgUrl={imgUrl_1}
+                altText={altText_1}
+                cardClassName={cardCName}
+                cardBodyClassName={cardBodyCName}
+                cardTitleClassName={cardTitleCName}
+                cardTextClassName={cardTextCName}
+                cardImgClassName={cardImgDivCName}
+                customStyle={cStyle}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Card
+                cardTitle={cardTitleText_2}
+                cardText={cardText_2}
+                imgUrl={imgUrl_2}
+                altText={altText_2}
+                cardClassName={cardCName}
+                cardBodyClassName={cardBodyCName}
+                cardTitleClassName={cardTitleCName}
+                cardTextClassName={cardTextCName}
+                cardImgClassName={cardImgDivCName}
+                customStyle={cStyle}
+              />
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </>
