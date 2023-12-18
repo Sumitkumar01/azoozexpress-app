@@ -2,6 +2,16 @@ import React from "react";
 import H2tag from "../common/H2tag";
 import ImgTag from "../common/ImgTag";
 
+import {
+  Autoplay,
+  Navigation,
+} from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+
 function FFTestimonials() {
   const textAria = "Testimonials";
   const textCN = "ff-m fs-2 fw-bold text-center text-warning text-capitalize";
@@ -9,8 +19,6 @@ function FFTestimonials() {
     "https://azoozexpress.com/wp-content/uploads/2023/11/Frame-720.png";
   const imgUrl2 =
     "https://azoozexpress.com/wp-content/uploads/2023/11/Frame-721.png";
-
-
 
   return (
     <div className="container p-lg-5 p-md-4" style={{ padding: "0" }}>
@@ -23,64 +31,61 @@ function FFTestimonials() {
         </div>
         <div className="container">
           {/* desktop slider */}
-          <div className="container my-4 d-none d-sm-none d-lg-block d-md-block">
-            <div className="row">
-              <div
-                id="lgScrSlider"
-                className="carousel slide"
-                data-bs-ride="carousel"
-              >
-                <div className="carousel-inner">
-                  <div key="item1" className="carousel-item active">
-                    <div className="row justify-content-evenly">
-                      <div className="col-6">
-                        <div className="single-box">
-                          <ImgTag img_url={imgUrl1} alt_text={""} />
-                        </div>
-                      </div>
-                      <div className="col-6">
-                        <div className="single-box">
-                          <ImgTag img_url={imgUrl2} alt_text={""} />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="carousel-item">
-                    <div className="row justify-content-evenly">
-                      <div className="col-6">
-                        <div className="single-box">
-                          <ImgTag img_url={imgUrl1} alt_text={""} />
-                        </div>
-                      </div>
-                      <div className="col-6">
-                        <div className="single-box">
-                          <ImgTag img_url={imgUrl2} alt_text={""} />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* mobile slider */}
-          <div className="container  p-2 d-sm-block d-lg-none d-md-none mobile-slider">
-            <div
-              id="lgScrSlider"
-              className="carousel slide"
-              data-bs-ride="carousel"
+          <div className="container my-4 p-2">
+            <Swiper
+              loop={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              navigation={false}
+              modules={[Autoplay, Navigation]}
+              spaceBetween={10}
+              slidesPerView={4}
+              onSwiper={(swiper) => console.log(swiper)}
+              onSlideChange={() => console.log("slide change")}
+              breakpoints={{
+                0: {
+                  slidesPerView: 1,
+                  spaceBetween: 10,
+                },
+                480: {
+                  slidesPerView: 1,
+                  spaceBetween: 10,
+                },
+                768: {
+                  slidesPerView: 2,
+                  spaceBetween: 10,
+                },
+                1024: {
+                  slidesPerView: 2,
+                  spaceBetween: 10,
+                },
+                1440: {
+                  slidesPerView: 2,
+                  spaceBetween: 10,
+                },
+              }}
             >
-              <div className="carousel-inner">
-                <div className="carousel-item active">
-                  <ImgTag img_url={imgUrl1} alt_text={""} />
-                </div>
-                <div className="carousel-item ">
-                  <ImgTag img_url={imgUrl2} alt_text={""} />
-                </div>
-              </div>
-            </div>
+              <SwiperSlide>
+                {" "}
+                <ImgTag img_url={imgUrl1} alt_text={""} />
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <ImgTag img_url={imgUrl2} alt_text={""} />
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <ImgTag img_url={imgUrl1} alt_text={""} />
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <ImgTag img_url={imgUrl2} alt_text={""} />
+              </SwiperSlide>
+            </Swiper>
           </div>
+          {/* slider end */}
         </div>
       </div>
     </div>
