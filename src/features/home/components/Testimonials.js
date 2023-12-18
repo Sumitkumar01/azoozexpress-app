@@ -73,7 +73,7 @@ function Testimonials() {
             >
               <SwiperSlide>
                 {" "}
-                <div className="card">
+                <div className="card custom-card-size">
                   <div className="card-body">
                     <ul className="f-st">
                       <li className="list-group-item">
@@ -143,7 +143,7 @@ function Testimonials() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="card">
+                <div className="card custom-card-size">
                   <div className="card-body">
                     <ul className="f-st">
                       <li className="list-group-item">
@@ -217,7 +217,7 @@ function Testimonials() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="card">
+                <div className="card custom-card-size">
                   <div className="card-body">
                     <ul className="f-st">
                       <li className="list-group-item">
@@ -291,7 +291,7 @@ function Testimonials() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="card">
+                <div className="card custom-card-size">
                   <div className="card-body">
                     <ul className="f-st">
                       <li className="list-group-item">
@@ -365,7 +365,7 @@ function Testimonials() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="card">
+                <div className="card custom-card-size">
                   <div className="card-body">
                     <ul className="f-st">
                       <li className="list-group-item">
