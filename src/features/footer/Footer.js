@@ -6,7 +6,6 @@ import { BiPhoneCall } from "react-icons/bi";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { IoMailOpenOutline } from "react-icons/io5";
 
-import "./Footer.css";
 
 function Footer() {
   return (
