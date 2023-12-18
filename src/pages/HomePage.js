@@ -12,7 +12,7 @@ import WhatsApp from "../features/chat/WhatsApp";
 
 function HomePage() {
   return (
-    <div>
+    <>
       <Header />
       <HeaderTopSection />
       <OurProcessSection />
@@ -23,7 +23,7 @@ function HomePage() {
       <ContactUsSection />
       <Footer />
       <WhatsApp/>
-    </div>
+    </>
   );
 }
 
