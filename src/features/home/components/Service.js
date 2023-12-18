@@ -198,7 +198,7 @@ function Service() {
             },
             
           }}
-          className="ms-5"
+          className="ms-3"
         >
           <SwiperSlide>
             {" "}
