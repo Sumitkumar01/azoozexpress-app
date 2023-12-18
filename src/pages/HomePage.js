@@ -7,8 +7,7 @@ import Solution from "../features/home/components/Solution";
 import Delivered from "../features/home/components/Delivered";
 import Testimonials from "../features/home/components/Testimonials";
 import ContactUsSection from "../features/home/components/ContactUsSection";
-import Footer from "../features/footer/Footer";
-import WhatsApp from "../features/chat/WhatsApp";
+// import Footer from "../features/footer/Footer";
 
 function HomePage() {
   return (
@@ -21,8 +20,7 @@ function HomePage() {
       <Delivered />
       <Testimonials />
       <ContactUsSection />
-      <Footer />
-      <WhatsApp/>
+      {/* <Footer /> */}
     </>
   );
 }

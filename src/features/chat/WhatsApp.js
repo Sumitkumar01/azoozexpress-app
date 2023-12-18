@@ -6,11 +6,7 @@ function WhatsApp() {
 
   return (
     <>
-      <div
-        className="fixed-bottom  right-0 p-3"
-        style={{ zIndex: "6", left: "initial" }}
-      >
-       
+      
 
         <Link
           to="https://wa.me/9756143731"
@@ -20,7 +16,6 @@ function WhatsApp() {
         >
           <FaWhatsapp className="fs-3"/>
         </Link>
-      </div>
     </>
   );
 }

@@ -5,7 +5,7 @@ import STCSecondSection from '../features/storage-temperature-controlled/STCSeco
 import STCThredSection from '../features/storage-temperature-controlled/STCThredSection'
 import STCTestimonials from '../features/storage-temperature-controlled/STCTestimonials'
 import Footer from '../features/footer/Footer'
-import WhatsApp from '../features/chat/WhatsApp'
+// import WhatsApp from '../features/chat/WhatsApp'
 
 function StorageTemperatureControlledPage() {
   return (
@@ -16,7 +16,7 @@ function StorageTemperatureControlledPage() {
     <STCThredSection/>
     <STCTestimonials/>
     <Footer/>
-    <WhatsApp/>
+    {/* <WhatsApp/> */}
     </>
   )
 }

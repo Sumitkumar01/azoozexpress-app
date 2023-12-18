@@ -183,9 +183,9 @@
 } */
 
 .whatsapp-button {
-  /* position: fixed; */
-  /* bottom: 3%; */
-  /* right: 7%; */
+  position: fixed;
+  bottom: 3%;
+  right: 7%;
   color: white;
   padding: 10px;
   border-radius: 50%;
@@ -199,7 +199,7 @@
   box-shadow: rgba(0, 0, 0, 0.4) 2px 2px 6px;
   transition: all 0.5s ease 0s;
   /* position: relative; */
-  /* z-index: 200; */
+  z-index: 200;
   display: block;
   border: 0px;
   background-color: rgb(77, 194, 71) !important;
