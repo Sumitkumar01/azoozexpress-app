@@ -41,11 +41,11 @@ function STCTopSection() {
     borderRadius: ".5rem .5rem .5rem 2rem",
   };
 
-  const otRow = "row ps-lg-5 p-sm-1 position-relative";
+  const otRow = "row p-1";
   const col1 = `col-lg-8 col-md-8 col-sm-12 bg-warning py-2  px-3`;
   const col2 = "col-lg-4 col-md-4 d-none d-lg-block d-md-block";
   const inRow = "row m-0 p-2";
-  const inCol1 = "col-12 m-0 p-0 d-flex h-25";
+  const inCol1 = "col-12 m-0 p-0 d-flex";
 
   const imgDivCN = "mt-md-5 mt-lg-0";
   const imgUrl =
@@ -76,60 +76,62 @@ function STCTopSection() {
         </div>
       </div>
       <div className="container my-5 p-0">
-        <div className={otRow}>
-          <div className={col1} style={cStyle}>
-            <div className={inRow}>
-              <div className={inCol1}>
-                <div className={iconDiv}>{icon}</div>
-                <div>
-                  <H2tag header_text={headertextcol1} className={col1HCn} />
-                  <Ptag ptext={pText_1} pCName={pcCName} />
+        <div className="container">
+          <div className={otRow}>
+            <div className={col1} style={cStyle}>
+              <div className={inRow}>
+                <div className={inCol1}>
+                  <div className={iconDiv}>{icon}</div>
+                  <div>
+                    <H2tag header_text={headertextcol1} className={col1HCn} />
+                    <Ptag ptext={pText_1} pCName={pcCName} />
+                  </div>
                 </div>
-              </div>
-              <div className={inCol1}>
-                <div className={iconDiv}>{icon}</div>
-                <div>
-                  <H2tag header_text={headertext2col1} className={col1HCn} />
-                  <Ptag ptext={pText_2} pCName={pcCName} />
+                <div className={inCol1}>
+                  <div className={iconDiv}>{icon}</div>
+                  <div>
+                    <H2tag header_text={headertext2col1} className={col1HCn} />
+                    <Ptag ptext={pText_2} pCName={pcCName} />
+                  </div>
                 </div>
-              </div>
-              <div className={inCol1}>
-                <div className={iconDiv}>{icon}</div>
-                <div>
-                  <H2tag header_text={headertext3col1} className={col1HCn} />
-                  <Ptag ptext={pText_3} pCName={pcCName} />
+                <div className={inCol1}>
+                  <div className={iconDiv}>{icon}</div>
+                  <div>
+                    <H2tag header_text={headertext3col1} className={col1HCn} />
+                    <Ptag ptext={pText_3} pCName={pcCName} />
+                  </div>
                 </div>
-              </div>
-              <div className={inCol1}>
-                <div className={iconDiv}>{icon}</div>
-                <div>
-                  <H2tag header_text={headertext4col1} className={col1HCn} />
-                  <Ptag ptext={pText_4} pCName={pcCName} />
+                <div className={inCol1}>
+                  <div className={iconDiv}>{icon}</div>
+                  <div>
+                    <H2tag header_text={headertext4col1} className={col1HCn} />
+                    <Ptag ptext={pText_4} pCName={pcCName} />
+                  </div>
                 </div>
-              </div>
-              <div className={inCol1}>
-                <div className={iconDiv}>{icon}</div>
-                <div>
-                  <H2tag header_text={headertext5col1} className={col1HCn} />
-                  <Ptag ptext={pText_5} pCName={pcCName} />
+                <div className={inCol1}>
+                  <div className={iconDiv}>{icon}</div>
+                  <div>
+                    <H2tag header_text={headertext5col1} className={col1HCn} />
+                    <Ptag ptext={pText_5} pCName={pcCName} />
+                  </div>
                 </div>
-              </div>
-              <div className={inCol1}>
-                <div className={iconDiv}>{icon}</div>
-                <div>
-                  <H2tag header_text={headertext6col1} className={col1HCn} />
-                  <Ptag ptext={pText_6} pCName={pcCName} />
+                <div className={inCol1}>
+                  <div className={iconDiv}>{icon}</div>
+                  <div>
+                    <H2tag header_text={headertext6col1} className={col1HCn} />
+                    <Ptag ptext={pText_6} pCName={pcCName} />
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className={col2}>
-            <div className={imgDivCN}>
-              <ImgTag
-                img_url={imgUrl}
-                alt_text={"Avatar img"}
-                style={{ marginInline: "-11%" }}
-              />
+            <div className={col2}>
+              <div className={imgDivCN}>
+                <ImgTag
+                  img_url={imgUrl}
+                  alt_text={"Avatar img"}
+                  style={{ marginInline: "-11%" }}
+                />
+              </div>
             </div>
           </div>
         </div>
