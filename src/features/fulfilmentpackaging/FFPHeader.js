@@ -14,7 +14,8 @@ function FFPHeader() {
 
   // *******content class********************//
   const rClass = "";
-  const col1Class = "col-lg-6 col-md-6 col-12 d-flex align-items-center";
+  const col1Class =
+    "col-lg-6 col-md-6 col-12 d-flex align-items-center justify-content-around";
   const col2Class = "col-lg-6 col-md-6 col-12";
   //   **********content child-1************//
   const headertext1 = "and packaging";
