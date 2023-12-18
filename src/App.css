@@ -23,9 +23,10 @@
   left: 0;
   opacity: 0.35;
 }
- .box-shadow{
+
+.box-shadow {
   box-shadow: -12px 12px 22px 0px rgba(0, 0, 0, 0.75);
- }
+}
 
 .header {
   background-image: url(https://azoozexpress.com/wp-content/uploads/2023/07/azooz-home-page-banner-1.png);
@@ -106,26 +107,6 @@
   padding: .6rem;
 }
 
-.carousel-indicators {
-  left: 5px;
-  top: auto;
-  right: 0;
-  bottom: -31px;
-}
-
-
-/* ------carousel------ */
-.carousel-indicators li {
-  background: whitesmoke;
-  border-radius: 100%;
-  width: 15px;
-  height: 15px;
-
-}
-
-.carousel-indicators .active {
-  background: black;
-}
 
 @media (max-width:500px) {
   .testimonials {
@@ -173,8 +154,8 @@
   background-color: #fdc80a !important;
 }
 
-.solution img{
-  width:2.8rem;
+.solution img {
+  width: 2.8rem;
   height: 3.1rem;
 }
 
@@ -185,7 +166,7 @@
   color: #ffffff;
 }
 
-.whats_app_text {
+/* .whats_app_text {
   position: absolute !important;
   bottom: 29px !important;
   right: 0px !important;
@@ -199,6 +180,31 @@
   border-radius: 10px;
   margin: 0 10px;
   order: 0;
+} */
+
+.whatsapp-button {
+  /* position: fixed; */
+  /* bottom: 3%; */
+  /* right: 7%; */
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  order: 2;
+  padding: 5px;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.4) 2px 2px 6px;
+  transition: all 0.5s ease 0s;
+  /* position: relative; */
+  /* z-index: 200; */
+  display: block;
+  border: 0px;
+  background-color: rgb(77, 194, 71) !important;
+  padding: 10px;
+  padding-left: 12px;
 }
 
 a .text-decoration {
@@ -306,4 +312,14 @@ a .text-decoration {
 .img-overlayer {
   height: 41rem;
   background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* home testimonials */
+
+
+@media (max-width:500px) {
+
+  .custom-card-size {
+    height: 22.4rem !important;
+  }
 }

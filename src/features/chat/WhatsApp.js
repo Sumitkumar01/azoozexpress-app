@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
+import { FaWhatsapp } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import whatsappsvg from "./assets/what'sapp_svg.svg";
 
 function WhatsApp() {
-  const [ show,setShow] =useState(false);
 
   return (
     <>
@@ -11,10 +10,15 @@ function WhatsApp() {
         className="fixed-bottom  right-0 p-3"
         style={{ zIndex: "6", left: "initial" }}
       >
-        {show && (<p className="whats_app_text ">WhatsApp us</p>)}
+       
 
-        <Link to="#" onMouseEnter={()=>setShow(true)} onMouseLeave={()=>setShow(false)}>
-          <img src={whatsappsvg} alt="#"></img>
+        <Link
+          to="https://wa.me/9756143731"
+          target="_blank"
+          className="whatsapp-button"
+          
+        >
+          <FaWhatsapp className="fs-3"/>
         </Link>
       </div>
     </>
