@@ -75,7 +75,7 @@ function Testimonials() {
                 {" "}
                 <div className="card custom-card-size">
                   <div className="card-body">
-                    <ul className="f-st">
+                    <ul className="f-st ps-0">
                       <li className="list-group-item">
                         <Link to="#">
                           <IoStar className="fs-5 text-warning" />
@@ -128,10 +128,10 @@ function Testimonials() {
                         />
                       </div>
                       <div className="card ms-2 p-2 border-0">
-                        <h5 className="card-title text-end ff-p fs-5">
+                        <h5 className="card-title text-start ff-p fs-5">
                           Md Sofia
                         </h5>
-                        <span className="card-title text-end ff-p fs-6">
+                        <span className="card-title text-start ff-p fs-6">
                           Retail Store Owner
                         </span>
                       </div>
@@ -145,7 +145,7 @@ function Testimonials() {
               <SwiperSlide>
                 <div className="card custom-card-size">
                   <div className="card-body">
-                    <ul className="f-st">
+                    <ul className="f-st ps-0">
                       <li className="list-group-item">
                         <Link to="#">
                           <IoStar className="fs-5 text-warning" />
@@ -202,10 +202,10 @@ function Testimonials() {
                         />
                       </div>
                       <div className="card ms-2 p-2 border-0">
-                        <h5 className="card-title text-end ff-p fs-5">
+                        <h5 className="card-title text-start ff-p fs-5">
                           Zafirah Khan
                         </h5>
-                        <span className="card-title text-end ff-p fs-6">
+                        <span className="card-title text-start ff-p fs-6">
                           Logistics Manager
                         </span>
                       </div>
@@ -219,7 +219,7 @@ function Testimonials() {
               <SwiperSlide>
                 <div className="card custom-card-size">
                   <div className="card-body">
-                    <ul className="f-st">
+                    <ul className="f-st ps-0">
                       <li className="list-group-item">
                         <Link to="#">
                           <IoStar className="fs-5 text-warning" />
@@ -276,10 +276,10 @@ function Testimonials() {
                         />
                       </div>
                       <div className="card ms-2 p-2 border-0">
-                        <h5 className="card-title text-end ff-p fs-5">
+                        <h5 className="card-title text-start ff-p fs-5">
                           Syeda Samaera
                         </h5>
-                        <span className="card-title text-end ff-p fs-6">
+                        <span className="card-title text-start ff-p fs-6">
                           E-Commerce Store Owner
                         </span>
                       </div>
@@ -293,7 +293,7 @@ function Testimonials() {
               <SwiperSlide>
                 <div className="card custom-card-size">
                   <div className="card-body">
-                    <ul className="f-st">
+                    <ul className="f-st ps-0">
                       <li className="list-group-item">
                         <Link to="#">
                           <IoStar className="fs-5 text-warning" />
@@ -350,10 +350,10 @@ function Testimonials() {
                         />
                       </div>
                       <div className="card ms-2 p-2 border-0">
-                        <h5 className="card-title text-end ff-p fs-5">
+                        <h5 className="card-title text-start ff-p fs-5">
                           Mehjabin
                         </h5>
-                        <span className="card-title text-end ff-p fs-6">
+                        <span className="card-title text-start ff-p fs-6">
                           Individual Customer
                         </span>
                       </div>
@@ -367,7 +367,7 @@ function Testimonials() {
               <SwiperSlide>
                 <div className="card custom-card-size">
                   <div className="card-body">
-                    <ul className="f-st">
+                    <ul className="f-st ps-0">
                       <li className="list-group-item">
                         <Link to="#">
                           <IoStar className="fs-5 text-warning" />
@@ -424,10 +424,10 @@ function Testimonials() {
                         />
                       </div>
                       <div className="card ms-2 p-2 border-0">
-                        <h5 className="card-title text-end ff-p fs-5">
+                        <h5 className="card-title text-start ff-p fs-5">
                           Imran Mahmud
                         </h5>
-                        <span className="card-title text-end ff-p fs-6">
+                        <span className="card-title text-start ff-p fs-6">
                           Business Owner
                         </span>
                       </div>
