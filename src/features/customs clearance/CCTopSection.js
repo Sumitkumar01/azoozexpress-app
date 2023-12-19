@@ -29,7 +29,7 @@ function CCTopSection() {
     "We know the ins and outs of duty exemptions and temporary clearance in freight courier services. Azooz Express helps you save money by navigating customs rules like a pro in delivery services in Oman.";
 
   const col1HCn = "text-uppercase text-black fs-5 ff-m fw-semibold lh-base px-lg-4 p-0";
-  const pCName = "text-black fs-5 ff-m fw-mediumm mb-3 px-lg-4 p-0";
+  const pCName = "text-black fs-5 ff-m fw-mediumm mb-3 px-lg-4 p-0 text-center text-lg-start text-md-start";
   const pcCName = "text-black fs-6 ff-m fw-mediumm mb-2 px-lg-4 p-0";
 
 
