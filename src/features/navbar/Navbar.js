@@ -42,13 +42,13 @@ function NavBar() {
           className="bg-warning ms-5"
         />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mx-lg-3 mx-md-3 ps-lg-3 ps-md-3">
+          <Nav className="mx-lg-1 mx-md-3 ps-lg-3 ps-md-3">
             {navigation.map((item) => (
               <Nav.Link
                 as={NavLink}
                 to={item.link}
                 // activeClassName="active-link"
-                className="fs-5 text-light ff-m text-md-center  text-lg-start bg-sm-warning bg-md-warning"
+                className="fs-5 text-light ff-m text-md-center px-4 text-lg-start bg-sm-warning bg-md-warning"
               >
                 {item.name}
               </Nav.Link>
@@ -56,7 +56,7 @@ function NavBar() {
             <NavDropdown
               title="Service"
               id="basic-nav-dropdown"
-              className="fs-5 text-light ff-m rounded-0 text-md-center  text-lg-start"
+              className="fs-5 text-light ff-m rounded-0 text-md-center px-2 text-lg-start"
             >
               {servicesNavigation.map((item) => (
                 <NavDropdown.Item

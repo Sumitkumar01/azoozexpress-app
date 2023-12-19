@@ -77,8 +77,8 @@ function MiddleContainer() {
                         style={{ height: "7.5rem", backgroundColor: "#EBEBEB" }}
                       />
                     </div>
-                    <div className="col text-end">
-                      <button className="btn btn-danger px-5">
+                    <div className="col text-center text-lg-end text-md-end ">
+                      <button className="btn btn-danger px-5 custom-button-border-radius">
                         Get A Quote
                       </button>
                     </div>
