@@ -8,15 +8,15 @@ function HeaderTopSection() {
         <div className="p-2 mb-0 text-sm-center text-md-center text-lg-start">
           <h2 className="ff-m fw-bold fs-2 ms-5">
             WE CREATE AN <span className="text-danger">HONEST</span>,
-            <span className="text-danger">HASSLE-FREE</span> AND
-            <span className="text-danger">QUALITY DELIVERY EXPERIENCE</span>
+            <span className="text-danger"> HASSLE-FREE</span> AND
+            <span className="text-danger"> QUALITY DELIVERY EXPERIENCE</span>
           </h2>
         </div>
       </Container>
       <section className="container ps-lg-5">
         <div className="row position-relative">
           <div className="col-lg-6 col-md-7 col-sm-12 ps-lg-4 p-0 me-5 pe-0">
-            <div className="container bg-warning py-4 px-3 br-s">
+            <div className="container bg-warning py-4 px-3 custom-border-radius-start">
               <h2 className="fs-2 fw-bolder ff-m text-black">About Us</h2>
 
               <div className="pe-n5">
@@ -28,8 +28,8 @@ function HeaderTopSection() {
 
               <div className="py-3">
                 <div
-                  className="fw-bold  animation-fade-from-right lh-base text dark"
-                  style={{ textAlign: "justify" }}
+                  className="fw-light text-black ff-p custom-font-size-15 animation-fade-from-right"
+                  
                 >
                   Our delivery management business is built on speed, security,
                   reliability and accountability, the four great pillars of our
@@ -61,7 +61,7 @@ function HeaderTopSection() {
                         WHATSAPP SUPPORT
                       </Link>
                     </h5>
-                    <p>We are just a text away!</p>
+                    <p className="fw-light text-black ff-p custom-font-size-15">We are just a text away!</p>
                   </div>
                 </div>
               </section>

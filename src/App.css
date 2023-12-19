@@ -76,6 +76,7 @@
 .td {
   text-decoration: none;
 }
+/* custom font family */
 .ff-p,
 .nav-text {
   font-family: Poppins, Sans-serif;
@@ -89,20 +90,24 @@
 .ff-g {
   font-family: "Gemsbuck 01 ITALIC", Sans-serif;
 }
+
+/* custom-class */
 .container {
   max-width: 75rem !important;
 }
-.br-s {
+.custom-border-radius-start {
   border-radius: 0.6rem 0 0 1.8rem;
 }
-.br {
+.custom-border-radius  {
   border-radius: 0 0 0 1.5rem;
   margin: 0;
   justify-content: center;
 }
-.cp-1 {
-  padding: 0.6rem;
+
+.custom-font-size-15{
+  font-size: 0.938rem;
 }
+/* screen reader only  */
 .elementor-screen-only {
   clip: rect(0, 0, 0, 0);
   border-width: 0;
@@ -140,10 +145,8 @@
   font-weight: 300;
   color: #fff;
 }
-.btn,
-.elementor-icon-list-text {
-  font-family: Montserrat, Sans-serif !important;
-}
+
+/* whats app button */
 .whatsapp-button {
   position: fixed;
   bottom: 3%;
@@ -167,16 +170,14 @@
 a .text-decoration {
   text-decoration: none !important;
 }
-.btn:hover {
-  background-color: #f0eaf7 !important;
-  color: #920505 !important;
-}
 .imgDivH img {
   height: 3.12rem;
 }
+/* contact us page img */
 .locition-section .col-3 img {
   height: 1.5rem;
 }
+/* button */
 .btn {
   font-size: 13px !important;
   font-weight: 700 !important;
@@ -185,6 +186,16 @@ a .text-decoration {
   border: 0 !important;
   padding: 0.8rem 1.2rem !important;
 }
+.btn:hover {
+  background-color: #f0eaf7 !important;
+  color: #920505 !important;
+}
+.btn,
+.elementor-icon-list-text {
+  font-family: Montserrat, Sans-serif !important;
+}
+
+/* animation */
 .animation-fade-from-left {
   opacity: 0;
   transform: translateX(-5rem);

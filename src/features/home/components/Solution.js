@@ -16,7 +16,7 @@ function Solution() {
         <section>
           <div className="row">
             <section className="col-lg-4 col-md-4 col-sm-12  p-2">
-              <div className="row bg-warning br  m-0">
+              <div className="row bg-warning custom-border-radius  m-0">
                 <div className="col-2 d-flex m-0  p-1   aling-items-center justify-content-center  ">
                   <img
                     src="https://azoozexpress.com/wp-content/uploads/2023/07/Group-4.png"
@@ -33,7 +33,7 @@ function Solution() {
               </div>
             </section>
             <section className="col-lg-4 col-md-4 col-sm-12  p-2">
-              <div className="row aling-items-center bg-warning br  m-0">
+              <div className="row aling-items-center bg-warning custom-border-radius  m-0">
                 <div className="col-2 d-flex m-0  p-1   aling-items-center  ">
                   <img
                     loading="lazy"
@@ -51,7 +51,7 @@ function Solution() {
               </div>
             </section>
             <section className="col-lg-4 col-md-4 col-sm-12  p-2">
-              <div className="row aling-items-center  bg-warning br  m-0">
+              <div className="row aling-items-center  bg-warning custom-border-radius  m-0">
                 <div className="col-2 d-flex m-0  p-1   aling-items-center  ">
                   <img
                     loading="lazy"
@@ -73,7 +73,7 @@ function Solution() {
         <section>
           <div className="row">
             <section className="col-lg-4 col-md-4 col-sm-12  p-2">
-              <div className="row aling-items-center bg-warning br  m-0">
+              <div className="row aling-items-center bg-warning custom-border-radius  m-0">
                 <div className="col-2 d-flex m-0  p-1   aling-items-center justify-content-center">
                   <img
                     loading="lazy"
@@ -94,7 +94,7 @@ function Solution() {
               </div>
             </section>
             <section className="col-lg-4 col-md-4 col-sm-12  p-2">
-              <div className="row aling-items-center bg-warning br  m-0">
+              <div className="row aling-items-center bg-warning custom-border-radius  m-0">
                 <div className="col-2 d-flex m-0  p-1   aling-items-center justify-content-center">
                   <img
                     loading="lazy"
@@ -112,7 +112,7 @@ function Solution() {
               </div>
             </section>
             <section className="col-lg-4 col-md-4 col-sm-12  p-2">
-              <div className="row aling-items-center bg-warning br  m-0">
+              <div className="row aling-items-center bg-warning custom-border-radius  m-0">
                 <div className="col-2 d-flex m-0  p-1   aling-items-center justify-content-center">
                   <img
                     loading="lazy"
@@ -136,7 +136,7 @@ function Solution() {
         <section>
           <div className="row ">
             <section className="col-lg-4 col-md-4 col-sm-12  p-2">
-              <div className="row aling-items-center  bg-warning br  m-0">
+              <div className="row aling-items-center  bg-warning custom-border-radius  m-0">
                 <div className="col-2 d-flex m-0  p-1   aling-items-center justify-content-center">
                   <img
                     loading="lazy"
@@ -155,7 +155,7 @@ function Solution() {
               </div>
             </section>
             <section className="col-lg-4 col-md-4 col-sm-12  p-2">
-              <div className="row aling-items-center  bg-warning br  m-0">
+              <div className="row aling-items-center  bg-warning custom-border-radius  m-0">
                 <div className="col-2 d-flex m-0  p-1   aling-items-center justify-content-center">
                   <img
                     loading="lazy"
@@ -173,7 +173,7 @@ function Solution() {
               </div>
             </section>
             <section className="col-lg-4 col-md-4 col-sm-12  p-2">
-              <div className="row aling-items-center  bg-warning br  m-0">
+              <div className="row aling-items-center  bg-warning custom-border-radius  m-0">
                 <div className="col-2 d-flex m-0  p-1   aling-items-center justify-content-center">
                   <img
                     loading="lazy"
