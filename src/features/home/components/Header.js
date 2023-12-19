@@ -16,7 +16,7 @@ function Header() {
             </div>
 
             <div className="col pb-4 pt-2 ">
-              <h2 className="ff-p text-light fs-6 fw-light text-light">
+              <h2 className="ff-p text-light fs-6 fw-light">
                 We cater to all of your moving &amp; packaging needs, ensuring a
                 commitment <br />
                 towards fast, reliable and 100% delivery assurance

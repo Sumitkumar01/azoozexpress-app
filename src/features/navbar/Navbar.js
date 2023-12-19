@@ -48,7 +48,7 @@ function NavBar() {
                 as={NavLink}
                 to={item.link}
                 // activeClassName="active-link"
-                className="fs-5 text-light ff-m text-md-center px-4 text-lg-start bg-sm-warning bg-md-warning"
+                className="fs-5 text-light ff-m text-md-center px-3 text-lg-start bg-sm-warning bg-md-warning"
               >
                 {item.name}
               </Nav.Link>

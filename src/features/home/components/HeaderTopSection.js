@@ -5,8 +5,8 @@ function HeaderTopSection() {
   return (
     <>
       <Container className=" mt-5 p-0">
-        <div className="p-2 mb-0 text-sm-center text-md-center text-lg-start">
-          <h2 className="ff-m fw-bold fs-2 ms-5">
+        <div className="p-2 mb-0 text-center text-lg-start">
+          <h2 className="ff-m fw-bold fs-2 ms-lg-5 m-0">
             WE CREATE AN <span className="text-danger">HONEST</span>,
             <span className="text-danger"> HASSLE-FREE</span> AND
             <span className="text-danger"> QUALITY DELIVERY EXPERIENCE</span>

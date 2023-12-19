@@ -35,7 +35,7 @@ function Testimonials() {
           </div>
 
           {/* card container screen sliderr Start */}
-          <div className="col-12 p-3 p-lg-1 p-md-2">
+          <div className="col-12 p-2 p-lg-1 p-md-2">
             <Swiper
               autoplay={{
                 delay: 2500,
