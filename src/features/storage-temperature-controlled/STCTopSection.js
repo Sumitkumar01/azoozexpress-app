@@ -7,7 +7,7 @@ import { IoMdCheckmarkCircle } from "react-icons/io";
 function STCTopSection() {
   const headertext = "optimized temperature controlled storage with ";
   const hTextclass =
-    "text-uppercase  fs-2 text-black fw-bolder ff-m text-center";
+    "text-uppercase  fs-1 text-black fw-bold ff-m text-center";
   const spanClassName = "text-danger";
   const spanText = "azooz express";
 

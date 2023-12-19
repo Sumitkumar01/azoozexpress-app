@@ -1,4 +1,3 @@
-import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
@@ -27,7 +26,7 @@ const servicesNavigation = [
 function NavBar() {
   return (
     <Navbar expand="lg">
-      <Container>
+      <div className="container-md aling-items-center">
         <Navbar.Brand to="#" className="pe-5 py-0 mx-md-5">
           <img
             width="148"
@@ -42,13 +41,13 @@ function NavBar() {
           className="bg-warning ms-5"
         />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mx-lg-1 mx-md-3 ps-lg-3 ps-md-3">
+          <Nav className="ms-lg-5 mx-md-3 ps-lg-5 ps-md-3">
             {navigation.map((item) => (
               <Nav.Link
                 as={NavLink}
                 to={item.link}
                 // activeClassName="active-link"
-                className="fs-5 text-light ff-m text-md-center px-3 text-lg-start bg-sm-warning bg-md-warning"
+                className="fs-6 text-light ff-m text-md-center px-3 text-lg-start bg-sm-warning bg-md-warning"
               >
                 {item.name}
               </Nav.Link>
@@ -56,7 +55,7 @@ function NavBar() {
             <NavDropdown
               title="Service"
               id="basic-nav-dropdown"
-              className="fs-5 text-light ff-m rounded-0 text-md-center px-2 text-lg-start"
+              className="fs-6 text-light ff-m rounded-0 text-md-center px-2 text-lg-start"
             >
               {servicesNavigation.map((item) => (
                 <NavDropdown.Item
@@ -73,7 +72,7 @@ function NavBar() {
         </Navbar.Collapse>
 
         {/* social-link */}
-        <div className="row me-lg-3">
+        <div className="row me-lg-3 aling-items-center">
           <div className="col-6 p-1 d-none  d-sm-none d-md-none d-lg-block d-xl-blok">
             <div className="p-2 div row">
               <div className="col-3">
@@ -113,7 +112,7 @@ function NavBar() {
             </div>
           </div>
         </div>
-      </Container>
+      </div>
     </Navbar>
   );
 }
