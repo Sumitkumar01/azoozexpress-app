@@ -169,7 +169,7 @@ function Service() {
         </section>
       </div>
       {/* desktop slider */}
-      <div className="container my-4  d-sm-block d-lg-none d-md-block">
+      <div className="container my-4  d-sm-block d-lg-none d-md-block text-center">
         <Swiper
         loop={true}
           autoplay={{
@@ -198,7 +198,6 @@ function Service() {
             },
             
           }}
-          className="ms-4"
         >
           <SwiperSlide>
             {" "}
