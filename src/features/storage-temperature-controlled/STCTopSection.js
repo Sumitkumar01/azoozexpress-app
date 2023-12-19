@@ -7,7 +7,7 @@ import { IoMdCheckmarkCircle } from "react-icons/io";
 function STCTopSection() {
   const headertext = "optimized temperature controlled storage with ";
   const hTextclass =
-    "text-uppercase  fs-1 text-black fw-bolder ff-m text-center";
+    "text-uppercase  fs-2 text-black fw-bolder ff-m text-center";
   const spanClassName = "text-danger";
   const spanText = "azooz express";
 
@@ -31,8 +31,8 @@ function STCTopSection() {
   const pText_6 =
     "Azooz Express offers complete end-to-end temperature-controlled logistics solutions to the largest number of origin destinations in the country.";
   const col1HCn = "text-uppercase text-black fs-5 ff-m fw-semibold lh-base m-0";
-  const pCName = "text-black fs-5 ff-m fw-normal mb-3 px-lg-3";
-  const pcCName = "text-black fs-6 ff-m fw-normal mb-2 lh-base";
+  const pCName = "text-black fs-5 ff-m fw-normal mb-3 px-lg-3 text-center text-lg-start text-md-start";
+  const pcCName = "text-black fs-6 ff-m fw-normal mb-2 lh-base ";
 
   const iconDiv = "d-flex mx-2 my-1";
   const icon = <IoMdCheckmarkCircle className="text-danger fs-5" />;
@@ -71,7 +71,7 @@ function STCTopSection() {
         <div className="container my-2">
           <h2 className={hTextclass}>
             covering
-            <span className="text-danger">every need</span>
+            <span className="text-danger"> every need</span>
           </h2>
         </div>
       </div>
