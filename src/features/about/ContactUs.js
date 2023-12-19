@@ -23,20 +23,20 @@ function ContactUs() {
   const containerDCName = "d-flex flex-column flex-lg-row flex-md-row bg-black rounded-4 p-2";
   const inpCName = "text-white bg-black form-control pe-lg-2 me-lg-2 border-0";
   const btnDivCName = "d-flex justify-content-center aling-item-center mt-2 mt-lg-0 mt-md-0";
-  const btCName = "btn btn-danger px-5 mx-3 my-lg-0 my-md-0 my-sm-2";
+  const btCName = "btn btn-danger px-5 mx-3 my-lg-0 my-md-0 my-sm-3";
 
   // ************************************************** //
   return (
     <div>
-      <div className="container ">
-        <div className="row">
+      <div className="container mt-3">
+        <div className="row mt-5">
           <div className="col-lg-8 col-md-7 col-sm-12 my-lg-5 d-flex ">
             <div className="row flex-column p-1 mx-lg-5 mx-md-0 d-flex justify-content-center aling-item-center">
               <div className="col-12 mb-1 p-0 ">
                 <H2tag header_text={heading} className={headerCName} />
               </div>
               <from>
-                <div className="col-12 mt-1 p-0 mt-sm-1 mt-lg-0 contact">
+                <div className="col-12 mt-1 p-0 mt-sm-3 mt-lg-0 contact">
                   <InputTagWButton
                     containerDCName={containerDCName}
                     inpCName={inpCName}
