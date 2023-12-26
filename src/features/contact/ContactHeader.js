@@ -9,9 +9,11 @@ function ContactHeader() {
     backgroundImage: `url(${contactPageassBanner})`,
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
+    
     height: "38rem",
+    width:"100%",
   };
-  const headerCName = "";
+  const headerCName = "W-100";
   const headerText = "contact us";
   const textCName = "text-uppercase text-light fs-1 ff-m fw-bolder text-center";
 
