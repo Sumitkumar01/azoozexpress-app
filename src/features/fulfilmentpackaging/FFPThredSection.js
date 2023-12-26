@@ -2,6 +2,7 @@ import React from "react";
 import Column2Layout from "../common/Column2Layout";
 import ImgTag from "../common/ImgTag";
 import H2tag from "../common/H2tag";
+import ServPag5 from "../../assets/ServPag5.png"
 
 function FFPThredSection() {
   const otRCName = "";
@@ -15,8 +16,7 @@ function FFPThredSection() {
   const headerText = "get started with azooz express!";
   
 
-  const imgUrl =
-    "https://azoozexpress.com/wp-content/uploads/2023/11/pp2-2-1.png";
+  const imgUrl =ServPag5;
 
   const col1Content = (
     <>

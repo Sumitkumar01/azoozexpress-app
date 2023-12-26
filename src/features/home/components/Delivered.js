@@ -1,5 +1,6 @@
 import React from "react";
-
+import HomeAsset29 from "../../../assets/Homeasset29.png"
+import { Link } from "react-router-dom";
 function Delivered() {
   return (
     <div className="">
@@ -26,16 +27,16 @@ function Delivered() {
                 <div className="col-12 p-0">
                   <div className="">
                     <div className="text-center  text-md-start  text-lg-star">
-                      <a
+                      <Link
                         className=""
-                        href="http://65.1.2.151/azooz-about-page/"
+                        to="#"
                       >
                         <span className="">
                           <span className="btn btn-danger">
                             Get Delivered Today
                           </span>
                         </span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -48,15 +49,9 @@ function Delivered() {
                   decoding="async"
                   width="778"
                   height="629"
-                  src="https://azoozexpress.com/wp-content/uploads/2023/07/ss-1-1-1.png"
+                  src={HomeAsset29}
                   className="img-fluid"
                   alt=""
-                  srcset="
-                      https://azoozexpress.com/wp-content/uploads/2023/07/ss-1-1-1.png         778w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/ss-1-1-1-300x243.png 300w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/ss-1-1-1-768x621.png 768w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/ss-1-1-1-600x485.png 600w
-                    "
                   sizes="(max-width: 778px) 100vw, 778px"
                 />
               </div>

@@ -44,13 +44,13 @@
 #basic-nav-dropdown {
   color: #fff;
 }
-.background-img-services {
+/* .background-img-services {
   min-height: 38rem;
   position: relative;
-}
-.background-img-services::before {
+} */
+/* .background-img-services::before {
   content: "";
-  background-image: url("https: //azoozexpress.com/wp-content/uploads/2023/11/movers-putting-boxes-boving-cart-1.png");
+  background-image: url("./assets/movers.png");
   background-position: center;
   position: absolute;
   top: 0;
@@ -58,12 +58,12 @@
   right: 0;
   left: 0;
   opacity: 0.35;
-}
+} */
 .box-shadow {
   box-shadow: -12px 12px 22px 0 rgba(0, 0, 0, 0.75);
 }
 .header {
-  background-image: url(https://azoozexpress.com/wp-content/uploads/2023/07/azooz-home-page-banner-1.png);
+  background-image: url("./assets/HomeBanner.png");
   background-position: center center;
   opacity: 0;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
@@ -257,7 +257,7 @@ a .text-decoration {
 .img {
   height: 41rem;
   background-position: center;
-  background-image: url("https://azoozexpress.com/wp-content/uploads/2023/11/movers-putting-boxes-boving-cart-1.png");
+  background-image: url(./assets/movers.png);
 }
 .img-overlayer {
   height: 41rem;

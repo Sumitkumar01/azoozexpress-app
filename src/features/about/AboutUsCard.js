@@ -12,6 +12,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import Aboutasset1 from "../../assets/Aboutasset1.png"
+import Aboutasset2 from "../../assets/Aboutasset2.png"
+
 
 // Import Swiper styles
 import "swiper/css";
@@ -21,8 +24,7 @@ function AboutUsCard() {
   const cardTitleText_1 = "Vison";
   const cardText_1 =
     "We aim to simplify Logistics by providing top-notch delivery solutions and an unparalleled delivery services in GCC";
-  const imgUrl_1 =
-    "https://azoozexpress.com/wp-content/uploads/2023/07/noun-vision-1702965-1-1.png";
+  const imgUrl_1 =Aboutasset1;
   const altText_1 = "eye_img";
 
   // ------ card-1-end--------- //
@@ -33,8 +35,7 @@ function AboutUsCard() {
   const cardTitleText_2 = "Mission";
   const cardText_2 =
     "We want to be the top choice for helping SME’S with their shipping and handling needs, by using automative delivery methods";
-  const imgUrl_2 =
-    "https://azoozexpress.com/wp-content/uploads/2023/07/Group-199-2.png";
+  const imgUrl_2 =Aboutasset2;
   const altText_2 = "arrow_img";
 
   // ------ card-2-end--------- //

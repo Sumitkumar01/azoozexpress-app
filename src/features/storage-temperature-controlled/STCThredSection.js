@@ -2,7 +2,8 @@ import React from "react";
 import Column2Layout from "../common/Column2Layout";
 import ImgTag from "../common/ImgTag";
 import H2tag from "../common/H2tag";
-import Ptag from "../common/Ptag"
+import Ptag from "../common/Ptag";
+import ServPag5 from "../../assets/ServPag5.png"
 
 function STCThredSection() {
   const otRCName = "p-2";
@@ -17,8 +18,7 @@ function STCThredSection() {
   const headerText = "get Efficient temperature-controlled solutions with Azooz Express";
   const ptext =
     "Seek the best solution to meet your needs in terms of temperature-controlled logistics. Shipment solutions covering all standard temperature ranges.";
-  const imgUrl =
-    "https://azoozexpress.com/wp-content/uploads/2023/11/pp2-2-1.png";
+  const imgUrl =ServPag5;
 
   const col1Content = (
     <>

@@ -3,6 +3,7 @@ import Column2Layout from "../common/Column2Layout";
 import ImgTag from "../common/ImgTag";
 import H2tag from "../common/H2tag";
 import Ptag from "../common/Ptag"
+import ServPag5  from "../../assets/ServPag5.png"
 
 function FFThridSection() {
   const otRCName = "";
@@ -18,8 +19,7 @@ function FFThridSection() {
   const ptext =
     "Ready for a freight forwarding experience that goes beyond expectations? Contact Azooz Express for professional cargo services in Muscat.";
 
-  const imgUrl =
-    "https://azoozexpress.com/wp-content/uploads/2023/11/pp2-2-1.png";
+  const imgUrl =ServPag5;
 
   const col1Content = (
     <>

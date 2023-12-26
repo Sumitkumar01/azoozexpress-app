@@ -1,4 +1,12 @@
 import React from "react";
+import Serv1 from "../../../assets/Serv1.png"
+import Serv2 from "../../../assets/Serv2.png"
+import Serv3 from "../../../assets/serv3.png"
+import Serv4 from "../../../assets/serv4.png"
+import Serv5 from "../../../assets/Serv5.png"
+import Serv6 from "../../../assets/Serv6.png"
+import Serv7 from "../../../assets/Serv7.png"
+
 import {
   Autoplay,
   Navigation,
@@ -31,14 +39,9 @@ function Service() {
                   decoding="async"
                   width="300"
                   height="300"
-                  src="https://azoozexpress.com/wp-content/uploads/2023/07/01-300x300.png"
-                  className="img-fluid 84"
+                  src={Serv1}
+                  className="img-fluid "
                   alt=""
-                  srcset="
-                      https://azoozexpress.com/wp-content/uploads/2023/07/01-300x300.png 300w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/01-150x150.png 150w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/01.png         411w
-                    "
                   sizes="(max-width: 300px) 100vw, 300px"
                 />
               </div>
@@ -50,14 +53,9 @@ function Service() {
                   decoding="async"
                   width="300"
                   height="300"
-                  src="https://azoozexpress.com/wp-content/uploads/2023/07/02-300x300.png"
+                  src={Serv2}
                   className="img-fluid 90"
                   alt=""
-                  srcset="
-                      https://azoozexpress.com/wp-content/uploads/2023/07/02-300x300.png 300w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/02-150x150.png 150w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/02.png         411w
-                    "
                   sizes="(max-width: 300px) 100vw, 300px"
                 />
               </div>
@@ -69,14 +67,9 @@ function Service() {
                   decoding="async"
                   width="300"
                   height="300"
-                  src="https://azoozexpress.com/wp-content/uploads/2023/07/03-300x300.png"
+                  src={Serv3}
                   className="img-fluid 89"
                   alt=""
-                  srcset="
-                      https://azoozexpress.com/wp-content/uploads/2023/07/03-300x300.png 300w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/03-150x150.png 150w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/03.png         411w
-                    "
                   sizes="(max-width: 300px) 100vw, 300px"
                 />
               </div>
@@ -92,14 +85,9 @@ function Service() {
                   decoding="async"
                   width="300"
                   height="300"
-                  src="https://azoozexpress.com/wp-content/uploads/2023/07/04-300x300.png"
+                  src={Serv4}
                   className="img-fluid 88"
                   alt=""
-                  srcset="
-                      https://azoozexpress.com/wp-content/uploads/2023/07/04-300x300.png 300w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/04-150x150.png 150w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/04.png         411w
-                    "
                   sizes="(max-width: 300px) 100vw, 300px"
                 />
               </div>
@@ -111,14 +99,9 @@ function Service() {
                   decoding="async"
                   width="300"
                   height="300"
-                  src="https://azoozexpress.com/wp-content/uploads/2023/07/05-300x300.png"
+                  src={Serv5}
                   className="img-fluid 87"
                   alt=""
-                  srcset="
-                      https://azoozexpress.com/wp-content/uploads/2023/07/05-300x300.png 300w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/05-150x150.png 150w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/05.png         411w
-                    "
                   sizes="(max-width: 300px) 100vw, 300px"
                 />
               </div>
@@ -130,14 +113,9 @@ function Service() {
                   decoding="async"
                   width="300"
                   height="300"
-                  src="https://azoozexpress.com/wp-content/uploads/2023/07/06-300x300.png"
+                  src={Serv6}
                   className="img-fluid 86"
                   alt=""
-                  srcset="
-                      https://azoozexpress.com/wp-content/uploads/2023/07/06-300x300.png 300w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/06-150x150.png 150w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/06.png         411w
-                    "
                   sizes="(max-width: 300px) 100vw, 300px"
                 />
               </div>
@@ -153,14 +131,9 @@ function Service() {
                   decoding="async"
                   width="300"
                   height="300"
-                  src="https://azoozexpress.com/wp-content/uploads/2023/07/07-300x300.png"
+                  src={Serv7}
                   className="img-fluid 85"
                   alt=""
-                  srcset="
-                      https://azoozexpress.com/wp-content/uploads/2023/07/07-300x300.png 300w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/07-150x150.png 150w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/07.png         414w
-                    "
                   sizes="(max-width: 300px) 100vw, 300px"
                 />
               </div>
@@ -206,55 +179,50 @@ function Service() {
               decoding="async"
               width="300"
               height="300"
-              src="https://azoozexpress.com/wp-content/uploads/2023/07/01-300x300.png"
+              src={Serv1}
               className="img-fluid 84"
               alt=""
-              srcset="
-                      https://azoozexpress.com/wp-content/uploads/2023/07/01-300x300.png 300w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/01-150x150.png 150w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/01.png         411w
-                    "
               sizes="(max-width: 300px) 100vw, 300px"
             />{" "}
           </SwiperSlide>{" "}
           <SwiperSlide>
             <img
-              src="https://azoozexpress.com/wp-content/uploads/2023/07/02-300x300.png"
+              src={Serv2}
               className="img-fluid"
               alt=""
             />
           </SwiperSlide>{" "}
           <SwiperSlide>
             <img
-              src="https://azoozexpress.com/wp-content/uploads/2023/07/03-300x300.png"
+              src={Serv3}
               className="img-fluid"
               alt=""
             />
           </SwiperSlide>{" "}
           <SwiperSlide>
             <img
-              src="https://azoozexpress.com/wp-content/uploads/2023/07/04-300x300.png"
+              src={Serv3}
               className="img-fluid"
               alt=""
             />
           </SwiperSlide>{" "}
           <SwiperSlide>
             <img
-              src="https://azoozexpress.com/wp-content/uploads/2023/07/05-300x300.png"
+              src={Serv4}
               className="img-fluid"
               alt=""
             />
           </SwiperSlide>{" "}
           <SwiperSlide>
             <img
-              src="https://azoozexpress.com/wp-content/uploads/2023/07/06-300x300.png"
+              src={Serv5}
               className="img-fluid"
               alt=""
             />
           </SwiperSlide>{" "}
           <SwiperSlide>
             <img
-              src="https://azoozexpress.com/wp-content/uploads/2023/07/07-300x300.png"
+              src={Serv6}
               className="img-fluid "
               alt=""
             />

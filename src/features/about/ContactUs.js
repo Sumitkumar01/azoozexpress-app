@@ -2,11 +2,11 @@ import React from "react";
 import H2tag from "../common/H2tag";
 import ImgTag from "../common/ImgTag";
 import InputTagWButton from "../common/InputTagWButton";
+import Aboutasset10 from "../../assets/Aboutasset10.png"
 
 function ContactUs() {
   const heading = "Leave Your Email address and we will reach out to you";
-  const imgUrl =
-    "https://azoozexpress.com/wp-content/uploads/2023/07/3550585-1-1.png";
+  const imgUrl =Aboutasset10;
   const altText = "";
 
   const headerCName =

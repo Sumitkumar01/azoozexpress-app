@@ -1,13 +1,14 @@
 import React from "react";
 import H2tag from "../common/H2tag";
 import ImgTag from "../common/ImgTag";
+import Aboutasset3 from "../../assets/Aboutasset3.png"
+
 
 function AboutUsValue() {
   const heading = "Our Values";
   const description =
     "At Azooz Express We Guarantee Safe And Timely Delivery While Prioritizing Your Needs Through Innovative Solutions Backed By Transparent Communication And Excellence";
-  const imgUrl =
-    "https://azoozexpress.com/wp-content/uploads/2023/07/h-1-1-2.png";
+  const imgUrl =Aboutasset3;
   const altText = "";
 
   //   ------- class name -------///

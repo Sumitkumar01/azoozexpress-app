@@ -8,16 +8,17 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import CCasset5 from "../../assets/CCasset5.png"
+import CCasset6 from "../../assets/CCasset6.png"
+
 
 function CCTestimonials() {
   const textAria = "Case studies";
   const textCN = "ff-m fs-2 fw-bold text-center text-danger text-uppercase";
   const textAria2 = "Our successful projects";
   const textCN2 = "ff-m fs-2 fw-bold text-center text-warning text-uppercase";
-  const imgUrl1 =
-    "https://azoozexpress.com/wp-content/uploads/2023/11/Group-721.png";
-  const imgUrl2 =
-    "https://azoozexpress.com/wp-content/uploads/2023/11/Group-722.png";
+  const imgUrl1 =CCasset5;
+  const imgUrl2 =CCasset6;
 
   return (
     <div className="container p-lg-5 p-md-4" style={{ padding: "0" }}>

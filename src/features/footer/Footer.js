@@ -5,6 +5,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { BiPhoneCall } from "react-icons/bi";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { IoMailOpenOutline } from "react-icons/io5";
+import logo from "../../assets/logo.png"
 
 
 function Footer() {
@@ -25,7 +26,7 @@ function Footer() {
                               <img
                                 width="150"
                                 height="69"
-                                src="https://azoozexpress.com/wp-content/uploads/2023/07/Englishlogopngblackpng-e1668090686281-1.png"
+                                src={logo}
                                 className="img-fluid"
                                 alt=""
                                 loading="lazy"

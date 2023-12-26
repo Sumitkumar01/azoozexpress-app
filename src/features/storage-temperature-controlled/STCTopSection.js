@@ -3,6 +3,7 @@ import H2tag from "../common/H2tag";
 import ImgTag from "../common/ImgTag";
 import Ptag from "../common/Ptag";
 import { IoMdCheckmarkCircle } from "react-icons/io";
+import ServPag1 from "../../assets/ServPag1.png"
 
 function STCTopSection() {
   const headertext = "optimized temperature controlled storage with ";
@@ -48,8 +49,7 @@ function STCTopSection() {
   const inCol1 = "col-12 m-0 p-0 d-flex";
 
   const imgDivCN = "mt-md-5 mt-lg-0";
-  const imgUrl =
-    "	https://azoozexpress.com/wp-content/uploads/2023/11/Group-759.png";
+  const imgUrl =ServPag1;
 
   return (
     <>

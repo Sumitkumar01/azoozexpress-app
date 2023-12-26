@@ -1,4 +1,9 @@
 import React from "react";
+import ProcessTitle from '../../../assets/ProcessTitle.png'
+import Process1 from '../../../assets/Process1.png'
+import Process2 from '../../../assets/Process2.png'
+import Process3 from '../../../assets/Process3.png'
+
 
 function OurProcessSection() {
   return (
@@ -29,16 +34,9 @@ function OurProcessSection() {
             decoding="async"
             width="800"
             height="70"
-            src="https://azoozexpress.com/wp-content/uploads/2023/07/wdwd-1-1024x89.png"
+            src={ProcessTitle}
             className="img-fluid"
             alt=""
-            srcset="
-                      https://azoozexpress.com/wp-content/uploads/2023/07/wdwd-1-1024x89.png 1024w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/wdwd-1-300x26.png   300w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/wdwd-1-768x67.png   768w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/wdwd-1-600x52.png   600w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/wdwd-1.png         1256w
-                    "
             sizes="(max-width: 800px) 100vw, 800px"
           />
         </div>
@@ -52,11 +50,11 @@ function OurProcessSection() {
                   className="p-2 d-flex align-items-end justify-content-center box-shadow"
                   style={{
                     backgroundImage:
-                      "url(https://azoozexpress.com/wp-content/uploads/2023/07/Group-131.png)",
+                      `url(${Process1})`,
                     backgroundPosition: "center center",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
-                    height: "150px",
+                    height: "12.5rem",
                   }}
                 >
                   <div className="text-center">
@@ -69,11 +67,11 @@ function OurProcessSection() {
                   className="p-2 d-flex align-items-end justify-content-center bg-dark box-shadow"
                   style={{
                     backgroundImage:
-                      "url(https://azoozexpress.com/wp-content/uploads/2023/07/Group-132.png)",
+                      `url(${Process2})`,
                     backgroundPosition: "center center",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
-                    height: "150px",
+                    height: "12.5rem",
                   }}
                 >
                   <div className="text-center">
@@ -86,11 +84,11 @@ function OurProcessSection() {
                   className="p-2 d-flex align-items-end justify-content-center box-shadow"
                   style={{
                     backgroundImage:
-                      "url(https://azoozexpress.com/wp-content/uploads/2023/07/Group-133.png)",
+                      `url(${Process3})`,
                     backgroundPosition: "center center",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
-                    height: "150px",
+                    height: "12.5rem",
                   }}
                 >
                   <div className="text-center">

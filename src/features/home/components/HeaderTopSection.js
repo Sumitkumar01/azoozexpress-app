@@ -1,6 +1,10 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Contact1 from '../../../assets/Contact1.png'
+import Contact2 from '../../../assets/Contact2.png'
+import Group224 from '../../../assets/Group224.png'
+
 function HeaderTopSection() {
   return (
     <>
@@ -45,7 +49,7 @@ function HeaderTopSection() {
                         decoding="async"
                         width="45"
                         height="50"
-                        src="https://azoozexpress.com/wp-content/uploads/2023/07/Vector-2.png"
+                        src={Contact1}
                         className="img-fluid"
                         alt=""
                       />
@@ -72,7 +76,7 @@ function HeaderTopSection() {
                       decoding="async"
                       width="87"
                       height="87"
-                      src="https://azoozexpress.com/wp-content/uploads/2023/07/Group-215-1-1.png"
+                      src={Contact2}
                       className="img-fluid"
                       alt=""
                     />
@@ -87,7 +91,7 @@ function HeaderTopSection() {
                   <div className="text-center">
                     <Link
                       className="elementor-button elementor-button-link elementor-size-sm"
-                      href="http://65.1.2.151/azooz-contact-page/"
+                      href="/azooz-contact-page"
                     >
                       <span className="btn btn-danger">Contact Us Today</span>
                     </Link>
@@ -105,16 +109,9 @@ function HeaderTopSection() {
               decoding="async"
               width="921"
               height="916"
-              src="https://azoozexpress.com/wp-content/uploads/2023/07/Group-224-1-1.png"
+              src={Group224}
               className="img-fluid "
               alt=""
-              srcset="
-                      https://azoozexpress.com/wp-content/uploads/2023/07/Group-224-1-1.png         921w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/Group-224-1-1-300x298.png 300w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/Group-224-1-1-150x150.png 150w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/Group-224-1-1-768x764.png 768w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/Group-224-1-1-600x597.png 600w
-                    "
               sizes="(max-width: 921px) 100vw, 921px"
             />
           </div>

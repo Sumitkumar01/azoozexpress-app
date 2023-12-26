@@ -2,6 +2,7 @@ import React from "react";
 import Ptag from "../common/Ptag";
 import H2tag from "../common/H2tag";
 import ImgTag from "../common/ImgTag";
+import Aboutasset9 from "../../assets/Aboutasset9.png"
 
 function AboutUsWork() {
 
@@ -9,9 +10,8 @@ function AboutUsWork() {
   const pText_1 =
     "We Understand How Sensitive Packages Are. We Know How Tiring Moving Can Be.";
     const pText_2= "So We Are Here To Help You Always"
-  const imgUrl =
-    "	https://azoozexpress.com/wp-content/uploads/2023/07/ss-1-1-1.png";
-  const altText = "";
+  const imgUrl =Aboutasset9;
+  const altText = "Aboutasset9";
 
   const headerCName =
     "text-danger  text-uppercase fs-2 fw-bold ff-m text-lg-start text-center text-md-start animation-fade-up";

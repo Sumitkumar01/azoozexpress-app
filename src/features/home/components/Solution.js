@@ -1,4 +1,14 @@
 import React from "react";
+import SolutionDoc1 from "../../../assets/SolutionDoc1.png";
+import SolutionDoc2 from "../../../assets/SolutionDoc2.png";
+import SolutionDoc3 from "../../../assets/SolutionDoc3.png";
+import SolutionDoc4 from "../../../assets/SolutionDoc4.png";
+import SolutionDoc5 from "../../../assets/SolutionDoc5.png";
+import SolutionDoc6 from "../../../assets/SolutionDoc6.png";
+import SolutionDoc8 from "../../../assets/SolutionDoc8.png";
+import SolutionDoc9 from "../../../assets/SolutionDoc9.png";
+import SolutionDoc10 from "../../../assets/SolutionDoc10.png";
+
 
 function Solution() {
   return (
@@ -18,11 +28,7 @@ function Solution() {
             <section className="col-lg-4 col-md-4 col-sm-12  p-2">
               <div className="row bg-warning custom-border-radius  m-0">
                 <div className="col-2 d-flex m-0  p-1   aling-items-center justify-content-center  ">
-                  <img
-                    src="https://azoozexpress.com/wp-content/uploads/2023/07/Group-4.png"
-                    className="img-fluid"
-                    alt=""
-                  />
+                  <img src={SolutionDoc1} className="img-fluid" alt="" />
                 </div>
 
                 <div className="col-9 d-flex m-0  p-3  m-0 aling-items-center ">
@@ -40,7 +46,7 @@ function Solution() {
                     decoding="async"
                     width="57"
                     height="57"
-                    src="https://azoozexpress.com/wp-content/uploads/2023/07/confidential-document-documents-svgrepo-com-1-1.png"
+                    src={SolutionDoc2}
                     className="img-fluid 2"
                     alt=""
                   />
@@ -58,8 +64,8 @@ function Solution() {
                     decoding="async"
                     width="57"
                     height="60"
-                    src="https://azoozexpress.com/wp-content/uploads/2023/07/Group-162-1.png"
-                    className="img-fluid 3"
+                    src={SolutionDoc3}
+                                        className="img-fluid 3"
                     alt=""
                   />
                 </div>
@@ -80,7 +86,7 @@ function Solution() {
                     decoding="async"
                     width="62"
                     height="64"
-                    src="https://azoozexpress.com/wp-content/uploads/2023/07/Group-164-1.png"
+                    src={SolutionDoc4}
                     className="img-fluid 4"
                     alt=""
                   />
@@ -101,7 +107,7 @@ function Solution() {
                     decoding="async"
                     width="60"
                     height="60"
-                    src="https://azoozexpress.com/wp-content/uploads/2023/07/cash-pay-svgrepo-com-1-1.png"
+                    src={SolutionDoc5}
                     className="img-fluid 5"
                     alt=""
                   />
@@ -119,7 +125,7 @@ function Solution() {
                     decoding="async"
                     width="60"
                     height="60"
-                    src="https://azoozexpress.com/wp-content/uploads/2023/07/Group-171-1.png"
+                    src={SolutionDoc6}
                     className="img-fluid 6"
                     alt=""
                   />
@@ -143,7 +149,7 @@ function Solution() {
                     decoding="async"
                     width="45"
                     height="50"
-                    src="https://azoozexpress.com/wp-content/uploads/2023/07/Vector-2-1.png"
+                    src={SolutionDoc10}
                     className="img-fluid 7"
                     alt=""
                   />
@@ -162,7 +168,7 @@ function Solution() {
                     decoding="async"
                     width="60"
                     height="60"
-                    src="https://azoozexpress.com/wp-content/uploads/2023/07/Group-176-1.png"
+                    src={SolutionDoc8}
                     className="img-fluid 8"
                     alt=""
                   />
@@ -180,7 +186,7 @@ function Solution() {
                     decoding="async"
                     width="79"
                     height="64"
-                    src="https://azoozexpress.com/wp-content/uploads/2023/07/Vector-3-1.png"
+                    src={SolutionDoc9}
                     className="img-fluid 9"
                     alt=""
                   />

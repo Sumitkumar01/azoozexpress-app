@@ -7,14 +7,16 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import SerVTestIm from "../../assets/SerVTestIm.png"
+import SerVTestmh from "../../assets/SerVTestmh.png"
+
+
 
 function FFPTestimonials() {
   const textAria = "Testimonials";
   const textCN = "ff-m fs-2 fw-bold text-center text-warning text-uppercase";
-  const imgUrl1 =
-    "https://azoozexpress.com/wp-content/uploads/2023/11/Frame-720.png";
-  const imgUrl2 =
-    "https://azoozexpress.com/wp-content/uploads/2023/11/Frame-721.png";
+  const imgUrl1 =SerVTestIm;
+  const imgUrl2 =SerVTestmh;
 
 
 

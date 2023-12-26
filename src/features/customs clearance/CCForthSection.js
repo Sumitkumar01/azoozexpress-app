@@ -3,6 +3,7 @@ import Column2Layout from "../common/Column2Layout";
 import ImgTag from "../common/ImgTag";
 import H2tag from "../common/H2tag";
 import Ptag from "../common/Ptag"
+import ServPag5 from "../../assets/ServPag5.png"
 
 function CCForthSection() {
   const otRCName = "";
@@ -18,8 +19,7 @@ function CCForthSection() {
   const ptext =
     "Choose Azooz Express for simple, rule-following, and quick services. We clear the way for your shipments! Contact us today!";
 
-  const imgUrl =
-    "https://azoozexpress.com/wp-content/uploads/2023/11/pp2-2-1.png";
+  const imgUrl =ServPag5;
 
   const col1Content = (
     <>

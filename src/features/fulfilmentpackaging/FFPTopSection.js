@@ -2,6 +2,8 @@ import React from "react";
 import H2tag from "../common/H2tag";
 import ImgTag from "../common/ImgTag";
 import { IoMdCheckmarkCircle } from "react-icons/io";
+import FAPasset1 from "../../assets/FAPasset1.png"
+
 
 function FFPTopSection() {
   const headertext = "Smooth customs clearance with ";
@@ -34,8 +36,7 @@ function FFPTopSection() {
   const inCol1 = "col-12 m-0 p-0 d-flex h-25";
 
   const imgDivCN = "d-flex";
-  const imgUrl =
-    "	https://azoozexpress.com/wp-content/uploads/2023/11/pp10-2.png";
+  const imgUrl =FAPasset1;
 
   return (
     <>

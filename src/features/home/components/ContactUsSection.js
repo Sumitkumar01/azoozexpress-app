@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import HomeAsset35 from '../../../assets/HomeAsset35.png'
 
 function ContactUsSection() {
   return (
@@ -36,16 +37,9 @@ function ContactUsSection() {
                 decoding="async"
                 width="800"
                 height="387"
-                src="https://azoozexpress.com/wp-content/uploads/2023/07/car1-1-1-1-1024x495.png"
+                src={HomeAsset35}
                 className="img-fluid"
                 alt=""
-                srcset="
-                      https://azoozexpress.com/wp-content/uploads/2023/07/car1-1-1-1-1024x495.png 1024w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/car1-1-1-1-300x145.png   300w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/car1-1-1-1-768x371.png   768w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/car1-1-1-1-600x290.png   600w,
-                      https://azoozexpress.com/wp-content/uploads/2023/07/car1-1-1-1.png          1150w
-                    "
                 sizes="(max-width: 800px) 100vw, 800px"
               />
             </div>

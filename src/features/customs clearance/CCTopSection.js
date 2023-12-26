@@ -3,6 +3,7 @@ import H2tag from "../common/H2tag";
 import ImgTag from "../common/ImgTag";
 import Ptag from "../common/Ptag";
 import { IoMdCheckmarkCircle } from "react-icons/io";
+import ServPag1 from "../../assets/ServPag1.png"
 
 function CCTopSection() {
   const headertext = "Smooth customs clearance with ";
@@ -41,14 +42,13 @@ function CCTopSection() {
   };
 
   const otRow = "row ps-lg-5 p-sm-1 position-relative";
-  const col1 = `col-lg-6 col-sm-12 bg-warning p-4 px-lg-4  ms-lg-3 px-sm-3 h-25`;
-  const col2 = "col-5 d-none d-lg-block d-md-none";
+  const col1 = `col-lg-8 col-sm-12 bg-warning p-4 px-lg-4  ms-lg-3 px-sm-3 h-25`;
+  const col2 = "col-4 d-none d-lg-block d-md-none";
   const inRow = "row";
   const inCol1 = "col-12 m-0 p-0 d-flex h-25";
 
   const imgDivCN = "d-flex position-absolute";
-  const imgUrl =
-    "	https://azoozexpress.com/wp-content/uploads/2023/11/Group-759.png";
+  const imgUrl =ServPag1;
 
   return (
     <>
@@ -114,7 +114,7 @@ function CCTopSection() {
             </div>
           </div>
           <div className={col2}>
-            <div className={imgDivCN} style={{ top: "20%", right: "24.5%" }}>
+            <div className={imgDivCN} style={{ top: "7%", right: "11.5%" }}>
               <ImgTag
                 img_url={imgUrl}
                 alt_text={"Avatar img"}

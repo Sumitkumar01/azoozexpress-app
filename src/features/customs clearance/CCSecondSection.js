@@ -3,6 +3,7 @@ import H2tag from "../common/H2tag";
 import ImgTag from "../common/ImgTag";
 import Ptag from "../common/Ptag";
 import { IoMdCheckmarkCircle } from "react-icons/io";
+import CCasset2 from "../../assets/CCasset2.png"
 
 function CCSecondSection() {
   const headertext = "Our customs clearance services cover";
@@ -41,8 +42,7 @@ function CCSecondSection() {
   const inRow = "row";
   const inCol1 = "col-12 m-0 p-0 d-flex h-25";
 
-  const imgUrl =
-    "https://azoozexpress.com/wp-content/uploads/2023/11/pp1-7.png";
+  const imgUrl =CCasset2;
 
   return (
     <>

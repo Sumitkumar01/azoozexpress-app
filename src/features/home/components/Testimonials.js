@@ -12,6 +12,14 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
+import HomeTestAssetim from "../../../assets/HomeTestAssetim.jpeg"
+import HomeTestAssetmd from "../../../assets/HomeTestAssetmd.png"
+import HomeTestAssetzk from "../../../assets/HomeTestAssetzk.png"
+import HomeTestAssetmb from "../../../assets/HomeTestAssetmb.jpeg"
+import HomeAssetss from "../../../assets/HomeAssetss.jpeg"
+
+
+
 // Import Swiper styles
 import "swiper/css";
 
@@ -117,12 +125,8 @@ function Testimonials() {
                         style={{ width: "4rem", height: "4rem" }}
                       >
                         <img
-                          src="https://azoozexpress.com/wp-content/uploads/2022/11/Rectangle-87-1.png"
+                          src={HomeTestAssetmd}
                           alt=""
-                          srcSet="
-                  https://azoozexpress.com/wp-content/uploads/2022/11/Rectangle-87-1.png         571w,
-                  https://azoozexpress.com/wp-content/uploads/2022/11/Rectangle-87-1-300x273.png 300w
-                "
                           sizes="(max-width: 571px) 100vw, 571px"
                           className="d-block w-100 h-100"
                         />
@@ -191,13 +195,9 @@ function Testimonials() {
                           decoding="async"
                           width="571"
                           height="520"
-                          src="https://azoozexpress.com/wp-content/uploads/2022/11/Rectangle-87.png"
+                          src={HomeTestAssetzk}
                           className="d-block w-100 h-100"
                           alt=""
-                          srcset="
-                                          https://azoozexpress.com/wp-content/uploads/2022/11/Rectangle-87.png         571w,
-                                          https://azoozexpress.com/wp-content/uploads/2022/11/Rectangle-87-300x273.png 300w
-                                        "
                           sizes="(max-width: 571px) 100vw, 571px"
                         />
                       </div>
@@ -265,13 +265,9 @@ function Testimonials() {
                           decoding="async"
                           width="732"
                           height="668"
-                          src="https://azoozexpress.com/wp-content/uploads/2022/10/about_video_img.jpg"
+                          src={HomeAssetss}
                           className="d-block w-100 h-100"
                           alt=""
-                          srcset="
-                                          https://azoozexpress.com/wp-content/uploads/2022/10/about_video_img.jpg         732w,
-                                          https://azoozexpress.com/wp-content/uploads/2022/10/about_video_img-300x274.jpg 300w
-                                        "
                           sizes="(max-width: 732px) 100vw, 732px"
                         />
                       </div>
@@ -339,13 +335,9 @@ function Testimonials() {
                           decoding="async"
                           width="626"
                           height="562"
-                          src="https://azoozexpress.com/wp-content/uploads/2022/10/testimonial_exp_img.jpg"
+                          src={HomeTestAssetmb}
                           className="d-block w-100 h-100"
                           alt=""
-                          srcset="
-                                          https://azoozexpress.com/wp-content/uploads/2022/10/testimonial_exp_img.jpg         626w,
-                                          https://azoozexpress.com/wp-content/uploads/2022/10/testimonial_exp_img-300x269.jpg 300w
-                                        "
                           sizes="(max-width: 626px) 100vw, 626px"
                         />
                       </div>
@@ -413,13 +405,9 @@ function Testimonials() {
                           decoding="async"
                           width="370"
                           height="396"
-                          src="https://azoozexpress.com/wp-content/uploads/2022/10/project_img_1.jpg"
+                          src={HomeTestAssetim}
                           className="d-block w-100 h-100"
                           alt=""
-                          srcset="
-                                          https://azoozexpress.com/wp-content/uploads/2022/10/project_img_1.jpg         370w,
-                                          https://azoozexpress.com/wp-content/uploads/2022/10/project_img_1-280x300.jpg 280w
-                                        "
                           sizes="(max-width: 370px) 100vw, 370px"
                         />
                       </div>

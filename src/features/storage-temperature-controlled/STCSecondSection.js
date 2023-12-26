@@ -3,6 +3,7 @@ import H2tag from "../common/H2tag";
 import ImgTag from "../common/ImgTag";
 import Ptag from "../common/Ptag";
 import { IoMdCheckmarkCircle } from "react-icons/io";
+import STCasset2 from "../../assets/STCasset2.png"
 
 function STCSecondSection() {
 
@@ -41,8 +42,7 @@ function STCSecondSection() {
   const inRow = "row";
   const inCol1 = "col-12 m-0 p-0 d-flex h-25";
 
-  const imgUrl =
-    "https://azoozexpress.com/wp-content/uploads/2023/11/pp9-2.png";
+  const imgUrl =STCasset2;
 
   return (
     <>

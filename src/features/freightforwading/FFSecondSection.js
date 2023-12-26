@@ -1,23 +1,21 @@
 import React from "react";
 import H2tag from "../common/H2tag";
 import ImgTag from "../common/ImgTag";
+import FFas1 from "../../assets/FFas1.png"
+import FFas2 from "../../assets/FFas2.png"
+import FFas3 from "../../assets/FFas3.png"
+
 
 function FFSecondSection() {
   const headerText = "What do we deliver?";
   const headerTextCN = "text-danger text-uppercase text-center fw-bold ff-m fs-2";
 
-  const imgUrl1 =
-    "https://azoozexpress.com/wp-content/uploads/2023/11/Frame-706.png";
-  const imgUrl2 =
-    "https://azoozexpress.com/wp-content/uploads/2023/11/Frame-709.png";
-  const imgUrl3 =
-    "https://azoozexpress.com/wp-content/uploads/2023/11/Frame-710.png";
-  const imgUrl4 =
-    "https://azoozexpress.com/wp-content/uploads/2023/11/Frame-709.png";
-  const imgUrl5 =
-    "https://azoozexpress.com/wp-content/uploads/2023/11/Frame-710.png";
-  const imgUrl6 =
-    "https://azoozexpress.com/wp-content/uploads/2023/11/Frame-706.png";
+  const imgUrl1 =FFas1;
+  const imgUrl2 =FFas2;
+  const imgUrl3 =FFas3;
+  const imgUrl4 =FFas1;
+  const imgUrl5 =FFas2;
+  const imgUrl6 =FFas3;
 
   return (
     <>

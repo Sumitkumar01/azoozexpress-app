@@ -1,12 +1,12 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
 import H2tag from "../common/H2tag";
+import contactPageassBanner from '../../assets/contactPageassBanner.png'
+
 
 function ContactHeader() {
   const cSyleHeader = {
-    backgroundImage: `url(
-        'https://azoozexpress.com/wp-content/uploads/2023/07/Rectangle-30-1536x614-1.png'
-      )`,
+    backgroundImage: `url(${contactPageassBanner})`,
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
     height: "38rem",

@@ -3,6 +3,7 @@ import H2tag from "../common/H2tag";
 import ImgTag from "../common/ImgTag";
 import Ptag from "../common/Ptag";
 import { IoMdCheckmarkCircle } from "react-icons/io";
+import FAPasset2 from "../../assets/FAPasset2.png"
 
 function FFPSecondSection() {
   const headertext = "Azooz express fulfillment and packaging";
@@ -33,8 +34,7 @@ function FFPSecondSection() {
   const inRow = "row";
   const inCol1 = "col-12 m-0 p-0 d-flex h-25";
 
-  const imgUrl =
-    "https://azoozexpress.com/wp-content/uploads/2023/11/Group-760.png";
+  const imgUrl =FAPasset2;
 
   return (
     <>

@@ -1,6 +1,7 @@
 import React from "react";
 import H2tag from "../common/H2tag";
 import ImgTag from "../common/ImgTag";
+import CCasset3 from '../../assets/CCasset3.png'
 
 function CCLoctions() {
   const textAria = "Locatons we serve in oman";
@@ -17,8 +18,7 @@ function CCLoctions() {
 
   const colCName =
     "col-lg-4 p-1  col-md-4 col-sm-12 rounded-2";
-  const url =
-    "https://azoozexpress.com/wp-content/uploads/2023/11/carbon_location.png";
+  const url =CCasset3;
 
 
 

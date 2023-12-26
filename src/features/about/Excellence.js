@@ -2,13 +2,18 @@ import React from "react";
 import H2tag from "../common/H2tag";
 import H3tag from "../common/H3tag";
 import ImgTag from "../common/ImgTag";
+import Aboutasset4 from "../../assets/Aboutasset4.png"
+import Aboutasset5 from "../../assets/Aboutasset5.png"
+import Aboutasset6 from "../../assets/Aboutasset6.png"
+import Aboutasset7 from "../../assets/Aboutasset7.png"
+import Aboutasset8 from "../../assets/Aboutasset8.png"
+
 
 function Excellence() {
   //************************top container content*****************////
   const headerText = "We share ";
   const spnText = "excllence in";
-  const imgUrlLContainer =
-    "https://azoozexpress.com/wp-content/uploads/2023/07/Picture-2-290x300.png";
+  const imgUrlLContainer =Aboutasset4;
   const altText = "";
   const hCName = "fs-1 fw-bolder text-black ff-m text-center text-uppercase";
   const spnCName = "text-danger";
@@ -25,14 +30,10 @@ function Excellence() {
   const content_4 =
     "Managing, warehousing, and inventory shipments until the last stop";
 
-  const imgUrl_1 =
-    "https://azoozexpress.com/wp-content/uploads/2023/07/Group-1-1.png";
-  const imgUrl_2 =
-    "https://azoozexpress.com/wp-content/uploads/2023/07/Group-200-1.png";
-  const imgUrl_3 =
-    "https://azoozexpress.com/wp-content/uploads/2023/07/Group-3.png";
-  const imgUrl_4 =
-    "https://azoozexpress.com/wp-content/uploads/2023/07/Vector-9.png";
+  const imgUrl_1 =Aboutasset5;
+  const imgUrl_2 =Aboutasset6;
+  const imgUrl_3 =Aboutasset7;
+  const imgUrl_4 =Aboutasset8;
 
   const contentCName = "fs-6 fw-light ff-p text-dark lh-lg m-sm-0";
   const ImgDivCName_l = "d-flex justify-content-center align-items-center  p-2";

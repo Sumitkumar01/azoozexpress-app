@@ -1,6 +1,7 @@
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import logo from "../../assets/logo.png"
 
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
@@ -31,7 +32,7 @@ function NavBar() {
           <img
             width="148"
             height="65"
-            src="https://azoozexpress.com/wp-content/uploads/2023/07/Englishlogopngblackpng-1-1.png"
+            src={logo}
             className="img-fluid"
             alt=""
           />

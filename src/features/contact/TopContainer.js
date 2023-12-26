@@ -1,6 +1,9 @@
 import React from "react";
 import H2tag from "../common/H2tag";
 import ImgTag from "../common/ImgTag";
+import contactPageasscall from "../../assets/contactPageasscall.png";
+import contactPageassmail from "../../assets/contactPageassmail.png";
+import contactPageassloca from "../../assets/contactPageassloca.png";
 
 function TopContainer() {
   const container1Content1 = "Phone";
@@ -10,12 +13,9 @@ function TopContainer() {
   const container3Content1 = "location";
   const container3Content2 = "po box 84, postal code 101, sultanate of oman.​";
 
-  const container1Url1 =
-    "https://azoozexpress.com/wp-content/uploads/2023/07/Group-84.png";
-  const container2Url =
-    "https://azoozexpress.com/wp-content/uploads/2023/07/Vector-6.png";
-  const container3Url =
-    "https://azoozexpress.com/wp-content/uploads/2023/07/Vector-7.png";
+  const container1Url1 = contactPageasscall;
+  const container2Url = contactPageassmail;
+  const container3Url = contactPageassloca;
 
   const class1 = "text-uppercase fs-4 fw-bold ff-m text-center m-0";
   const class2 = "text-center ff-p fs-6 m-0";
