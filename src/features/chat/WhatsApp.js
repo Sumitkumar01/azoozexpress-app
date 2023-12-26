@@ -9,12 +9,12 @@ function WhatsApp() {
       
 
         <Link
-          to="https://wa.me/9756143731"
+          to="https://wa.me/+96896586404"
           target="_blank"
           className="whatsapp-button"
           
         >
-          <FaWhatsapp className="fs-3"/>
+          <FaWhatsapp className="fs-1"/>
         </Link>
     </>
   );

@@ -9,7 +9,7 @@ function ContactHeader() {
     backgroundImage: `url(${contactPageassBanner})`,
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
-    
+    backgroundSize:"cover",
     height: "38rem",
     width:"100%",
   };
