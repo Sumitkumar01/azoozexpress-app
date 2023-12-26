@@ -5,7 +5,7 @@ import FFSecondSection from '../features/freightforwading/FFSecondSection'
 import FFThridSection from '../features/freightforwading/FFThridSection'
 import FFTestimonials from '../features/freightforwading/FFTestimonials'
 import Footer from '../features/footer/Footer'
-// import WhatsApp from '../features/chat/WhatsApp'
+import WhatsApp from '../features/chat/WhatsApp'
 
 function FreightForwadingPage() {
   return (
@@ -17,7 +17,7 @@ function FreightForwadingPage() {
     <FFTestimonials/>
     <Footer/>
     
-    {/* <WhatsApp/> */}
+    <WhatsApp/>
 
     
     </>

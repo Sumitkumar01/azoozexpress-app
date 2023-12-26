@@ -6,7 +6,7 @@ import CCLoctions from '../features/customs clearance/CCLoctions'
 import CCForthSection from '../features/customs clearance/CCForthSection'
 import CCTestimonials from '../features/customs clearance/CCTestimonials'
 import Footer from '../features/footer/Footer'
-// import WhatsApp from '../features/chat/WhatsApp'
+import WhatsApp from '../features/chat/WhatsApp'
 
 function CustomsClearancePage() {
   return (
@@ -18,7 +18,7 @@ function CustomsClearancePage() {
       <CCForthSection/>
       <CCTestimonials/>
       <Footer/>
-      {/* <WhatsApp/> */}
+      <WhatsApp/>
     </div>
   )
 }

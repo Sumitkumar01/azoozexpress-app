@@ -4,7 +4,7 @@ import TopContainer from "../features/contact/TopContainer"
 import MiddleContainer from "../features/contact/MiddleContainer";
 import LastContainer from "../features/contact/LastContainer";
 import Footer from "../features/footer/Footer"
-// import WhatsApp from "../features/chat/WhatsApp";
+import WhatsApp from "../features/chat/WhatsApp";
 
 function ContactPage() {
   return (
@@ -14,7 +14,7 @@ function ContactPage() {
       <MiddleContainer />
       <LastContainer />
       <Footer />
-      {/* <WhatsApp/> */}
+      <WhatsApp/>
     </>
   );
 }
