@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import NavBar from "../features/navbar/Navbar";
 import Footer from "../features/footer/Footer";
+import { useLocation } from "react-router-dom";
 
 function PrivacyPolicyPage() {
+
+  
+  const { pathname } = useLocation();
+  useEffect(() => {
+    if (pathname === "/privacy-policy") {
+      window.scrollTo(0, 0);
+    }
+  }, [pathname]);
+
+
   const entrytitle = "fs-1 ff-r fw-bold";
   const pageHeader = "py-3";
   const BlockHeading = "fs-3 ff-r bold";
@@ -167,7 +178,7 @@ function PrivacyPolicyPage() {
           </p>
           <div className="post-tags" />
         </div>
-      </div>
+      </div> 
       <Footer />
     </div>
   );

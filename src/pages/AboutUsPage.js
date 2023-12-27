@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import AboutUsHeader from '../features/about/AboutUsHeader'
 import AboutTopSection from '../features/about/AboutTopSection'
 import AboutUsCard from '../features/about/AboutUsCard'
@@ -8,8 +8,16 @@ import AboutUsWork from '../features/about/AboutUsWork'
 import ContactUs from '../features/about/ContactUs'
 import Footer from "../features/footer/Footer"
 import WhatsApp from "../features/chat/WhatsApp"
+import { useLocation } from 'react-router-dom'
 
 function AboutUsPage() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    if (pathname === "/azooz-about-page") {
+      window.scrollTo(0, 0);
+    }
+  }, [pathname]);
+  
   return (
     <div>
         <AboutUsHeader/>
@@ -17,7 +25,7 @@ function AboutUsPage() {
         <AboutUsCard />
         <AboutUsValue />
         <Excellence/>
-        <AboutUsWork/>
+        <AboutUsWork/> 
         <ContactUs/>
         <Footer />
         <WhatsApp/>

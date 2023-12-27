@@ -90,8 +90,8 @@ function HeaderTopSection() {
                 <div className="container fluid p-3">
                   <div className="text-center">
                     <Link
-                      className="elementor-button elementor-button-link elementor-size-sm"
-                      href="/azooz-contact-page"
+                      
+                      to="/azooz-contact-page"
                     >
                       <span className="btn btn-danger">Contact Us Today</span>
                     </Link>

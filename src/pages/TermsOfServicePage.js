@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from '../features/navbar/Navbar'
 import Footer from '../features/footer/Footer';
+import { useLocation } from 'react-router-dom';
 
 function TermsOfServicePage() {
+
+  
+  const { pathname } = useLocation();
+  useEffect(() => {
+    if (pathname === "/terms-of-Service") {
+      window.scrollTo(0, 0);
+    }
+  }, [pathname]);
+
 
   const entrytitle ="fs-1 ff-r fw-bold"
   const pageHeader ="py-3 "
@@ -11,7 +21,7 @@ function TermsOfServicePage() {
   const pCName="ff-p fs-6"
   return (
     <div>
-      <div className='bg-dark'>
+      <div className='bg-dark'> 
         <Navbar />
       </div>
 

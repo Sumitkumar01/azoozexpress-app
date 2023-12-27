@@ -106,7 +106,7 @@ function NavBar() {
             <div className="text-center">
               <Link
                 className="btn btn-danger"
-                to="http:65.1.2.151/azooz-contact-page/"
+                to="/azooz-contact-page"
               >
                 Get Your Quote
               </Link>

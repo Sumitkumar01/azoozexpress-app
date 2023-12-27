@@ -14,7 +14,7 @@ function WhatsApp() {
           className="whatsapp-button"
           
         >
-          <FaWhatsapp className="fs-1"/>
+          <FaWhatsapp className="fs"/>
         </Link>
     </>
   );

@@ -174,9 +174,14 @@
   box-shadow: rgba(0, 0, 0, 0.4) 2px 2px 6px;
   transition: 0.5s;
   z-index: 200;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 0;
   background-color: #4dc247 !important;
+}
+.whatsapp-button .fs{
+  font-size: 3rem;
 }
 a .text-decoration {
   text-decoration: none !important;
@@ -257,7 +262,7 @@ a .text-decoration {
 .img {
   height: 41rem;
   background-position: center;
-  background-image: url(./assets/movers.png);
+  background-image: url("./assets/movers.png");
 }
 .img-overlayer {
   height: 41rem;

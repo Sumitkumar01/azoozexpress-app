@@ -3,6 +3,7 @@ import Column2Layout from "../common/Column2Layout";
 import ImgTag from "../common/ImgTag";
 import H2tag from "../common/H2tag";
 import ServPag5 from "../../assets/ServPag5.png"
+import { Link } from "react-router-dom";
 
 function FFPThredSection() {
   const otRCName = "";
@@ -25,7 +26,7 @@ function FFPThredSection() {
           <H2tag header_text={headerText} className={headerTextCName}/>
         </div>
         <div className={inColCName}>
-          <button className="btn btn-danger px-5">Contact Us</button>
+          <Link to="/azooz-contact-page" className="btn btn-danger px-5">Contact Us</Link>
         </div>
       </div>
     </>

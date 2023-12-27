@@ -1,14 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Container, Row } from "react-bootstrap";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { BiPhoneCall } from "react-icons/bi";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { IoMailOpenOutline } from "react-icons/io5";
-import logo from "../../assets/logo.png"
-
+import logo from "../../assets/logo.png";
 
 function Footer() {
+  const [open, setOpen] = useState(false);
+  const handleClick = () => {
+    setOpen(!open);
+  };
+
   return (
     <div className="footer-section">
       <Container>
@@ -75,13 +79,11 @@ function Footer() {
                       </div>
                       <div className="col-lg-2 col-md-3 d-sm-none d-md-block d-lg-block d-none">
                         <div>
-                          
-                            <div className="ft-title-block-1">
-                              <h6 className="animation-fade-from-right text-white text-md-start text-xs-center text-lg-start fw-semibold fs-4 ff-m">
-                                Company
-                              </h6>
-                            </div>
-                          
+                          <div className="ft-title-block-1">
+                            <h6 className="animation-fade-from-right text-white text-md-start text-xs-center text-lg-start fw-semibold fs-4 ff-m">
+                              Company
+                            </h6>
+                          </div>
 
                           <div>
                             <nav>
@@ -115,43 +117,48 @@ function Footer() {
                                   <Link
                                     to="#"
                                     className="nav-link nav-pad dropdown-toggle"
+                                    onClick={handleClick}
                                   >
                                     Services
                                   </Link>
-                                  <ul className="dropdown-menu">
-                                    <li className="dropdown-item">
-                                      <Link
-                                        to="/freight-forwading"
-                                        className="elementor-sub-item"
-                                      >
-                                        Freight Forwading
-                                      </Link>
-                                    </li>
-                                    <li className="dropdown-item">
-                                      <Link
-                                        to="/customs-clearance"
-                                        className="elementor-sub-item"
-                                      >
-                                        Customs Clearance
-                                      </Link>
-                                    </li>
-                                    <li className="dropdown-item">
-                                      <Link
-                                        to="/fulfilment-and-packaging"
-                                        className="elementor-sub-item"
-                                      >
-                                        Fulfilment and Packaging
-                                      </Link>
-                                    </li>
-                                    <li className="dropdown-item">
-                                      <Link
-                                        to="/storage-temperature-controlled"
-                                        className="elementor-sub-item"
-                                      >
-                                        Storage (Temperature Controlled)
-                                      </Link>
-                                    </li>
-                                  </ul>
+                                  {open && (
+                                    <div>
+                                      <ul className="dropdown-menu">
+                                        <li className="dropdown-item">
+                                          <Link
+                                            to="/freight-forwading"
+                                            className="elementor-sub-item"
+                                          >
+                                            Freight Forwading
+                                          </Link>
+                                        </li>
+                                        <li className="dropdown-item">
+                                          <Link
+                                            to="/customs-clearance"
+                                            className="elementor-sub-item"
+                                          >
+                                            Customs Clearance
+                                          </Link>
+                                        </li>
+                                        <li className="dropdown-item">
+                                          <Link
+                                            to="/fulfilment-and-packaging"
+                                            className="elementor-sub-item"
+                                          >
+                                            Fulfilment and Packaging
+                                          </Link>
+                                        </li>
+                                        <li className="dropdown-item">
+                                          <Link
+                                            to="/storage-temperature-controlled"
+                                            className="elementor-sub-item"
+                                          >
+                                            Storage (Temperature Controlled)
+                                          </Link>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  )}
                                 </li>
                               </ul>
                             </nav>
@@ -221,7 +228,7 @@ function Footer() {
                       <div className="col-lg-3 col-md-3 col-sm-12">
                         <div className="container pt-2">
                           <div className="d-flex justify-content-center">
-                            <Link to="http://65.1.2.151/azooz-contact-page/">
+                            <Link to="/azooz-contact-page">
                               <span className="btn btn-danger">
                                 GET A QUOTE
                               </span>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../features/home/components/Header";
 import HeaderTopSection from "../features/home/components/HeaderTopSection";
 import OurProcessSection from "../features/home/components/OurProcessSection";
@@ -9,8 +9,15 @@ import Testimonials from "../features/home/components/Testimonials";
 import ContactUsSection from "../features/home/components/ContactUsSection";
 import Footer from "../features/footer/Footer";
 import WhatsApp from "../features/chat/WhatsApp";
+import { useLocation } from "react-router-dom";
 
 function HomePage() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    if (pathname === "/") {
+      window.scrollTo(0, 0);
+    }
+  }, [pathname]);
   return (
     <>
       <Header />
@@ -23,7 +30,7 @@ function HomePage() {
       <ContactUsSection />
       <Footer />
       <WhatsApp/>
-    </>
+    </> 
   );
 }
 

@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import HomeAsset35 from '../../../assets/HomeAsset35.png'
+import { Link } from "react-router-dom";
 
 function ContactUsSection() {
   return (
@@ -18,12 +19,12 @@ function ContactUsSection() {
                 <div className="col ps-0">
                   <div className="">
                     <div className="text-center  text-md-start  text-lg-star">
-                      <a
+                      <Link
                         className=""
-                        href="http://65.1.2.151/azooz-contact-page/"
+                        to="/azooz-contact-page"
                       >
                         <span className="btn btn-danger">Contact Us</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

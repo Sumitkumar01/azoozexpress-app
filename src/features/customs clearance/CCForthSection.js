@@ -4,6 +4,7 @@ import ImgTag from "../common/ImgTag";
 import H2tag from "../common/H2tag";
 import Ptag from "../common/Ptag"
 import ServPag5 from "../../assets/ServPag5.png"
+import { Link } from "react-router-dom";
 
 function CCForthSection() {
   const otRCName = "";
@@ -31,7 +32,7 @@ function CCForthSection() {
           <Ptag ptext={ptext} pCName={pCName}/>
         </div>
         <div className={inColCName}>
-          <button className="btn btn-danger px-5">Contact Us</button>
+          <Link to="/azooz-contact-page" className="btn btn-danger px-5">Contact Us</Link>
         </div>
       </div>
     </>
