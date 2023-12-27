@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Row } from "react-bootstrap";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
@@ -8,10 +8,10 @@ import { IoMailOpenOutline } from "react-icons/io5";
 import logo from "../../assets/logo.png";
 
 function Footer() {
-  const [open, setOpen] = useState(false);
-  const handleClick = () => {
-    setOpen(!open);
-  };
+  // const [open, setOpen] = useState(false);
+  // const handleClick = () => {
+  //   setOpen(!open);
+  // };
 
   return (
     <div className="footer-section">
