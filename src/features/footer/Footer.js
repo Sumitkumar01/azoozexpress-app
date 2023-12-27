@@ -113,7 +113,7 @@ function Footer() {
                                     Contact
                                   </Link>
                                 </li>
-                                <li className="nav-item text-white dropdown text-md-start text-xs-center text-lg-start fw-normal">
+                                {/* <li className="nav-item text-white dropdown text-md-start text-xs-center text-lg-start fw-normal">
                                   <Link
                                     to="#"
                                     className="nav-link nav-pad dropdown-toggle"
@@ -122,9 +122,8 @@ function Footer() {
                                     Services
                                   </Link>
                                   {open && (
-                                    <div>
-                                      <ul className="dropdown-menu">
-                                        <li className="dropdown-item">
+                                      <ul className="footer-nav-dropdown">
+                                        <li className="footer-nav-dropdown-item">
                                           <Link
                                             to="/freight-forwading"
                                             className="elementor-sub-item"
@@ -132,7 +131,7 @@ function Footer() {
                                             Freight Forwading
                                           </Link>
                                         </li>
-                                        <li className="dropdown-item">
+                                        <li className="footer-nav-dropdown-item">
                                           <Link
                                             to="/customs-clearance"
                                             className="elementor-sub-item"
@@ -140,7 +139,7 @@ function Footer() {
                                             Customs Clearance
                                           </Link>
                                         </li>
-                                        <li className="dropdown-item">
+                                        <li className="footer-nav-dropdown-item">
                                           <Link
                                             to="/fulfilment-and-packaging"
                                             className="elementor-sub-item"
@@ -148,7 +147,7 @@ function Footer() {
                                             Fulfilment and Packaging
                                           </Link>
                                         </li>
-                                        <li className="dropdown-item">
+                                        <li className="footer-nav-dropdown-item">
                                           <Link
                                             to="/storage-temperature-controlled"
                                             className="elementor-sub-item"
@@ -157,9 +156,8 @@ function Footer() {
                                           </Link>
                                         </li>
                                       </ul>
-                                    </div>
                                   )}
-                                </li>
+                                </li> */}
                               </ul>
                             </nav>
                           </div>
@@ -228,10 +226,11 @@ function Footer() {
                       <div className="col-lg-3 col-md-3 col-sm-12">
                         <div className="container pt-2">
                           <div className="d-flex justify-content-center">
-                            <Link to="/azooz-contact-page">
-                              <span className="btn btn-danger">
-                                GET A QUOTE
-                              </span>
+                            <Link
+                              className="btn btn-danger"
+                              to="/azooz-contact-page"
+                            >
+                              Get A Quote
                             </Link>
                           </div>
                         </div>
