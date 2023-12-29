@@ -1,9 +1,8 @@
 import React from "react";
-import ProcessTitle from '../../../assets/ProcessTitle.png'
-import Process1 from '../../../assets/Process1.png'
-import Process2 from '../../../assets/Process2.png'
-import Process3 from '../../../assets/Process3.png'
-
+import ProcessTitle from "../../../assets/ProcessTitle.png";
+import Process1 from "../../../assets/Process1.png";
+import Process2 from "../../../assets/Process2.png";
+import Process3 from "../../../assets/Process3.png";
 
 function OurProcessSection() {
   return (
@@ -47,14 +46,9 @@ function OurProcessSection() {
             <div className="row">
               <div className="col-lg-4 p-2 ">
                 <div
-                  className="p-2 d-flex align-items-end justify-content-center box-shadow"
+                  className="p-2 d-flex align-items-end justify-content-center box-shadow our-p-s"
                   style={{
-                    backgroundImage:
-                      `url(${Process1})`,
-                    backgroundPosition: "center center",
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
-                    height: "12.5rem",
+                    backgroundImage: `url(${Process1})`,
                   }}
                 >
                   <div className="text-center">
@@ -64,14 +58,9 @@ function OurProcessSection() {
               </div>
               <div className="col-lg-4 p-2">
                 <div
-                  className="p-2 d-flex align-items-end justify-content-center bg-dark box-shadow"
+                  className="p-2 d-flex align-items-end justify-content-center bg-dark box-shadow our-p-s"
                   style={{
-                    backgroundImage:
-                      `url(${Process2})`,
-                    backgroundPosition: "center center",
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
-                    height: "12.5rem",
+                    backgroundImage: `url(${Process2})`,
                   }}
                 >
                   <div className="text-center">
@@ -81,14 +70,9 @@ function OurProcessSection() {
               </div>
               <div className="col-lg-4 p-2">
                 <div
-                  className="p-2 d-flex align-items-end justify-content-center box-shadow"
+                  className="p-2 d-flex align-items-end justify-content-center box-shadow our-p-s"
                   style={{
-                    backgroundImage:
-                      `url(${Process3})`,
-                    backgroundPosition: "center center",
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
-                    height: "12.5rem",
+                    backgroundImage: `url(${Process3})`,
                   }}
                 >
                   <div className="text-center">

@@ -53,6 +53,14 @@
   color: #fff;
 }
 
+.our-p-s {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 12.5rem;
+  border-radius: 0 2.5rem;
+}
+
 /* .background-img-services {
   min-height: 38rem;
   position: relative;
@@ -363,13 +371,14 @@ a .text-decoration {
   width: max-content;
 }
 
-.footer-nav-dropdown-item{
+.footer-nav-dropdown-item {
   list-style: none;
   padding: .2rem .5rem;
   display: block;
   width: 100%;
 }
-.footer-nav-dropdown-item a{
+
+.footer-nav-dropdown-item a {
   text-decoration: none;
   color: #d91f28;
   padding: .2rem .5rem;
@@ -378,7 +387,8 @@ a .text-decoration {
   font-weight: 400;
   font-size: .8rem;
 }
-.footer-nav-dropdown-item a:hover{
+
+.footer-nav-dropdown-item a:hover {
   background-color: #e01c2c;
   color: #fdc80a;
 }

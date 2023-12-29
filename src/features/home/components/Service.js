@@ -1,16 +1,13 @@
 import React from "react";
-import Serv1 from "../../../assets/Serv1.png"
-import Serv2 from "../../../assets/Serv2.png"
-import Serv3 from "../../../assets/serv3.png"
-import Serv4 from "../../../assets/serv4.png"
-import Serv5 from "../../../assets/Serv5.png"
-import Serv6 from "../../../assets/Serv6.png"
-import Serv7 from "../../../assets/Serv7.png"
+import Serv1 from "../../../assets/Serv1.png";
+import Serv2 from "../../../assets/Serv2.png";
+import Serv3 from "../../../assets/serv3.png";
+import Serv4 from "../../../assets/serv4.png";
+import Serv5 from "../../../assets/Serv5.png";
+import Serv6 from "../../../assets/Serv6.png";
+import Serv7 from "../../../assets/Serv7.png";
 
-import {
-  Autoplay,
-  Navigation,
-} from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -18,6 +15,15 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 function Service() {
+  const imgurl = [
+    { url: Serv1 },
+    { url: Serv2 },
+    { url: Serv3 },
+    { url: Serv4 },
+    { url: Serv5 },
+    { url: Serv6 },
+    { url: Serv7 },
+  ];
   return (
     <div>
       {/* <!-- our services --> */}
@@ -144,14 +150,13 @@ function Service() {
       {/* desktop slider */}
       <div className="container my-4  d-sm-block d-lg-none d-md-block text-center">
         <Swiper
-        loop={true}
+          loop={true}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
           }}
-          
           navigation={false}
-          modules={[Autoplay,  Navigation]}
+          modules={[Autoplay, Navigation]}
           spaceBetween={10}
           slidesPerView={4}
           onSwiper={(swiper) => console.log(swiper)}
@@ -169,64 +174,21 @@ function Service() {
               slidesPerView: 2,
               spaceBetween: 10,
             },
-            
           }}
         >
-          <SwiperSlide>
-            {" "}
+          {imgurl.map((item,i)=>(<SwiperSlide key={i}>
             <img
               loading="lazy"
               decoding="async"
               width="300"
               height="300"
-              src={Serv1}
+              src={item.url}
               className="img-fluid 84"
               alt=""
               sizes="(max-width: 300px) 100vw, 300px"
-            />{" "}
-          </SwiperSlide>{" "}
-          <SwiperSlide>
-            <img
-              src={Serv2}
-              className="img-fluid"
-              alt=""
             />
-          </SwiperSlide>{" "}
-          <SwiperSlide>
-            <img
-              src={Serv3}
-              className="img-fluid"
-              alt=""
-            />
-          </SwiperSlide>{" "}
-          <SwiperSlide>
-            <img
-              src={Serv3}
-              className="img-fluid"
-              alt=""
-            />
-          </SwiperSlide>{" "}
-          <SwiperSlide>
-            <img
-              src={Serv4}
-              className="img-fluid"
-              alt=""
-            />
-          </SwiperSlide>{" "}
-          <SwiperSlide>
-            <img
-              src={Serv5}
-              className="img-fluid"
-              alt=""
-            />
-          </SwiperSlide>{" "}
-          <SwiperSlide>
-            <img
-              src={Serv6}
-              className="img-fluid "
-              alt=""
-            />
-          </SwiperSlide>
+          </SwiperSlide>))}
+          
         </Swiper>
       </div>
     </div>
