@@ -13,9 +13,9 @@ function AboutUsValue() {
 
   //   ------- class name -------///
   const headerCName =
-    "fw-bold fs-1 text-danger p-0 text-center text-lg-start text-md-start";
+    "fw-bold fs-1 text-red p-0 text-center text-lg-start text-md-start";
   const descriptionCname =
-    "ff-p fs-5 fw-midum text-dark text-center text-lg-start lh-base text-wrap text-md-start";
+    "ff-p fs-6 fw-midum text-dark text-center text-lg-start lh-base text-wrap text-md-start";
   ///----------end------------///
 
   const cStyle = {
@@ -28,7 +28,7 @@ function AboutUsValue() {
       <div className="container mb-5">
         <div className="row">
           <div className="col-lg-8 col-md-7 col-sm-12 my-5">
-            <div className="row flex-column p-2 mx-5">
+            <div className="row flex-column py-2 mx-5">
               <div className="col-12 mb-1 p-0 ">
                 <H2tag header_text={heading} className={headerCName} />
               </div>

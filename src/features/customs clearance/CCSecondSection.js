@@ -3,33 +3,43 @@ import H2tag from "../common/H2tag";
 import ImgTag from "../common/ImgTag";
 import Ptag from "../common/Ptag";
 import { IoMdCheckmarkCircle } from "react-icons/io";
-import CCasset2 from "../../assets/CCasset2.png"
+import CCasset2 from "../../assets/CCasset2.png";
 
 function CCSecondSection() {
   const headertext = "Our customs clearance services cover";
-  const hTextclass =
-    "text-uppercase  fs-1 text-danger fw-bolder ff-m text-center";
+  const hTextclass = "text-uppercase  fs-1 text-red fw-bolder ff-m text-center";
   const pTextTop =
     "At Azzoz Express, our customs clearance services keep things simple and stress-free. Here’s what we cover for you :";
   const pTCName = "text-black text-center  mt-2 fs-6 ff-m fw-normal";
-  const headertextcol1 = "Preparing and submitting documents";
-  const headertext2col1 = "arranging custom inspection if required";
-  const headertext3col1 = "assessment";
-  const headertext4col1 = "payment of duty";
 
-  const pText_1 =
-    "No need to stress about forms and submissions. Just provide us with the necessary documents, and we handle the rest.";
-  const pText_2 =
-    "If a customs inspection is needed, don’t worry. We’ll manage the arrangements, making the process smooth and hassle-free.";
-  const pText_3 =
-    "Our team assesses your shipments according to customs regulations. We ensure everything is for a seamless clearance.";
-  const pText_4 =
-    "No hidden duty charges – just clear and transparent transactions. Azooz Express handles processing and paying the required duties on your behalf.";
+  const data = [
+    {
+      headertextcol: "Preparing and submitting documents",
+      pText:
+        "No need to stress about forms and submissions. Just provide us with the necessary documents, and we handle the rest.",
+    },
+    {
+      headertextcol: "arranging custom inspection if required",
+      pText: "If a customs inspection is needed, don’t worry. We’ll manage the arrangements, making the process smooth and hassle-free.",
+    },
+
+    {
+      headertextcol: "assessment",
+      pText:
+        "Our team assesses your shipments according to customs regulations. We ensure everything is for a seamless clearance.",
+    },
+
+    {
+      headertextcol: "payment of duty",
+      pText:
+        "No hidden duty charges – just clear and transparent transactions. Azooz Express handles processing and paying the required duties on your behalf.",
+    },
+  ];
 
   const col1HCn = "text-uppercase text-black fs-5 ff-m fw-semibold lh-base m-0";
   const pCName = "text-black fs-6 ff-m fw-normal mb-3 lh-base";
   const iconDiv = "d-flex m-2";
-  const icon = <IoMdCheckmarkCircle className="text-danger fs-5" />;
+  const icon = <IoMdCheckmarkCircle className="text-red fs-5" />;
 
   const cStyle = {
     borderRadius: ".5rem .5rem .5rem 2rem",
@@ -42,7 +52,7 @@ function CCSecondSection() {
   const inRow = "row";
   const inCol1 = "col-12 m-0 p-0 d-flex h-25";
 
-  const imgUrl =CCasset2;
+  const imgUrl = CCasset2;
 
   return (
     <>
@@ -59,34 +69,18 @@ function CCSecondSection() {
           </div>
           <div className={col2} style={cStyle}>
             <div className={inRow}>
-              <div className={inCol1}>
-                <div className={iconDiv}>{icon}</div>
-                <div>
-                  <H2tag header_text={headertextcol1} className={col1HCn} />
-                  <Ptag ptext={pText_1} pCName={pCName} />
+              {data.map((item, i) => (
+                <div className={inCol1} key={i}>
+                  <div className={iconDiv}>{icon}</div>
+                  <div>
+                    <H2tag
+                      header_text={item.headertextcol}
+                      className={col1HCn}
+                    />
+                    <Ptag ptext={item.pText} pCName={pCName} />
+                  </div>
                 </div>
-              </div>
-              <div className={inCol1}>
-                <div className={iconDiv}>{icon}</div>
-                <div>
-                  <H2tag header_text={headertext2col1} className={col1HCn} />
-                  <Ptag ptext={pText_2} pCName={pCName} />
-                </div>
-              </div>
-              <div className={inCol1}>
-                <div className={iconDiv}>{icon}</div>
-                <div>
-                  <H2tag header_text={headertext3col1} className={col1HCn} />
-                  <Ptag ptext={pText_3} pCName={pCName} />
-                </div>
-              </div>
-              <div className={inCol1}>
-                <div className={iconDiv}>{icon}</div>
-                <div>
-                  <H2tag header_text={headertext4col1} className={col1HCn} />
-                  <Ptag ptext={pText_4} pCName={pCName} />
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </div>

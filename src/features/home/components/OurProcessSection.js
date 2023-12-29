@@ -5,6 +5,11 @@ import Process2 from "../../../assets/Process2.png";
 import Process3 from "../../../assets/Process3.png";
 
 function OurProcessSection() {
+  const data = [
+    { imgUrl: Process1, text: "we pack" },
+    { imgUrl: Process2, text: "we move" },
+    { imgUrl: Process3, text: "we deliver" },
+  ];
   return (
     <div className="our-process-section">
       <section className="pt-5">
@@ -19,7 +24,7 @@ function OurProcessSection() {
           </div>
           <div>
             <div className="container text-center">
-              <h2 className="fs-1 lh-base text-danger fw-bolder ff-m animation-fade-up">
+              <h2 className="fs-1 lh-base text-red fw-bolder ff-m animation-fade-up">
                 WHAT DO WE DO?
               </h2>
             </div>
@@ -35,7 +40,7 @@ function OurProcessSection() {
             height="70"
             src={ProcessTitle}
             className="img-fluid"
-            alt=""
+            alt="process"
             sizes="(max-width: 800px) 100vw, 800px"
           />
         </div>
@@ -44,42 +49,22 @@ function OurProcessSection() {
         <div className="container my-5">
           <>
             <div className="row">
-              <div className="col-lg-4 p-2 ">
-                <div
-                  className="p-2 d-flex align-items-end justify-content-center box-shadow our-p-s"
-                  style={{
-                    backgroundImage: `url(${Process1})`,
-                  }}
-                >
-                  <div className="text-center">
-                    <h2 className=" text-warning fs-2 pt-5">WE PACK</h2>
+              {data.map((item, i) => (
+                <div className="col-lg-4 p-2 " key={i}>
+                  <div
+                    className="p-2 d-flex align-items-end justify-content-center box-shadow our-p-s"
+                    style={{
+                      backgroundImage: `url(${item.imgUrl})`,
+                    }}
+                  >
+                    <div className="text-center">
+                      <h2 className=" text-warning fs-2 pt-5 text-uppercase">
+                        {item.text}
+                      </h2>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-4 p-2">
-                <div
-                  className="p-2 d-flex align-items-end justify-content-center bg-dark box-shadow our-p-s"
-                  style={{
-                    backgroundImage: `url(${Process2})`,
-                  }}
-                >
-                  <div className="text-center">
-                    <h2 className=" text-warning fs-2 pt-5">WE MOVE</h2>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 p-2">
-                <div
-                  className="p-2 d-flex align-items-end justify-content-center box-shadow our-p-s"
-                  style={{
-                    backgroundImage: `url(${Process3})`,
-                  }}
-                >
-                  <div className="text-center">
-                    <h2 className="text-warning fs-2 pt-5">WE DELIVER</h2>
-                  </div>
-                </div>
-              </div>
+              ))}
             </div>
           </>
         </div>

@@ -12,7 +12,7 @@ function FFPThredSection() {
 
   const inRowCN ="row  p-2 ms-lg-3";
   const inColCName ="col-12 m-0 p-0 text-center text-lg-start text-md-start";
-  const headerTextCName ="text-danger fs-1 fw-bolder ff-m text-uppercase p-0 ";
+  const headerTextCName ="text-red fs-1 fw-bolder ff-m text-uppercase p-0 ";
 
   const headerText = "get started with azooz express!";
   

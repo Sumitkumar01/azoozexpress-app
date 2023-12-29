@@ -3,20 +3,22 @@ import NavBar from "../navbar/Navbar";
 import Column2Layout from "../common/Column2Layout";
 import H2tag from "../common/H2tag";
 import H2ITag from "../common/H2ITag";
+import Banner from '../../assets/movers.png'
+
 
 function FForwadingHeader() {
   // ********headerclass********* //
   const headerBdCName = "img";
   const hdContentCName = "container mt-5";
   // ********header Coustom Style************//
-  const hcStyle = {};
+  const hcStyle = {backgroundImage: `url(${Banner})`};
   const hdContentcStyle = {};
 
   // *******content class********************//
   const rClass = "";
   const col1Class =
     "col-lg-6 col-md-6 col-12 d-flex align-items-center justify-content-around";
-  const col2Class = "col-lg-6 col-md-6 col-12";
+  const col2Class = "col-lg-6 col-md-6 col-12 mt-4 mt-lg-0 d-flex align-items-center justify-content-around";
 
   //   **********content child-1************//
   const headertext1 = "forwarding";

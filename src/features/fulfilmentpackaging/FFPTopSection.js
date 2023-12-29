@@ -1,29 +1,30 @@
 import React from "react";
 import H2tag from "../common/H2tag";
+import H1tag from "../common/H1tag";
 import ImgTag from "../common/ImgTag";
 import { IoMdCheckmarkCircle } from "react-icons/io";
-import FAPasset1 from "../../assets/FAPasset1.png"
-
+import FAPasset1 from "../../assets/FAPasset1.png";
 
 function FFPTopSection() {
   const headertext = "Smooth customs clearance with ";
   const hTextclass =
     "text-uppercase  fs-1 text-black fw-bolder ff-m text-center";
-  const spanClassName = "text-danger";
+  const spanClassName = "text-red";
   const spanText = "azooz express";
 
-  const headertextcol1 = "Everywhere you need";
-  const headertext2col1 = "Trusted and rule-abiding";
-  const headertext3col1 = "fast and no-fuss clearances";
-  const headertext4col1 = "We handle tricky stuff too";
-  const headertext5col1 = "Save money with cuty know-how";
+  const data = [
+    { headertextcol: "Everywhere you need" },
+    { headertextcol: "Trusted and rule-abiding" },
+    { headertextcol: "fast and no-fuss clearances" },
+    { headertextcol: "We handle tricky stuff too" },
+    { headertextcol: "Save money with cuty know-how" },
+  ];
 
- 
   const col1HCn =
     "text-uppercase text-black fs-5 ff-m fw-semibold lh-base px-lg-4 p-0";
   const pCName = "text-black fs-5 px-lg-4 p-0 ff-m fw-normal m-0";
   const iconDiv = "d-flex my-1 mx-2";
-  const icon = <IoMdCheckmarkCircle className="text-danger fs-5" />;
+  const icon = <IoMdCheckmarkCircle className="text-red fs-5" />;
 
   const cStyle = {
     borderRadius: ".5rem .5rem .5rem 2rem",
@@ -36,58 +37,35 @@ function FFPTopSection() {
   const inCol1 = "col-12 m-0 p-0 d-flex h-25";
 
   const imgDivCN = "d-flex";
-  const imgUrl =FAPasset1;
+  const imgUrl = FAPasset1;
 
   return (
     <>
       <div className="container my-5 ">
-        <H2tag
+        <H1tag
           header_text={headertext}
           className={hTextclass}
           span_text_2={spanText}
           spanClassName={spanClassName}
         />
         <p className={pCName}>
-          <span className="text-danger">Make business operations </span>smoother
+          <span className="text-red">Make business operations </span>smoother
           with Azooz Express – your reliable partner in top-quality fulfillment
           and customized packaging services.
         </p>
-        
       </div>
       <div className="container mb-5">
         <div className={otRow}>
           <div className={col1} style={cStyle}>
-            <div className={inRow} style={{minHeight:"22rem"}}>
-              <div className={inCol1}>
-                <div className={iconDiv}>{icon}</div>
-                <div>
-                  <H2tag header_text={headertextcol1} className={col1HCn} />
+            <div className={inRow} style={{ minHeight: "22rem" }}>
+              {data.map((item, i) => (
+                <div className={inCol1} key={i}>
+                  <div className={iconDiv}>{icon}</div>
+                  <div>
+                    <H2tag header_text={item.headertextcol} className={col1HCn} />
+                  </div>
                 </div>
-              </div>
-              <div className={inCol1}>
-                <div className={iconDiv}>{icon}</div>
-                <div>
-                  <H2tag header_text={headertext2col1} className={col1HCn} />
-                </div>
-              </div>
-              <div className={inCol1}>
-                <div className={iconDiv}>{icon}</div>
-                <div>
-                  <H2tag header_text={headertext3col1} className={col1HCn} />
-                </div>
-              </div>
-              <div className={inCol1}>
-                <div className={iconDiv}>{icon}</div>
-                <div>
-                  <H2tag header_text={headertext4col1} className={col1HCn} />
-                </div>
-              </div>
-              <div className={inCol1}>
-                <div className={iconDiv}>{icon}</div>
-                <div>
-                  <H2tag header_text={headertext5col1} className={col1HCn} />
-                </div>
-              </div>
+              ))}
             </div>
           </div>
           <div className={col2}>

@@ -6,7 +6,7 @@ import CCasset3 from '../../assets/CCasset3.png'
 function CCLoctions() {
   const textAria = "Locatons we serve in oman";
   const textCname =
-    "text-uppercase  fs-1 text-danger fw-bolder ff-m text-center";
+    "text-uppercase  fs-1 text-red fw-bolder ff-m text-center";
   const text1 = "muscat airport";
   const text2 = "sohar port and free zone";
   const text3 = "wajajah border";

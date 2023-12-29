@@ -16,7 +16,7 @@ function STCTestimonials() {
   const textCN =
     "ff-m fs-2 fw-bold text-center text-warning text-uppercase";
   const textAria2 = "Hear it from our customes!";
-  const textCN2 = "ff-m fs-2 fw-bold text-center text-danger text-uppercase";
+  const textCN2 = "ff-m fs-2 fw-bold text-center text-red text-uppercase";
   const imgUrl1 =SerVTestIm;
   const imgUrl2 =SerVTestmh;
 
@@ -48,8 +48,8 @@ function STCTestimonials() {
               modules={[Autoplay, Navigation]}
               spaceBetween={10}
               slidesPerView={4}
-              onSwiper={(swiper) => console.log(swiper)}
-              onSlideChange={() => console.log("slide change")}
+              
+              
               breakpoints={{
                 0: {
                   slidesPerView: 1,

@@ -40,19 +40,22 @@
 }
 
 .nav-dropdown-menu {
-  color: #e01c2c !important;
+  color: #d91f28 !important;
   background-color: #fdc80a !important;
 }
 
 .nav-dropdown-menu:hover {
-  background-color: #e01c2c !important;
+  background-color: #d91f28 !important;
   color: #fdc80a !important;
 }
 
 #basic-nav-dropdown {
   color: #fff;
+  padding: .5rem;
 }
-
+.text-red{
+  color: #d91f28;
+}
 .our-p-s {
   background-position: center center;
   background-repeat: no-repeat;
@@ -61,32 +64,25 @@
   border-radius: 0 2.5rem;
 }
 
-/* .background-img-services {
-  min-height: 38rem;
-  position: relative;
-} */
-/* .background-img-services::before {
-  content: "";
-  background-image: url("./assets/movers.png");
-  background-position: center;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  opacity: 0.35;
-} */
 .box-shadow {
   box-shadow: -12px 12px 22px 0 rgba(0, 0, 0, 0.75);
 }
 
-.header {
+/* .header {
   background-image: url("./assets/HomeBanner.png");
   background-position: center center;
   opacity: 0;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   animation: 1s 1s forwards animateBg;
+} */
+.header {
+  /* background-image: url("./assets/HomeBanner.png"); */
+  background-position: center center;
+  opacity: 0;
+  transition: opacity 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  animation: 1s 1s forwards animateBg;
 }
+
 
 #form-btn {
   border-radius: 0.7rem 0.7rem 0.7rem 3rem !important;
@@ -243,10 +239,10 @@ a .text-decoration {
   padding: 0.8rem 1.2rem !important;
 }
 
-.btn:hover {
+/* .btn:hover {
   background-color: #f0eaf7 !important;
   color: #920505 !important;
-}
+} */
 
 .btn,
 .elementor-icon-list-text {
@@ -313,7 +309,7 @@ a .text-decoration {
 .img {
   height: 41rem;
   background-position: center;
-  background-image: url("./assets/movers.png");
+  /* background-image: url("./assets/movers.png"); */
 }
 
 .img-overlayer {
@@ -328,6 +324,9 @@ a .text-decoration {
 
   .custom-card-size {
     height: 22.4rem !important;
+  }
+  .textjustify{
+    text-align: justify;
   }
 }
 

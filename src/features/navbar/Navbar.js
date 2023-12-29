@@ -1,16 +1,12 @@
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import logo from "../../assets/logo.png"
+import logo from "../../assets/logo.png";
 
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
 
-const navigation = [
-  { name: "Home", link: "/" },
-  { name: "About", link: "/azooz-about-page/" },
-  { name: "Contact", link: "/azooz-contact-page/" },
-];
+
 
 const servicesNavigation = [
   { name: "Freight Forwading", link: "/freight-forwading/" },
@@ -22,8 +18,6 @@ const servicesNavigation = [
   },
 ];
 
-
-
 function NavBar() {
   return (
     <Navbar expand="lg">
@@ -34,25 +28,30 @@ function NavBar() {
             height="65"
             src={logo}
             className="img-fluid"
-            alt=""
+            alt="logo"
           />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
-          className="bg-warning ms-5"
+          className="bg-warning me-0"
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-lg-5 mx-md-3 ps-lg-5 ps-md-3">
-            {navigation.map((item) => (
-              <Nav.Link
-                as={NavLink}
-                to={item.link}
-                // activeClassName="active-link"
-                className="fs-6 text-light ff-m text-md-center px-3 text-lg-start bg-sm-warning bg-md-warning"
-              >
-                {item.name}
-              </Nav.Link>
-            ))}
+            <Nav.Link
+              as={NavLink}
+              to="/"
+              className="fs-6 text-light ff-m text-md-center px-3 text-lg-start bg-sm-warning bg-md-warning"
+            >
+              Home
+            </Nav.Link>
+            <Nav.Link
+              as={NavLink}
+              to="/azooz-about-page/"
+              className="fs-6 text-light ff-m text-md-center px-3 text-lg-start bg-sm-warning bg-md-warning"
+            >
+              About
+            </Nav.Link>
+
             <NavDropdown
               title="Service"
               id="basic-nav-dropdown"
@@ -62,13 +61,19 @@ function NavBar() {
                 <NavDropdown.Item
                   as={NavLink}
                   to={item.link}
-                  // activeClassName="active-link"
                   className="nav-dropdown-menu text-md-center  text-lg-start ff-p p-2"
                 >
                   {item.name}
                 </NavDropdown.Item>
               ))}
             </NavDropdown>
+            <Nav.Link
+              as={NavLink}
+              to="/azooz-contact-page/"
+              className="fs-6 text-light ff-m text-md-center px-3 text-lg-start bg-sm-warning bg-md-warning"
+            >
+              Contact
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
 
@@ -104,10 +109,7 @@ function NavBar() {
           </div>
           <div className="col-6 p-1 d-none d-sm-none d-md-none d-lg-block d-xl-blok">
             <div className="text-center">
-              <Link
-                className="btn btn-danger"
-                to="/azooz-contact-page"
-              >
+              <Link className="btn btn-danger" to="/azooz-contact-page">
                 Get Your Quote
               </Link>
             </div>

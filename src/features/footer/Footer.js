@@ -32,7 +32,7 @@ function Footer() {
                                 height="69"
                                 src={logo}
                                 className="img-fluid"
-                                alt=""
+                                alt="logo"
                                 loading="lazy"
                               />
                             </div>

@@ -30,7 +30,7 @@ function Service() {
       <section className="container mt-3 p-lg-3 p-md-3">
         <div className="text-center">
           <h2 className="fw-bolder fs-1 ff-m">
-            OUR <span className="text-danger"> SERVICES</span>
+            OUR <span className="text-red"> SERVICES</span>
           </h2>
         </div>
       </section>
@@ -47,7 +47,7 @@ function Service() {
                   height="300"
                   src={Serv1}
                   className="img-fluid "
-                  alt=""
+                  alt="service"
                   sizes="(max-width: 300px) 100vw, 300px"
                 />
               </div>
@@ -61,7 +61,7 @@ function Service() {
                   height="300"
                   src={Serv2}
                   className="img-fluid 90"
-                  alt=""
+                  alt="service"
                   sizes="(max-width: 300px) 100vw, 300px"
                 />
               </div>
@@ -75,7 +75,7 @@ function Service() {
                   height="300"
                   src={Serv3}
                   className="img-fluid 89"
-                  alt=""
+                  alt="service"
                   sizes="(max-width: 300px) 100vw, 300px"
                 />
               </div>
@@ -93,7 +93,7 @@ function Service() {
                   height="300"
                   src={Serv4}
                   className="img-fluid 88"
-                  alt=""
+                  alt="service"
                   sizes="(max-width: 300px) 100vw, 300px"
                 />
               </div>
@@ -107,7 +107,7 @@ function Service() {
                   height="300"
                   src={Serv5}
                   className="img-fluid 87"
-                  alt=""
+                  alt="service"
                   sizes="(max-width: 300px) 100vw, 300px"
                 />
               </div>
@@ -121,7 +121,7 @@ function Service() {
                   height="300"
                   src={Serv6}
                   className="img-fluid 86"
-                  alt=""
+                  alt="service"
                   sizes="(max-width: 300px) 100vw, 300px"
                 />
               </div>
@@ -139,7 +139,7 @@ function Service() {
                   height="300"
                   src={Serv7}
                   className="img-fluid 85"
-                  alt=""
+                  alt="service"
                   sizes="(max-width: 300px) 100vw, 300px"
                 />
               </div>
@@ -159,8 +159,6 @@ function Service() {
           modules={[Autoplay, Navigation]}
           spaceBetween={10}
           slidesPerView={4}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
           breakpoints={{
             0: {
               slidesPerView: 1,
@@ -176,19 +174,20 @@ function Service() {
             },
           }}
         >
-          {imgurl.map((item,i)=>(<SwiperSlide key={i}>
-            <img
-              loading="lazy"
-              decoding="async"
-              width="300"
-              height="300"
-              src={item.url}
-              className="img-fluid 84"
-              alt=""
-              sizes="(max-width: 300px) 100vw, 300px"
-            />
-          </SwiperSlide>))}
-          
+          {imgurl.map((item, i) => (
+            <SwiperSlide key={i}>
+              <img
+                loading="lazy"
+                decoding="async"
+                width="300"
+                height="300"
+                src={item.url}
+                className="img-fluid 84"
+                alt="sliding-img"
+                sizes="(max-width: 300px) 100vw, 300px"
+              />
+            </SwiperSlide>
+          ))} 
         </Swiper>
       </div>
     </div>

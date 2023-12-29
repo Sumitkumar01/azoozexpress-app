@@ -8,13 +8,13 @@ import Group224 from '../../../assets/Group224.png'
 function HeaderTopSection() {
   return (
     <>
-      <Container className=" mt-5 p-0">
+      <Container className=" my-2 p-0">
         <div className="p-2 mb-0 text-center text-lg-start">
-          <h2 className="ff-m fw-bold fs-2 ms-lg-5 m-0">
-            WE CREATE AN <span className="text-danger">HONEST</span>,
-            <span className="text-danger"> HASSLE-FREE</span> AND
-            <span className="text-danger"> QUALITY DELIVERY EXPERIENCE</span>
-          </h2>
+          <h1 className="ff-m fw-bold fs-2 ms-lg-5 m-0">
+            WE CREATE AN <span className="text-red">HONEST</span>,
+            <span className="text-red"> HASSLE-FREE</span> AND
+            <span className="text-red"> QUALITY DELIVERY EXPERIENCE</span>
+          </h1>
         </div>
       </Container>
       <section className="container ps-lg-5">
@@ -24,7 +24,7 @@ function HeaderTopSection() {
               <h2 className="fs-2 fw-bolder ff-m text-black">About Us</h2>
 
               <div className="pe-n5">
-                <h2 className="fs-3 fw-bolder ff-m text-danger ">
+                <h2 className="fs-3 fw-bolder ff-m text-red ">
                   OMAN'S BEST LAST-MILE <br />
                   DELIVERY COMPANY
                 </h2>
@@ -43,7 +43,7 @@ function HeaderTopSection() {
               </div>
               <section>
                 <div className="row p-0 m-0">
-                  <div className="col-2 p-0 animation-fade-from-left justify-content-center d-flex align-items-center">
+                  <div className="col-2 p-3 animation-fade-from-left justify-content-center d-flex ">
                     <Link href="https://wa.me/+96896586404">
                       <img
                         decoding="async"
@@ -51,7 +51,7 @@ function HeaderTopSection() {
                         height="50"
                         src={Contact1}
                         className="img-fluid"
-                        alt=""
+                        alt="user"
                       />
                     </Link>
                   </div>
@@ -78,7 +78,7 @@ function HeaderTopSection() {
                       height="87"
                       src={Contact2}
                       className="img-fluid"
-                      alt=""
+                      alt="weight"
                     />
                   </div>
                   <div className="col-9 d-flex align-items-center">
@@ -111,7 +111,7 @@ function HeaderTopSection() {
               height="916"
               src={Group224}
               className="img-fluid "
-              alt=""
+              alt="avtar"
               sizes="(max-width: 921px) 100vw, 921px"
             />
           </div>

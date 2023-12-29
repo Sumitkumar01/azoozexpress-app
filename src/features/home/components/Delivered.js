@@ -11,7 +11,7 @@ function Delivered() {
               <div className="row m-0">
                 <div className="col-12 ps-1">
                   <div className="mt-lg-2 mt-sm-0 pt-sm-3 pt-5">
-                    <h2 className="ff-m fs-3 animation-fade-up text-danger fw-bolder text-uppercase text-center  text-md-start  text-lg-star">
+                    <h2 className="ff-m fs-3 animation-fade-up text-red fw-bolder text-uppercase text-center  text-md-start  text-lg-star">
                       WE value your packages AS MUCH AS you do
                     </h2>
                   </div>
@@ -51,7 +51,7 @@ function Delivered() {
                   height="629"
                   src={HomeAsset29}
                   className="img-fluid"
-                  alt=""
+                  alt="deliver-van"
                   sizes="(max-width: 778px) 100vw, 778px"
                 />
               </div>

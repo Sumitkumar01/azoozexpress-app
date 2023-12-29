@@ -14,7 +14,7 @@ function AboutUsWork() {
   const altText = "Aboutasset9";
 
   const headerCName =
-    "text-danger  text-uppercase fs-2 fw-bold ff-m text-lg-start text-center text-md-start animation-fade-up";
+    "text-red  text-uppercase fs-2 fw-bold ff-m text-lg-start text-center text-md-start animation-fade-up";
   const pCName =
     "text-dark fs-6 ff-p text-lg-start text-center text-md-start animation-fade-from-right";
 

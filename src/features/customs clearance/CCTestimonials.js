@@ -14,7 +14,7 @@ import CCasset6 from "../../assets/CCasset6.png"
 
 function CCTestimonials() {
   const textAria = "Case studies";
-  const textCN = "ff-m fs-2 fw-bold text-center text-danger text-uppercase";
+  const textCN = "ff-m fs-2 fw-bold text-center text-red text-uppercase";
   const textAria2 = "Our successful projects";
   const textCN2 = "ff-m fs-2 fw-bold text-center text-warning text-uppercase";
   const imgUrl1 =CCasset5;
@@ -45,8 +45,8 @@ function CCTestimonials() {
               modules={[Autoplay,  Navigation]}
               spaceBetween={10}
               slidesPerView={4}
-              onSwiper={(swiper) => console.log(swiper)}
-              onSlideChange={() => console.log("slide change")}
+              
+              
               breakpoints={{
                 0: {
                   slidesPerView: 1,

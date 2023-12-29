@@ -3,25 +3,25 @@ import H2tag from "../common/H2tag";
 import ImgTag from "../common/ImgTag";
 import Ptag from "../common/Ptag";
 import { IoMdCheckmarkCircle } from "react-icons/io";
-import FAPasset2 from "../../assets/FAPasset2.png"
+import FAPasset2 from "../../assets/FAPasset2.png";
 
 function FFPSecondSection() {
   const headertext = "Azooz express fulfillment and packaging";
-  const hTextclass =
-    "text-uppercase  fs-1 text-danger fw-bolder ff-m text-center";
+  const hTextclass = "text-uppercase  fs-1 text-red fw-bolder ff-m text-center";
   const pTextTop =
     "At Azzoz Express, our customs clearance services keep things simple and stress-free. Here’s what we cover for you :";
   const pTCName = "text-black text-center  m-0 fs-6 ff-m fw-normal";
-  const headertextcol1 = "Keep it safe";
-  const headertext2col1 = "show off your brand";
-  const headertext3col1 = "pack it fast";
-  const headertext4col1 = "make it extra special";
-  const headertext5col1 = "fit right in"
+  const data = [
+    { headertextcol: "Keep it safe" },
+    { headertextcol: "show off your brand" },
+    { headertextcol: "pack it fast" },
+    { headertextcol: "make it extra special" },
+    { headertextcol: "fit right in" },
+  ];
 
- 
   const col1HCn = "text-uppercase text-black fs-5 ff-m fw-semibold lh-base m-0";
   const iconDiv = "d-flex my-1 mx-2";
-  const icon = <IoMdCheckmarkCircle className="text-danger fs-5" />;
+  const icon = <IoMdCheckmarkCircle className="text-red fs-5" />;
 
   const cStyle = {
     borderRadius: ".5rem .5rem .5rem 2rem",
@@ -34,7 +34,7 @@ function FFPSecondSection() {
   const inRow = "row";
   const inCol1 = "col-12 m-0 p-0 d-flex h-25";
 
-  const imgUrl =FAPasset2;
+  const imgUrl = FAPasset2;
 
   return (
     <>
@@ -51,36 +51,17 @@ function FFPSecondSection() {
           </div>
           <div className={col2} style={cStyle}>
             <div className={inRow} style={{ minHeight: "22rem" }}>
-              <div className={inCol1}>
-                <div className={iconDiv}>{icon}</div>
-                <div>
-                  <H2tag header_text={headertextcol1} className={col1HCn} />
+              {data.map((item, i) => (
+                <div className={inCol1} key={i}>
+                  <div className={iconDiv}>{icon}</div>
+                  <div>
+                    <H2tag
+                      header_text={item.headertextcol}
+                      className={col1HCn}
+                    />
+                  </div>
                 </div>
-              </div>
-              <div className={inCol1}>
-                <div className={iconDiv}>{icon}</div>
-                <div>
-                  <H2tag header_text={headertext2col1} className={col1HCn} />
-                </div>
-              </div>
-              <div className={inCol1}>
-                <div className={iconDiv}>{icon}</div>
-                <div>
-                  <H2tag header_text={headertext3col1} className={col1HCn} />
-                </div>
-              </div>
-              <div className={inCol1}>
-                <div className={iconDiv}>{icon}</div>
-                <div>
-                  <H2tag header_text={headertext4col1} className={col1HCn} />
-                </div>
-              </div>
-              <div className={inCol1}>
-                <div className={iconDiv}>{icon}</div>
-                <div>
-                  <H2tag header_text={headertext5col1} className={col1HCn} />
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </div>

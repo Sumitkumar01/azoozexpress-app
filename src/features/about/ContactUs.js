@@ -10,10 +10,12 @@ function ContactUs() {
   const altText = "";
 
   const headerCName =
-    "text-danger  text-uppercase fs-2 fw-bold ff-m text-lg-start text-center text-md-start animation-fade-up";
+    "text-red  text-uppercase fs-2 fw-bold ff-m text-lg-start text-center text-md-start animation-fade-up";
   // ***********content-left-container-**************** //
   const pcHolderText = "Enter your email";
-  const inpStyle = {};
+  const inpStyle = {
+    backgroundColor: "rgb(61 56 56)",
+  };
   const inpType = "email";
 
   const btType = "submit";
@@ -21,7 +23,7 @@ function ContactUs() {
 
   // *************className-left-container-**************** //
   const containerDCName = "d-flex flex-column flex-lg-row flex-md-row bg-black rounded-4 p-2";
-  const inpCName = "text-white bg-black form-control pe-lg-2 me-lg-2 border-0";
+  const inpCName = "text-white form-control pe-lg-2 me-lg-2 border-0";
   const btnDivCName = "d-flex justify-content-center aling-item-center mt-2 mt-lg-0 mt-md-0";
   const btCName = "btn btn-danger px-5 mx-3 my-lg-0 my-md-0 my-sm-3";
 
@@ -37,7 +39,7 @@ function ContactUs() {
               </div>
               <from>
                 <div className="col-12 mt-1 p-0 mt-sm-3 mt-lg-0 contact">
-                  <InputTagWButton
+                  <InputTagWButton 
                     containerDCName={containerDCName}
                     inpCName={inpCName}
                     inpType={inpType}

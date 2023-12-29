@@ -9,7 +9,6 @@ import SolutionDoc8 from "../../../assets/SolutionDoc8.png";
 import SolutionDoc9 from "../../../assets/SolutionDoc9.png";
 import SolutionDoc10 from "../../../assets/SolutionDoc10.png";
 
-
 function Solution() {
   return (
     <div className=" my-3 p-3">
@@ -17,7 +16,7 @@ function Solution() {
       <section>
         <div className="container text-center">
           <h2 className="fw-bolder fs-1 ff-m">
-            ONE <span className="text-danger">STOP SOLUTION</span>
+            ONE <span className="text-red">STOP SOLUTION</span>
           </h2>
         </div>
       </section>
@@ -28,7 +27,7 @@ function Solution() {
             <section className="col-lg-4 col-md-4 col-sm-12  p-2">
               <div className="row bg-warning custom-border-radius  m-0">
                 <div className="col-2 d-flex m-0  p-1   aling-items-center justify-content-center  ">
-                  <img src={SolutionDoc1} className="img-fluid" alt="" />
+                  <img src={SolutionDoc1} className="img-fluid" alt=" Parcel Delivery" />
                 </div>
 
                 <div className="col-9 d-flex m-0  p-3  m-0 aling-items-center ">
@@ -48,7 +47,7 @@ function Solution() {
                     height="57"
                     src={SolutionDoc2}
                     className="img-fluid 2"
-                    alt=""
+                    alt="Documents-Deliver"
                   />
                 </div>
                 <div className="col-9 d-flex m-0  p-3  m-0 aling-items-center ">
@@ -65,8 +64,8 @@ function Solution() {
                     width="57"
                     height="60"
                     src={SolutionDoc3}
-                                        className="img-fluid 3"
-                    alt=""
+                    className="img-fluid"
+                    alt="Mail-Bags-Services"
                   />
                 </div>
                 <div className="col-9 d-flex m-0  p-3  m-0 aling-items-center ">
@@ -87,8 +86,8 @@ function Solution() {
                     width="62"
                     height="64"
                     src={SolutionDoc4}
-                    className="img-fluid 4"
-                    alt=""
+                    className="img-fluid"
+                    alt="Mail-Room-Management"
                   />
                 </div>
 
@@ -109,7 +108,7 @@ function Solution() {
                     height="60"
                     src={SolutionDoc5}
                     className="img-fluid 5"
-                    alt=""
+                    alt="Delivery(COD)"
                   />
                 </div>
                 <div className="col-9 d-flex m-0  p-3  m-0 aling-items-center ">
@@ -126,8 +125,8 @@ function Solution() {
                     width="60"
                     height="60"
                     src={SolutionDoc6}
-                    className="img-fluid 6"
-                    alt=""
+                    className="img-fluid "
+                    alt="Courier-Service"
                   />
                 </div>
                 <div className="col-9 d-flex m-0  p-3  m-0 aling-items-center ">
@@ -150,8 +149,8 @@ function Solution() {
                     width="45"
                     height="50"
                     src={SolutionDoc10}
-                    className="img-fluid 7"
-                    alt=""
+                    className="img-fluid "
+                    alt="call"
                   />
                 </div>
 
@@ -169,8 +168,8 @@ function Solution() {
                     width="60"
                     height="60"
                     src={SolutionDoc8}
-                    className="img-fluid 8"
-                    alt=""
+                    className="img-fluid"
+                    alt="Drop and Ship"
                   />
                 </div>
                 <div className="col-9 d-flex m-0  p-3  m-0 aling-items-center ">
@@ -187,8 +186,8 @@ function Solution() {
                     width="79"
                     height="64"
                     src={SolutionDoc9}
-                    className="img-fluid 9"
-                    alt=""
+                    className="img-fluid"
+                    alt="Fulfilment service"
                   />
                 </div>
                 <div className="col-9 d-flex m-0  p-3  m-0 aling-items-center ">

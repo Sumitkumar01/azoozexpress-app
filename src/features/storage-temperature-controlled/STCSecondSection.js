@@ -29,7 +29,7 @@ function STCSecondSection() {
   const col1HCn = "text-uppercase text-black fs-5 ff-m fw-semibold lh-base m-0";
   const pCName = "text-black fs-6 ff-m fw-normal mb-3 px-lg-3 lh-base";
   const iconDiv = "d-flex my-1 mx-2";
-  const icon = <IoMdCheckmarkCircle className="text-danger fs-5" />;
+  const icon = <IoMdCheckmarkCircle className="text-red fs-5" />;
 
   const cStyle = {
     borderRadius: ".5rem .5rem .5rem 2rem",
@@ -51,7 +51,7 @@ function STCSecondSection() {
           header_text={headertext}
           className={hTextclass}
           span_text_1={sptext}
-          spanClassName={"text-danger"}
+          spanClassName={"text-red"}
         />
       </div>
       <div className="container mb-5">

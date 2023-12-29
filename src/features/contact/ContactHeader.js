@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
-import H2tag from "../common/H2tag";
+import H1tag from '../common/H1tag'
 import contactPageassBanner from '../../assets/contactPageassBanner.png'
 
 
@@ -22,7 +22,7 @@ function ContactHeader() {
       <div style={cSyleHeader} className={headerCName}>
         <Navbar />
         <div className="container p-2" style={{ marginTop: "25%" }}>
-          <H2tag header_text={headerText} className={textCName} />
+          <H1tag header_text={headerText} className={textCName} />
         </div>
       </div>
     </>

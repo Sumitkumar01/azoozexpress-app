@@ -1,42 +1,55 @@
 import React from "react";
 import H2tag from "../common/H2tag";
+import H1tag from "../common/H1tag";
 import ImgTag from "../common/ImgTag";
 import Ptag from "../common/Ptag";
 import { IoMdCheckmarkCircle } from "react-icons/io";
-import ServPag1 from "../../assets/ServPag1.png"
+import ServPag1 from "../../assets/ServPag1.png";
 
 function STCTopSection() {
   const headertext = "optimized temperature controlled storage with ";
-  const hTextclass =
-    "text-uppercase  fs-1 text-black fw-bold ff-m text-center";
-  const spanClassName = "text-danger";
+  const hTextclass = "text-uppercase  fs-1 text-black fw-bold ff-m text-center";
+  const spanClassName = "text-red";
   const spanText = "azooz express";
 
-  const headertextcol1 = "Packaging designingand and validation";
-  const headertext2col1 = "speed";
-  const headertext3col1 = "reliable Clinical trial logistics partner";
-  const headertext4col1 = "value-added services";
-  const headertext5col1 = "Temperature-controlled packaging";
-  const headertext6col1 = "1-day definite deliver";
-
-  const pText_1 =
-    "With in-house experts to evaluate your needs, we recommend and provide appropriate packaging and refrigerants to ensure the integrity of your temperature-controlled shipments.";
-  const pText_2 =
-    "Pickup and delivery of shipments from/to 53 origin-destination pairs within committed transit time.";
-  const pText_3 =
-    "Experience and knowledge of the temperature-controlled market.";
-  const pText_4 =
-    "Validated packaging solutions, Dry-ice solutions, Temperature loggers, and Dedicated customer service for your courier service in Oman.";
-  const pText_5 =
-    "Complete range of temperature-controlled packaging solutions for finished goods and clinical trial supplies.";
-  const pText_6 =
-    "Azooz Express offers complete end-to-end temperature-controlled logistics solutions to the largest number of origin destinations in the country.";
+  const data = [
+    {
+      headertextcol: "Packaging designingand and validation",
+      pText:
+        "With in-house experts to evaluate your needs, we recommend and provide appropriate packaging and refrigerants to ensure the integrity of your temperature-controlled shipments.",
+    },
+    {
+      headertextcol: "speed",
+      pText:
+        "Pickup and delivery of shipments from/to 53 origin-destination pairs within committed transit time.",
+    },
+    {
+      headertextcol: "reliable Clinical trial logistics partner",
+      pText: "Experience and knowledge of the temperature-controlled market.",
+    },
+    {
+      headertextcol: "value-added services",
+      pText:
+        "Validated packaging solutions, Dry-ice solutions, Temperature loggers, and Dedicated customer service for your courier service in Oman.",
+    },
+    {
+      headertextcol: "Temperature-controlled packaging",
+      pText:
+        "Complete range of temperature-controlled packaging solutions for finished goods and clinical trial supplies.",
+    },
+    {
+      headertextcol: "1-day definite deliver",
+      pText:
+        "Azooz Express offers complete end-to-end temperature-controlled logistics solutions to the largest number of origin destinations in the country.",
+    },
+  ];
   const col1HCn = "text-uppercase text-black fs-5 ff-m fw-semibold lh-base m-0";
-  const pCName = "text-black fs-5 ff-m fw-normal mb-3 px-lg-3 text-center text-lg-start text-md-start";
+  const pCName =
+    "text-black fs-5 ff-m fw-normal mb-3 px-lg-3 text-center text-lg-start text-md-start";
   const pcCName = "text-black fs-6 ff-m fw-normal mb-2 lh-base ";
 
   const iconDiv = "d-flex mx-2 my-1";
-  const icon = <IoMdCheckmarkCircle className="text-danger fs-5" />;
+  const icon = <IoMdCheckmarkCircle className="text-red fs-5" />;
 
   const cStyle = {
     borderRadius: ".5rem .5rem .5rem 2rem",
@@ -49,20 +62,20 @@ function STCTopSection() {
   const inCol1 = "col-12 m-0 p-0 d-flex";
 
   const imgDivCN = "mt-md-5 mt-lg-0";
-  const imgUrl =ServPag1;
+  const imgUrl = ServPag1;
 
   return (
     <>
       <div className="container mt-4">
-        <H2tag
+        <H1tag
           header_text={headertext}
           className={hTextclass}
           span_text_2={spanText}
           spanClassName={spanClassName}
         />
-        <div className="container">
+        <div className="container px-lg-5 px-0">
           <p className={pCName}>
-            <span className="text-danger">Our Temperature Controlled </span>
+            <span className="text-red">Our Temperature Controlled </span>
             Logistics Solutions present a secure and validated supply chain for
             your needs, integrating Oman’s leading logistics network with an
             innovative range of services.
@@ -71,7 +84,7 @@ function STCTopSection() {
         <div className="container my-2">
           <h2 className={hTextclass}>
             covering
-            <span className="text-danger"> every need</span>
+            <span className="text-red"> every need</span>
           </h2>
         </div>
       </div>
@@ -80,48 +93,15 @@ function STCTopSection() {
           <div className={otRow}>
             <div className={col1} style={cStyle}>
               <div className={inRow}>
-                <div className={inCol1}>
-                  <div className={iconDiv}>{icon}</div>
-                  <div>
-                    <H2tag header_text={headertextcol1} className={col1HCn} />
-                    <Ptag ptext={pText_1} pCName={pcCName} />
+                {data.map((items, i) => (
+                  <div className={inCol1}>
+                    <div className={iconDiv}>{icon}</div>
+                    <div>
+                      <H2tag header_text={items.headertextcol} className={col1HCn} />
+                      <Ptag ptext={items.pText} pCName={pcCName} />
+                    </div>
                   </div>
-                </div>
-                <div className={inCol1}>
-                  <div className={iconDiv}>{icon}</div>
-                  <div>
-                    <H2tag header_text={headertext2col1} className={col1HCn} />
-                    <Ptag ptext={pText_2} pCName={pcCName} />
-                  </div>
-                </div>
-                <div className={inCol1}>
-                  <div className={iconDiv}>{icon}</div>
-                  <div>
-                    <H2tag header_text={headertext3col1} className={col1HCn} />
-                    <Ptag ptext={pText_3} pCName={pcCName} />
-                  </div>
-                </div>
-                <div className={inCol1}>
-                  <div className={iconDiv}>{icon}</div>
-                  <div>
-                    <H2tag header_text={headertext4col1} className={col1HCn} />
-                    <Ptag ptext={pText_4} pCName={pcCName} />
-                  </div>
-                </div>
-                <div className={inCol1}>
-                  <div className={iconDiv}>{icon}</div>
-                  <div>
-                    <H2tag header_text={headertext5col1} className={col1HCn} />
-                    <Ptag ptext={pText_5} pCName={pcCName} />
-                  </div>
-                </div>
-                <div className={inCol1}>
-                  <div className={iconDiv}>{icon}</div>
-                  <div>
-                    <H2tag header_text={headertext6col1} className={col1HCn} />
-                    <Ptag ptext={pText_6} pCName={pcCName} />
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
             <div className={col2}>

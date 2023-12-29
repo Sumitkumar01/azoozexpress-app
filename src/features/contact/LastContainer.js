@@ -8,12 +8,12 @@ function LastContainer() {
   const hTCName_1 = "text-black fs-1 fw-bold text-capitalize";
   const headerText_2 =
     "leave your email address below and we shall reach out to you shortly";
-  const hTCName_2 = "fs-3 ff-m text-danger fw-bold text-capitalize";
+  const hTCName_2 = "fs-3 ff-m text-red fw-bold text-capitalize";
   //***********end *************//
 
   const containerDCName =
     "d-flex flex-column flex-lg-row flex-md-row bg-black rounded-5 p-2 px-3 w-75";
-  const inpCName = "text-white bg-black form-control pe-lg-2 me-lg-2 border-0";
+  const inpCName = "text-white form-control pe-lg-2 me-lg-2 border-0";
   const btnDivCName =
     "d-flex justify-content-center aling-item-center mt-2 mt-lg-0 mt-md-0";
   const pcHolderText = "Enter your email";
@@ -27,7 +27,9 @@ function LastContainer() {
 
   
 
-  const inpStyle = {};
+  const inpStyle = {
+    backgroundColor: "rgb(61 56 56)",
+  };
 
   return (
     <div>

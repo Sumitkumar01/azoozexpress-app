@@ -1,9 +1,10 @@
 import React from "react";
 import NavBar from "../../navbar/Navbar";
+import BannerImage from '../../../assets/HomeBanner.png'
 
 function Header() {
   return (
-    <div className="header">
+    <div className="header"style={{backgroundImage:`url(${BannerImage})`}}>
       <NavBar />
 
       <section className="container">

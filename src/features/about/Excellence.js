@@ -2,40 +2,52 @@ import React from "react";
 import H2tag from "../common/H2tag";
 import H3tag from "../common/H3tag";
 import ImgTag from "../common/ImgTag";
-import Aboutasset4 from "../../assets/Aboutasset4.png"
-import Aboutasset5 from "../../assets/Aboutasset5.png"
-import Aboutasset6 from "../../assets/Aboutasset6.png"
-import Aboutasset7 from "../../assets/Aboutasset7.png"
-import Aboutasset8 from "../../assets/Aboutasset8.png"
-
+import Aboutasset4 from "../../assets/Aboutasset4.png";
+import Aboutasset5 from "../../assets/Aboutasset5.png";
+import Aboutasset6 from "../../assets/Aboutasset6.png";
+import Aboutasset7 from "../../assets/Aboutasset7.png";
+import Aboutasset8 from "../../assets/Aboutasset8.png";
 
 function Excellence() {
   //************************top container content*****************////
   const headerText = "We share ";
   const spnText = "excllence in";
-  const imgUrlLContainer =Aboutasset4;
+  const imgUrlLContainer = Aboutasset4;
   const altText = "";
   const hCName = "fs-1 fw-bolder text-black ff-m text-center text-uppercase";
-  const spnCName = "text-danger";
+  const spnCName = "text-red";
 
   //************************ End *****************////
 
   // ************************bottom container **************///
-  const content_1 =
-    "Assist your consignments with proper custom clearance and necessary documentation";
-  const content_2 =
-    "Storing in the required temperature and security until it's dispatched";
-  const content_3 =
-    "Assuring next-day delivery within Muscat and 2-3 working days outstation";
-  const content_4 =
-    "Managing, warehousing, and inventory shipments until the last stop";
 
-  const imgUrl_1 =Aboutasset5;
-  const imgUrl_2 =Aboutasset6;
-  const imgUrl_3 =Aboutasset7;
-  const imgUrl_4 =Aboutasset8;
+  const data = [
+    {
+      imgUrl: Aboutasset5,
+      content:
+        "Assist your consignments with proper custom clearance and necessary documentation",
+    },
+    {
+      imgUrl: Aboutasset6,
+      content:
+        "Storing in the required temperature and security until it's dispatched",
+    },
+    {
+      imgUrl: Aboutasset7,
+      content:
+        "Assuring next-day delivery within Muscat and 2-3 working days outstation",
+    },
+    {
+      imgUrl: Aboutasset8,
+      content:
+        "Managing, warehousing, and inventory shipments until the last stop",
+    },
+  ];
 
-  const contentCName = "fs-6 fw-light ff-p text-dark lh-lg m-sm-0";
+  const style ={
+    // textAlign:"justify"
+  }
+  const contentCName = "fs-6 fw-light ff-p text-dark lh-base m-0";
   const ImgDivCName_l = "d-flex justify-content-center align-items-center  p-2";
   const ImgDivCName = " d-flex justify-content-center align-items-center ";
   return (
@@ -59,59 +71,22 @@ function Excellence() {
               <ImgTag img_url={imgUrlLContainer} alt_text={altText} />
             </div>
           </div>
-          <div className="col-lg-6 col-md-8 col-sm-12  p-1 ">
+          <div className="col-lg-6 col-md-8 col-sm-12  px-1 py-3">
             <div className="row m-0 p-0">
-              <div className="col-12 p-0 m-0">
-                <div className="row m-0 p-0">
-                  <div className="col-4 p-2 m-0  d-flex justify-content-center align-items-center ">
-                    <div className={ImgDivCName}>
-                      <ImgTag img_url={imgUrl_1} alt_text={altText} />
+              {data.map((item, i) => (
+                <div className="col-12 p-0 m-0" key={i}>
+                  <div className="row m-0 p-0">
+                    <div className="col-4 p-2 m-0  d-flex justify-content-center align-items-center ">
+                      <div className={ImgDivCName}>
+                        <ImgTag img_url={item.imgUrl} alt_text={altText} />
+                      </div>
+                    </div>
+                    <div className="col-8 py-1 px-1 d-flex align-items-center">
+                      <H3tag h3_text={item.content} className={contentCName} customStyle={style}/>
                     </div>
                   </div>
-                  <div className="col-8 p-1">
-                    <H3tag h3_text={content_1} className={contentCName} />
-                  </div>
                 </div>
-              </div>
-
-              <div className="col-12 p-0 m-0">
-                <div className="row m-0 p-0">
-                  <div className="col-4 p-2 m-0  d-flex justify-content-center align-items-center ">
-                    <div className={ImgDivCName}>
-                      <ImgTag img_url={imgUrl_2} alt_text={altText} />
-                    </div>
-                  </div>
-                  <div className="col-8 p-1">
-                    <H3tag h3_text={content_2} className={contentCName} />
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 p-0 m-0">
-                <div className="row m-0 p-0">
-                  <div className="col-4 p-2 m-0  d-flex justify-content-center align-items-center ">
-                    <div className={ImgDivCName}>
-                      <ImgTag img_url={imgUrl_3} alt_text={altText} />
-                    </div>
-                  </div>
-                  <div className="col-8 p-1">
-                    <H3tag h3_text={content_3} className={contentCName} />
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 p-0  m-0">
-                <div className="row  m-0 p-0">
-                  <div className="col-4 p-2 m-0  d-flex justify-content-center align-items-center ">
-                    <div className={ImgDivCName}>
-                      <ImgTag img_url={imgUrl_4} alt_text={altText} />
-                    </div>
-                  </div>
-                  <div className="col-8 p-1">
-                    <H3tag h3_text={content_4} className={contentCName} />
-                  </div>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </div>

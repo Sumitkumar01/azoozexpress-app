@@ -42,8 +42,8 @@ function FFTestimonials() {
               modules={[Autoplay, Navigation]}
               spaceBetween={10}
               slidesPerView={4}
-              onSwiper={(swiper) => console.log(swiper)}
-              onSlideChange={() => console.log("slide change")}
+              
+              
               breakpoints={{
                 0: {
                   slidesPerView: 1,

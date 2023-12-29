@@ -40,7 +40,7 @@ function ContactUsSection() {
                 height="387"
                 src={HomeAsset35}
                 className="img-fluid"
-                alt=""
+                alt="contact"
                 sizes="(max-width: 800px) 100vw, 800px"
               />
             </div>
