@@ -239,10 +239,10 @@ a .text-decoration {
   padding: 0.8rem 1.2rem !important;
 }
 
-/* .btn:hover {
+.btn:hover {
   background-color: #f0eaf7 !important;
-  color: #920505 !important;
-} */
+  color: #d91f28 !important;
+}
 
 .btn,
 .elementor-icon-list-text {
